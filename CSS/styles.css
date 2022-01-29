@@ -660,19 +660,28 @@ footer hr {
   border-radius: 20px;
 }
 #banner-text {
-  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
   font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 #banner-texts {
-  color: whitesmoke;
-  font-size: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
   position: absolute;
+  width: 1000px;
   top: 80%;
-  left: 50%;
+  margin-left: 1000px;
   transform: translate(-60%, -50%);
 }
 /* =====================================end of banner */
