@@ -668,9 +668,8 @@ footer hr {
 
 /* ================================================================ */
 .banner {
-  /* background: url(../images/index-banner.jpeg); */
-  margin-top: 100px;
-  height: 100vh;
+  margin-top: 30px;
+  height: 795px;
   width: 99%;
   background-attachment: fixed;
   background-position: center;
