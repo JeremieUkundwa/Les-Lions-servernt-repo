@@ -130,10 +130,10 @@ table {
 
 /* Styles for header */
 body {
-  background-color: #F6F6F6;;
+  background-color: #f6f6f6;
 }
 header {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   font-size: medium;
   height: 8em;
 }
@@ -402,14 +402,25 @@ footer hr {
 
 .histoire-grid {
   display: inline-grid;
-  grid-column-gap: 30px;
-  margin-left: 30px;
+  grid-column-gap: 40px;
+  margin-left: 10px;
 }
 .histoire-grid div img {
-  width: 620px;
-  height: 433px;
+  width: 650px;
+  height: 463px;
+  margin-bottom: 30px;
 }
+.histoire-grid div h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 
+  color: #000000;
+}
 #histoire-grid-item1 {
   grid-column-start: 5;
 }
@@ -419,18 +430,21 @@ footer hr {
 }
 
 #histoire-grid-item1 p {
-  width: 529px;
+  width: 500px;
   height: 180px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 40px;
 
   color: #8f8f8f;
 }
 
 #histoire-grid-item2 p {
+  width: 600px;
+  height: 180px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -1023,27 +1037,27 @@ p {
   }
 }
 
-
 /* ========================Leades css=============== */
 
-.leader-page .leaders-photo{
-  background: linear-gradient(rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.658)), url(/company@one/img/Lions\ at\ installation\ ceremony.webp);
+.leader-page .leaders-photo {
+  background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.658)),
+    url(/company@one/img/Lions\ at\ installation\ ceremony.webp);
   background-position: center;
   background-size: cover;
   height: 30vh;
 }
-.leader-page h1{
-  color:white;
+.leader-page h1 {
+  color: white;
   padding: 80px;
 }
 
-.leader-page .words{
+.leader-page .words {
   width: 1200px;
   margin: 50px 200px;
 }
 
-.leader-page h3{
-  color: #2250B2;
+.leader-page h3 {
+  color: #2250b2;
   text-align: center;
   padding-bottom: 50px;
   padding-top: 20px;
@@ -1057,26 +1071,26 @@ p {
   grid-row-gap: 40px;
   margin-left: 250px;
   margin-bottom: 50px;
-  }
-.leader-page .card{
+}
+.leader-page .card {
   width: 300px;
   height: 350px;
   margin: 20px;
 }
-.leader-page .leader{
+.leader-page .leader {
   height: 300px;
   border: 2px solid black;
 }
-.leader-page h4{
+.leader-page h4 {
   padding-left: 30px;
 }
 
-.leader-page .african-leaders{
+.leader-page .african-leaders {
   background: white;
   padding-bottom: 50px;
 }
-.leader-page .chefs{
-  background: #E5E5E5;
+.leader-page .chefs {
+  background: #e5e5e5;
 }
 
 .leader-page .parent-1 {
@@ -1087,8 +1101,8 @@ p {
   grid-column-gap: 40px;
   grid-row-gap: 40px;
   margin-left: 220px;
-  }
-  .leader-page .round-pic{
+}
+.leader-page .round-pic {
   width: 200px;
   height: 200px;
   border-radius: 50%;
