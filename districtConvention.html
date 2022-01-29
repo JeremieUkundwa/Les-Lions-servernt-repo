@@ -8,108 +8,6 @@
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>ConventionDistrict</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-  
-      *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;  
-      }
-  
-      main{
-          background: #EFEFEF;
-          width: 1140px;
-          padding: 10px 0;
-          border-radius: 10px;
-          padding-left: 40px;
-          padding-right: 40px;
-          width: 1140px;
-          margin: 0 auto;
-          font-family: 'Poppins', sans-serif;
-      }
-      body{
-          background: #D5CBCD;
-      }
-      h2{
-          text-transform: uppercase;
-          text-align: center;
-          color: #2250B2;
-          padding: 20px 0;
-      }
-      h3{
-          text-align: center;
-          text-transform: uppercase;
-          font-weight: 400;
-          color: #0D2240;
-      }
-      input{
-          width: 500px;
-          height: 40px;
-          margin: 10px 10px;
-          border: none;
-          border-radius: 20px;
-          text-transform: capitalize;
-          padding-left: 20px;
-          font-size: 18px;
-      }
-      .parent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 0px;
-  }
-  
-  .checkboxes{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin: 10px;
-  }
-  
-  label{
-      padding-top: 20px;
-  }
-  
-  .option{
-      background: #0D2240;
-      width: 1440px;
-      margin: 10px 70px;
-      color: white;
-      font-size: 16px;
-      padding: 50px;
-      border-radius: 10px;
-  }
-  .option  h2{
-      padding:80px 0;
-      color: #FFCF06;
-  }
-  input[type="checkbox"]
-  {
-      vertical-align:middle;
-      width: 20px;
-  }
-  li{
-      list-style-type: none;
-  }
-  #franc{
-      width: 300px;
-      font-size: 18px;
-  }
-  p{
-      text-align: center;
-      color:#FFCF06;
-      font-size: 18px;
-      font-weight: 500;
-  }
-  
-  #last-line{
-      letter-spacing: 2px;
-      padding-top: 10px;
-      line-height: 50px;
-  } 
-  </style>
 </head>
 <body>
   <header>
@@ -154,9 +52,135 @@
         </p>
       </div>
     </div>
+      <div class="inscrire">
+        <section>
+            <h2>fiche d'inscription a la 61ieme convention de district centre de conference de Kigali - Kigali convention center(Rwanda)</h2>
+            <h3>date limite: 5 avril 2022</h3>
+      
+            <div>
+                <h2>identite et provenance</h2>
+                <div>
+                    <input type="text" placeholder="nom">
+                    <input type="text" placeholder="prénom">
+                    <input type="text" placeholder="nationalité">
+                    <input type="text" placeholder="pays">
+                    <input type="text" placeholder="Accompagné">
+                    <input type="text" placeholder="telephone">
+                    <input type="text" placeholder="fonction principalés">
+                </div>
+            </div>
+                   
+            <div>
+                <h2>Coordonnees de l'arrive a Kigali</h2>
+                <div>
+                    <input type="text" placeholder="arrivant de">
+                    <input type="date" placeholder="date">
+                    <input type="text" placeholder="aéroport">
+                    <input type="text" placeholder="moyen de transport">
+                    <input type="time" placeholder="héure">
+                    <input type="text" placeholder="frontière">
+                </div>
+            </div>
+      
+            <div>
+                <h2>hebergement: Je souhaite loger a: *</h2>
+                <div class="checkboxes">
+                    <div>
+                        <li>
+                            <input id="checkid2" type="checkbox" value="test" />
+                            <label for="checkid2">Hôtel</label>
+                        </li>
+                        <li>
+                            <input id="checkid2" type="checkbox" value="test" />
+                            <label for="checkid2">Famille</label>
+                        </li>
+                        <li>
+                            <input id="checkid2" type="checkbox" value="test" />
+                            <label for="checkid2">Autrés</label>
+                        </li>
+                    </div>
+                   
+                </div>
+            </div>
+      
+            <div>
+                <h2>frais d'inscription</h2>
+                <div>
+                    <li>Hospitality     $150      Le Frais d'inscription comprend: La trousse du conferencier et 1 rafraichissement. 2 pause- cafe et 2 Diners</li>
+                </div>
+            </div>
+         </section>
+        <div class="option">
+            <div class="frais-sup">
+        
+                 <li class="liste">
+                    <label for="checkid2">Diner compagnons Melvin Jones: 50$ par personne (boissons non comprises)</label>
+                </li>
+              
+                <li class="liste">
+                    <!-- <input id="checkid2" type="checkbox" value="test" /> -->
+                    <label for="checkid2">Visite guides de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris)</label>
+                </li>
+                <li class="liste">
+                    <!-- <input id="checkid2" type="checkbox" value="test" /> -->
+                    <label for="checkid2">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) </label>
+                </li>
+                <li class="liste">
+                    <!-- <input id="checkid2" type="checkbox" value="test" /> -->
+                    <label for="checkid2">Pas encore decide</label>
+                </li>
+                <label for="" class="franc-label">Montant a payer</label> <input type="text" name="franc" id="franc" placeholder="..............................................$">
+      
+                <div  class="reglements">
+                    <h2>Reglement de l'hospitality book et des frais supplementaires:*</h2>
+                    <div>
+                        <li>
+                            <input id="checkid2" type="checkbox" value="test" />
+                            <label for="checkid2">Je m’engage á versé la somme de 150$ au Trésorier du Club</label>
+                        </li>
+                        <!-- <input type="checkbox"><li>Je m’engage á versé la somme de 150$ par voie de transfert d’argent Mobile</li> -->
+                        <li>
+                            <input id="checkid2" type="checkbox" value="test" />
+                            <label for="checkid2">Je m’engage á versé la somme de 150$ par voie de transfert d’argent Mobile</label>
+                        </li>
+                        <hr>
+      
+                        <h3>BURUNDI</h3>
+                        <!-- <input type="checkbox" name="" id=""> Econet Leo":</li> -->
+                        <li class="liste">
+                          Econet Leo:  +25779960616
+                            <p>Nom de la receveuse : Arielle Kaneza</p><br>
+                        </li>
+                        <hr>
+      
+                        <h3>DRC</h3>
+                        <!-- <input type="checkbox" name="" id=""> <li>Mpesa (Vodacom): +243813907272</li> -->
+                        <li class="liste">
+                          Mpesa (Vodacom): +243813907272
+                        </li>
+           
+                        <li class="liste">Airtel Money: +243990260596 </li>
+                        
+                        <li class="liste">Orange Money:  +243897775922 </li>
+            
+                        <p>Nom du receveur : Junior Mbala Kazadi</p><br>
+                        <hr>
+      
+                        <h3>RWANDA</h3>
+                        <!-- <input type="checkbox" name="" id=""> <li>MTN:  +250785867949</li> -->
+                        <li class="liste">
+                          MTN:  +250785867949
+                        </li>
+                        <p>Nom de la receveuse : Patience Kamatamu</p><br>
+                        <hr>
+                        <br>
+                        <li id="last-line">Je vous prie de trouver en annexe la preuve de paiement de la somme de 150$ Verser au Compte bancaire : BANK OF KIGALI, Compte N°00040610090021/USD de LIONS CLUB KIGALI BK SWIFT CODE : BKIGRWRW 	</li>
+                    </div>
+                </div>
+            </div>
+        
         </div>
       </div>
-     
    </main>
    <footer>
      <div class="footer-class">

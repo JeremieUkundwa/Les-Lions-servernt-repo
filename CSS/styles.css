@@ -1134,30 +1134,28 @@ p {
   font-weight: 500;
   font-size: 28px;
   line-height: 42px;
-  
+
   color: #000000;
 }
 
 .leader-page .african-leaders {
-  background: #FFFFFF;
-
+  background: #ffffff;
 }
 .leader-page .chefs {
-  background: #F6F6F6;
+  background: #f6f6f6;
   margin-bottom: 80px;
 }
-.leader-page .chefs div img{
+.leader-page .chefs div img {
   margin-bottom: 30px;
 }
-.leader-page .chefs div h4{
+.leader-page .chefs div h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 0px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 0px;
-
-color: #000000;
+  color: #000000;
 }
 
 .leader-page .parent-1 {
@@ -1178,3 +1176,108 @@ color: #000000;
 }
 
 /* ==================Leadears css ends=========== */
+/* ======================================================== ===Inscription */
+
+.inscrire section {
+  background: #efefef;
+  width: 1140px;
+  padding: 10px 0;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  margin-top: 250px;
+  font-family: "Poppins", sans-serif;
+}
+
+.inscrire h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #2250b2;
+  padding: 20px 0;
+  font-size: 20px;
+}
+.inscrire h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #0d2240;
+}
+.inscrire input {
+  width: 500px;
+  height: 40px;
+  margin: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  text-transform: capitalize;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.inscrire .parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.inscrire .checkboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.inscrire label {
+  padding-top: 20px;
+}
+
+.inscrire .option {
+  background: #0d2240;
+  width: 1340px;
+  margin: 30px 40px 30px 200px;
+  color: white;
+  font-size: 16px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.inscrire .option h2 {
+  padding: 80px 0;
+  color: #ffcf06;
+}
+.inscrire input[type="checkbox"] {
+  vertical-align: middle;
+  width: 20px;
+}
+.inscrire li {
+  list-style-type: none;
+}
+.inscrire #franc {
+  width: 300px;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+.inscrire .franc-label {
+  text-transform: uppercase;
+  color: #ffcf06;
+}
+
+.inscrire p {
+  text-align: center;
+  color: #ffcf06;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inscrire #last-line {
+  letter-spacing: 2px;
+  padding-top: 10px;
+  line-height: 50px;
+}
+
+.inscrire .liste {
+  list-style-type: square;
+  font-size: 18px;
+  padding: 20px 0;
+}
