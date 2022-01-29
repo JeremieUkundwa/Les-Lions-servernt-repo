@@ -269,11 +269,19 @@ footer hr {
   margin-top: 18%;
 }
 /* =================mot-Du-Gouverneur=================== */
-
+.speech {
+  background: #ffffff;
+  border-radius: 12px;
+}
+.speech-grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
 .speech img {
-  float: left;
-  width: 30%;
-  height: 716px;
+  /* /* float: left; */
+  /* width: 30%; */
+  width: 494px;
+  height: 662px;
   margin-right: 50px;
   margin-left: 80px;
   left: 0;
@@ -286,9 +294,21 @@ footer hr {
   font-size: 32px;
   line-height: 48px;
   color: #2250b2;
+  margin-bottom: 30px;
 }
+.speech div h2{
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #2250b2;
+  margin-bottom: 30px;
+} 
 .speech-content {
   width: 90%;
+  padding-top: 50px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
