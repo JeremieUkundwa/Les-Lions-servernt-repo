@@ -650,7 +650,7 @@ footer hr {
   color: #ffffff;
 }
 .global-couses-content div a:hover {
-  color: #FFCF06;
+  color: #ffcf06;
 }
 .global-couses-content div h3 {
   font-family: Poppins;
@@ -1069,20 +1069,34 @@ p {
 /* ========================Leades css=============== */
 
 .leader-page .leaders-photo {
-  background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.658)),
-    url(/company@one/img/Lions\ at\ installation\ ceremony.webp);
   background-position: center;
   background-size: cover;
   height: 30vh;
 }
 .leader-page h1 {
-  color: white;
-  padding: 80px;
+  margin-left: 148px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  padding-top: 120px;
+
+  color: #ffffff;
 }
 
 .leader-page .words {
-  width: 1200px;
-  margin: 50px 200px;
+  width: 1700px;
+  margin: 50px 20px 20px 65px;
+  /* margin-left: 65px;
+  margin: 50px 200px; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #8f8f8f;
 }
 
 .leader-page h3 {
@@ -1090,20 +1104,23 @@ p {
   text-align: center;
   padding-bottom: 50px;
   padding-top: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
 }
 .leader-page .parent {
-  width: 1200px;
+  width: 1700px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
-  margin-left: 250px;
-  margin-bottom: 50px;
+  grid-row-gap: 120px;
+  margin-left: 150px;
+  margin-bottom: 180px;
 }
 .leader-page .card {
-  width: 300px;
-  height: 350px;
+  width: 353px;
+  height: 428px;
   margin: 20px;
 }
 .leader-page .leader {
@@ -1111,25 +1128,47 @@ p {
   border: 2px solid black;
 }
 .leader-page h4 {
-  padding-left: 30px;
+  padding: 20px 0px 30px 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  
+  color: #000000;
 }
 
 .leader-page .african-leaders {
-  background: white;
-  padding-bottom: 50px;
+  background: #FFFFFF;
+
 }
 .leader-page .chefs {
-  background: #e5e5e5;
+  background: #F6F6F6;
+  margin-bottom: 80px;
+}
+.leader-page .chefs div img{
+  margin-bottom: 30px;
+}
+.leader-page .chefs div h4{
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 0px;
+
+color: #000000;
 }
 
 .leader-page .parent-1 {
-  width: 1200px;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
+  /* grid-template-rows: 1fr;
+  
+  /* grid-row-gap: 40px; */
   grid-column-gap: 40px;
-  grid-row-gap: 40px;
-  margin-left: 220px;
+  margin-left: 90px;
 }
 .leader-page .round-pic {
   width: 200px;
