@@ -365,7 +365,7 @@ footer hr {
 /* ==================Discover-us================== */
 /* ----------Notre-history-------- */
 .notre-historie .banner-notre-historie {
-  background-image: url(../images/lion5.png);
+  /* background-image: url(./images/lion5.png); */
   background-size: cover;
   width: 100%;
   height: 407px;
@@ -634,7 +634,7 @@ footer hr {
 
 /* ================================================================ */
 .banner {
-  background: url(../images/index-banner.jpeg);
+  /* background: url(../images/index-banner.jpeg); */
   margin-top: 100px;
   height: 100vh;
   width: 99%;
