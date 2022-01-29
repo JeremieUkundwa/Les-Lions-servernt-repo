@@ -137,7 +137,10 @@ header {
   font-size: medium;
   height: 8em;
 }
-
+header nav div a img {
+  width: 120px;
+  float: left;
+}
 .nav-links {
   text-align: left;
   padding-top: 1.5em;
@@ -215,7 +218,48 @@ header {
 .dropdown:hover .dropbtn {
   background-color: #d3dedc;
 }
+/* -------------Responsive design------------- */
+/* Header */
+@media screen and (max-width: 1008px) {
+  header nav div a img {
+    width: 80px;
+    float: left;
+  }
 
+  .nav-links {
+    padding-top: 2.5em;
+    font-size: 10.5px;
+  }
+  .nav-links a {
+    margin: 5px;
+    padding: 2px;
+  }
+
+  .nav-links a:hover {
+    border: 1px solid #113cfc;
+    border-radius: 5px;
+  }
+  .dropbtn {
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .dropdown-content {
+    font-size: 10px;
+    padding-bottom: 5px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .dropdown-content a {
+    border: 1px solid #e5e5e5;
+  }
+  
+}
+
+/* ===================HEADER CSS========================== */
 /* Footer styles */
 footer {
   bottom: 0;
@@ -228,14 +272,15 @@ footer {
   clear: both;
   padding-top: 50px;
 }
-footer li a {
+footer div ul li a {
   color: #fff;
   text-decoration: none;
+  padding-bottom: 10px;
 }
-footer ul {
+footer div ul {
   list-style: none;
 }
-footer h3 {
+footer div div h3 {
   margin-bottom: 30px;
   font-size: 30px;
 }
@@ -263,17 +308,57 @@ footer hr {
 
 .footer-logo {
   text-align: center;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .leo-logo {
-  margin-top: 18%;
+  margin-top: 10%;
 }
+.footer-class div a img{
+  width: 150px;
+}
+/* -------------Responsive design------------- */
+/* Header */
+@media screen and (max-width: 1008px) {
+  footer {
+    padding-top: 20px;
+  }
+  footer h3 {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .footer-class {
+    padding-bottom: 50px;
+  }
+  .copyright-section {
+    padding-bottom: 10px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  footer div li{
+    font-size: 10px;
+  }
+  footer hr {
+    width: 90%;
+  }
+  .footer-class div a img{
+    width: 80px;
+  }
+  .footer-logo {
+    margin-top: 20%;
+    
+  }
+  .leo-logo {
+    margin-top: 15%;
+  }
+}
+
 /* =================mot-Du-Gouverneur=================== */
 .speech {
   background: #ffffff;
   border-radius: 12px;
 }
-.speech-grid{
+.speech-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -296,7 +381,7 @@ footer hr {
   color: #2250b2;
   margin-bottom: 30px;
 }
-.speech div h2{
+.speech div h2 {
   text-align: center;
   font-family: Poppins;
   font-style: normal;
@@ -305,7 +390,7 @@ footer hr {
   line-height: 48px;
   color: #2250b2;
   margin-bottom: 30px;
-} 
+}
 .speech-content {
   width: 90%;
   padding-top: 50px;
