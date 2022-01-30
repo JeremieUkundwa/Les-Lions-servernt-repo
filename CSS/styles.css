@@ -755,38 +755,38 @@ footer div hr {
 /* ================================================================ */
 .banner {
   margin-top: 30px;
-  height: 795px;
+  height: 48vw;
   width: 99%;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  margin-left: 20px;
+  margin-left: 1vw;
   margin-bottom: 50px;
   border-radius: 20px;
 }
 #banner-text {
   font-family: Poppins;
   font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
+  font-weight: 600px;
+  font-size: 2.5vw;
   line-height: 60px;
   color: #ffffff;
   position: absolute;
-  top: 70%;
+  margin-top: 20vw;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 #banner-texts {
   font-family: Poppins;
   font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 33px;
+  font-weight: 600px;
+  font-size: 1.3vw;
+  line-height: 1.8vw;
   color: #ffffff;
   position: absolute;
-  width: 1000px;
-  top: 80%;
-  margin-left: 1000px;
+  width: 60vw;
+  margin-top: 25vw;
+  margin-left: 55vw;
   transform: translate(-60%, -50%);
 }
 /* =====================================end of banner */
