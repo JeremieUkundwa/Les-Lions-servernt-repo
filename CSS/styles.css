@@ -332,8 +332,6 @@ footer div hr {
   grid-template-columns: 1fr 2fr;
 }
 .speech img {
-  /* /* float: left; */
-  /* width: 30%; */
   width: 494px;
   height: 662px;
   margin-right: 50px;
@@ -397,19 +395,21 @@ footer div hr {
   left: 3rem;
 }
 .grid {
-  display: inline-grid;
-  grid-column-gap: 30px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* grid-column-gap: 30px; */
 }
 #item1 {
-  grid-column-start: 4;
+  /* grid-column-start: 4;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 3; */
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 33px;
   margin-top: 40px;
+  margin-left: 4vw;
 
   color: #8f8f8f;
 }
@@ -417,7 +417,7 @@ footer div hr {
   clear: both;
 }
 #item2 {
-  grid-column-start: 12;
+  /* grid-column-start: 12; */
 }
 
 .ma-devise {
@@ -446,6 +446,80 @@ footer div hr {
   color: #2250b2;
 }
 
+/* Applying responsivness on mot-gouverneur */
+@media screen and (max-width: 640px) {
+  .speech-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .speech img {
+    width: 40vw;
+    height: 60vw;
+    margin-right: 50px;
+    margin-left: 28vw;
+    left: 0;
+  }
+  .speech-content {
+    margin-left: 1vw;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .monFanion #item2 img {
+    width: 60vw;
+    height: 60vw;
+    margin-left: 80px;
+  }
+  .monFanion #item1 p {
+    width: 90vw;
+    margin-left: .3vw;
+    height: 50vw;
+  }
+  
+  .ma-devise {
+    text-align: center;
+    width: 90vw;
+    margin-left: 2vw;
+  }
+
+}
+@media screen and (max-width: 1024px) {
+  .speech-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .speech img {
+    width: 40vw;
+    height: 60vw;
+    margin-right: 50px;
+    margin-left: 28vw;
+    left: 0;
+  }
+  .speech-content {
+    margin-left: 1vw;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .monFanion #item2 img {
+    width: 60vw;
+    height: 60vw;
+    margin-left: 80px;
+  }
+  .monFanion #item1 p {
+    width: 90vw;
+    margin-left: .3vw;
+    height: 25vw;
+  }
+  
+  .ma-devise {
+    text-align: center;
+    width: 90vw;
+    margin-left: 2vw;
+  }
+}
 /* ==================Discover-us================== */
 /* ----------Notre-history-------- */
 .notre-historie .banner-notre-historie {
@@ -1799,3 +1873,10 @@ td {
   padding: 10px;
   margin-top: 25px;
 } */
+
+.nav-item{
+  text-align: left;
+  padding:-20px;
+  font-size: 1.9vw;
+  box-sizing: border-box;
+}
