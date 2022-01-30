@@ -359,26 +359,29 @@
           <img src="./img/Business-man-1.png" alt="photo" id="email-photo" />
         </div>
         <div class="form">
-          <h3 id="contact">Contactez nous</h3>
-          <div class="form">
+          <form action="">
+            <h3 id="contact">Contactez nous</h3>
             <input
               type="text"
               name="fname"
               id="fname"
-              placeholder="First name"
+              placeholder="Nom"
+              required
             />
             <input
               type="text"
               name="lname"
               id="lname"
-              placeholder="Last name"
+              placeholder="Prenom"
+              required
             />
             <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-            /><br />
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              /><br />
             <input
               type="text"
               name="message"
@@ -392,11 +395,10 @@
               cols="30"
               rows="10"
               placeholder="Message"
-            ></textarea>
-          </div>
-          <div class="envoye-btn">
-            <a href="#" id="envoye">Envoyez</a>
-          </div>
+              required
+          ></textarea>
+          <button class="envoye-btn" id="envoye">Envoyez</button>
+          </form>
         </div>
       </div>
 

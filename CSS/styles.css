@@ -1102,7 +1102,7 @@ p {
 }
 
 .home-page #contact {
-  padding-right: 190px;
+  padding-right: 270px;
   padding-bottom: 0px;
 }
 .home-page input {
@@ -1129,15 +1129,14 @@ p {
 
 .home-page .envoye-btn {
   background-color: #2250b2;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 200px;
   height: 40px;
   margin-left: 180px;
   padding: 8px 10px;
 }
 .home-page #envoye {
-  color: #ffcf06;
-  padding: 20px 30px;
+  color: #FFCF06;
   text-decoration: none;
   font-weight: bold;
 }
