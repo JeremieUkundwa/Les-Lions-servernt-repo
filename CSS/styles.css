@@ -280,11 +280,12 @@ footer div ul li a {
 footer div ul {
   list-style: none;
 }
-footer div div h3 {
+footer h3 {
   margin-bottom: 30px;
   font-size: 30px;
 }
 .footer-class {
+  padding-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   padding-bottom: 50px;
@@ -292,7 +293,7 @@ footer div div h3 {
 .copyright-section {
   text-align: center;
   background-color: #121e2c;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -302,7 +303,9 @@ footer div div h3 {
   color: #ffffff;
 }
 
-footer hr {
+footer div hr {
+  padding-bottom: 30px;
+  margin-left: 3vw;
   width: 90%;
 }
 
@@ -331,7 +334,7 @@ footer hr {
     padding-bottom: 50px;
   }
   .copyright-section {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-size: 10px;
     line-height: 13px;
   }
