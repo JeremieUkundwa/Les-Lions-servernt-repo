@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="collapsible">
         <div>
           <a href="./index.html"><img src="./images/projectLogo.png" alt="logo"></a>
         </div>
@@ -137,5 +137,21 @@
         <p style="color: #ffffff;">&copy; All Right Reserved.</p>
      </div>
     </footer>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
   </body>
 </html>

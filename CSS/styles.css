@@ -134,8 +134,8 @@ body {
 }
 header {
   background-color: #f6f6f6;
-  font-size: medium;
-  width: 100%;
+  /* font-size: medium; */
+  width: 100vw;
   height: 7vw;
 }
 header nav div a img {
@@ -146,7 +146,7 @@ header nav div a img {
 .nav-links {
   text-align: left;
   padding-top: 1.5em;
-  font-size: 1.6vw;
+  font-size: 2vw;
 }
 .nav-links a {
   color: #8f8f8f;
@@ -219,10 +219,10 @@ header nav div a img {
 }
 /* -------------Responsive design------------- */
 /* Header */
-/* @media screen and (max-width: 1008px) {
-  
- } */
-
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 480px) {
+}
 /* ===================HEADER CSS========================== */
 /* Footer styles */
 footer {
@@ -260,7 +260,6 @@ footer div hr {
   width: 90%;
 }
 .copyright-section {
-  
   text-align: center;
   background-color: #121e2c;
   padding-bottom: 30px;
@@ -273,7 +272,7 @@ footer div hr {
   color: #ffffff;
 }
 
-.copyright-section p{
+.copyright-section p {
   padding-top: 20px;
 }
 
@@ -763,7 +762,7 @@ footer div hr {
 /* ================================================================ */
 .banner {
   margin-top: 30px;
-  height: 48vw;
+  height: 50vw;
   width: 99%;
   background-attachment: fixed;
   background-position: center;
@@ -771,6 +770,7 @@ footer div hr {
   margin-left: 1vw;
   margin-bottom: 50px;
   border-radius: 20px;
+  border-radius: 10px;
 }
 #banner-text {
   font-family: Poppins;
@@ -813,7 +813,6 @@ p {
   height: 35vw;
   margin-left: 1vw;
   margin-right: 1vw;
-
 }
 .mot h3 {
   font-family: Poppins;
@@ -917,7 +916,6 @@ p {
   color: #817d6c;
   transition: ease-in-out 0.3s;
 }
-
 .home-page .title {
   margin-top: 50px;
   display: flex;
@@ -940,16 +938,15 @@ p {
   color: #2250b2;
 }
 .home-page .container {
-  margin-top: 100px;
+  margin-top: 2vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 1fr 1fr; */
-  gap: 100px 10px;
+  gap: 2vw 0.2vw;
   grid-auto-flow: row;
   grid-template-areas:
     ".."
     "..";
-  margin-left: 200px;
+  margin-left: 10vw;
 }
 
 .home-page .image {
@@ -974,7 +971,7 @@ p {
   font-size: 20px;
   line-height: 30px;
 }
-.home-page .form form h3{
+.home-page .form form h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -1147,7 +1144,7 @@ p {
   font-size: 15px;
 }
 
-.home-page .form form button{
+.home-page .form form button {
   background-color: #2250b2;
   border-radius: 15px;
   width: 200px;
@@ -1158,7 +1155,7 @@ p {
   text-decoration: none;
   font-weight: bold;
 }
-.home-page .form form button:focus{
+.home-page .form form button:focus {
   border: none;
   outline: none;
 }
@@ -1182,6 +1179,124 @@ p {
 
 .span_1_of_2 {
   width: 49.2%;
+}
+@media screen and (max-width: 1024px) {
+  .mot {
+    height: 46vw;
+  }
+  .mot h3 {
+    font-size: 28px;
+    padding-bottom: 1vw;
+    margin-bottom: 10px;
+  }
+  .mot div h2 {
+    font-size: 3vw;
+  }
+  .mot div blockquote {
+    line-height: 2.2vw;
+    font-size: 2.5vw;
+    margin-bottom: 0.6vw;
+    transform: rotate(0.02deg);
+  }
+  .mot-btn {
+    padding: 1vw;
+    margin-left: 9vw;
+    font-size: 2.3vw;
+  }
+  /* =====================Zone */
+
+  .home-page .container {
+    margin-top: 2vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2vw 2vw;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ".."
+      "..";
+    margin-left: 4vw;
+  }
+
+  .home-page .card {
+    margin-bottom: 30px;
+  }
+  /* ==============nous decouv */
+  .home-page .histoire {
+    width: 98%;
+    margin-left: 10px;
+    height: 660px;
+    display: block;
+    margin-bottom: -10%;
+  }
+  
+  .home-page #emblem {
+    margin-left: 40%;
+    margin-top: 30px;
+  }
+  .home-page .content {
+    width: 85%;
+    padding-top: 10px;
+  }
+  .home-page .content-btn {
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+  /* ========================membre========== */
+  .home-page .membres {
+
+    width: 98%;
+    margin-left: 10px;
+    height: 1000px;
+    margin-top: 20%;
+  }
+  .home-page .membres .lions {
+    margin-bottom: -120px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .home-page .membres .leo {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20%;
+  }
+  .home-page .content-membres {
+    width: 90%;
+    margin-left: 50px;
+    /* margin-bottom: 20%; */
+  }
+
+
+  .leaders-section .content-leaders {
+    clear: both;
+    margin-top: 70%;
+    width: 100%;
+    height: 40vw;
+    padding-left: 20px;
+  
+  }
+
+  .causes-mondiales-section .causes-mondiales-content {
+    margin-bottom: 60px;
+    width: 99%;
+    height: 50vw;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+/* ================================== */
+  .home-page .district {
+    height: 600px;
+    width: 100%;
+  }
+  
+  .home-page .form form button {
+    width: 200px;
+    height: 40px;
+    margin-left: 150px;
+    border: none;
+    margin-bottom: 10px;
+  }
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -1410,3 +1525,5 @@ p {
   font-size: 18px;
   padding: 20px 0;
 }
+
+
