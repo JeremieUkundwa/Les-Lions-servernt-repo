@@ -762,7 +762,7 @@ footer div hr {
 /* ================================================================ */
 .banner {
   margin-top: 30px;
-  height: 50vw;
+  height: 43vw;
   width: 99%;
   background-attachment: fixed;
   background-position: center;
@@ -1228,7 +1228,7 @@ p {
     display: block;
     margin-bottom: -10%;
   }
-  
+
   .home-page #emblem {
     margin-left: 40%;
     margin-top: 30px;
@@ -1245,7 +1245,6 @@ p {
   }
   /* ========================membre========== */
   .home-page .membres {
-
     width: 98%;
     margin-left: 10px;
     height: 1000px;
@@ -1267,14 +1266,12 @@ p {
     /* margin-bottom: 20%; */
   }
 
-
   .leaders-section .content-leaders {
     clear: both;
     margin-top: 70%;
     width: 100%;
     height: 40vw;
     padding-left: 20px;
-  
   }
 
   .causes-mondiales-section .causes-mondiales-content {
@@ -1284,12 +1281,12 @@ p {
     padding-left: 20px;
     padding-top: 10px;
   }
-/* ================================== */
+  /* ================================== */
   .home-page .district {
     height: 600px;
     width: 100%;
   }
-  
+
   .home-page .form form button {
     width: 200px;
     height: 40px;
@@ -1526,4 +1523,201 @@ p {
   padding: 20px 0;
 }
 
+/* ===================HOME PAGE UPDADed====== */
+/* 
+.Mot-du-Gouverneur {
+  width: 98%;
+  height: 30vw;
+  margin-left: 34px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.Mot-du-Gouverneur h3 {
+  text-align: center;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #2250b2;
+}
 
+.Mot-du-Gouverneur-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.Mot-du-Gouverneur .Mot-du-Gouverneur-grid div h4 {
+  margin-left: 4vw;
+  font-family: Averia Serif Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vw;
+  line-height: 58px;
+  color: #000000;
+  transform: rotate(0.26deg);
+}
+
+.Mot-du-Gouverneur .Mot-du-Gouverneur-grid div p {
+  margin-left: 8vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  color: #8f8f8f;
+  transform: rotate(0.02deg);
+  width: 740px;
+}
+.Mot-du-Gouverneur .Mot-du-Gouverneur-grid div a {
+  background: #ffcf06;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  margin-left: 10vw;
+  margin-bottom: 10px;
+}
+
+.Mot-du-Gouverneur .Mot-du-Gouverneur-grid .govern-img {
+  width: 463px;
+  height: 482px;
+}
+
+#zone {
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 183px;
+}
+#zone h3 {
+  margin-left: 37vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  color: #2250b2;
+}
+#zone .card-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw 0.2vw;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ".."
+    "..";
+  margin-left: 2vw;
+}
+#zone .card-container-grid div h4 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #000000;
+}
+#zone .card-container-grid .card {
+  width: 500px;
+  height: 400px;
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  margin-left: 60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#zone .card-container-grid .card .image img {
+  width: 150px;
+  height: 150px;
+  margin-top: -80px;
+}
+#zone .card-container-grid .card .image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.home-page .title {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+} */
+
+/* =============Start notre Histoire============== */
+/* nous decouvrir */
+/* #nous-decouvrir h3 {
+  margin-left: 45vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #2250b2;
+}
+#nous-decouvrir .histoire-grid {
+  margin: 60px 0;
+  background: white;
+  border-radius: 20px;
+  width: 98%;
+  margin-left: 10px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 0.4fr 4fr;
+}
+#nous-decouvrir .histoire-grid div img {
+  width: 8vw;
+  height: 8vw;
+  margin-top: 50px;
+}
+
+#nous-decouvrir .histoire-grid div img #emblem {
+  float: left;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+#nous-decouvrir .histoire-grid .content h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  padding-bottom: 10px;
+  color: #000000;
+}
+#nous-decouvrir .histoire-grid .content {
+  float: right;
+  margin-right: 35px;
+  width: 85%;
+  padding-top: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #8f8f8f;
+}
+#nous-decouvrir .histoire-grid .content p{
+  margin-bottom: 20px;
+}
+#nous-decouvrir .histoire-grid .content a {
+  padding: 10px 30px 10px 30px;
+  color: blue;
+  background: #ffcf06;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 200px;
+  padding: 10px;
+  margin-top: 25px;
+} */
