@@ -1523,6 +1523,77 @@ p {
   padding: 20px 0;
 }
 
+/* current home page of district structure */
+.district-structure {
+  background: #2250b2;
+  margin-top: -30px;
+}
+.district-structure h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+  margin-left: 27px;
+  color: #ffffff;
+}
+
+.district-structure h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  margin-left: 27px;
+  color: #ffffff;
+}
+.district-structure .item1{
+  float: left;
+  margin-top: 100px;
+}
+.table-format {
+  border-collapse: collapse;
+  border: none;
+}
+table{
+  float: right;
+  margin-right: 30vw;
+  margin-top: 100px;
+}
+td {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+
+  /* identical to box height */
+
+  color: #ffcc00;
+}
+
+.table-format td {
+  border: 1px solid #E5E5E5;
+}
+
+.table-format tr:first-child td {
+  border-top: none;
+}
+
+.table-format tr:last-child td {
+  border-bottom: none;
+}
+
+.table-format tr td:first-child {
+  border-left: none;
+}
+
+.table-format tr td:last-child {
+  border-right: none;
+}
+
 /* ===================HOME PAGE UPDADed====== */
 /* 
 .Mot-du-Gouverneur {
