@@ -135,21 +135,21 @@ body {
 header {
   background-color: #f6f6f6;
   font-size: medium;
-  height: 8em;
+  height: 7vw;
 }
 header nav div a img {
-  width: 120px;
+  width: 7%;
   float: left;
 }
 .nav-links {
   text-align: left;
   padding-top: 1.5em;
-  font-size: 29px;
+  font-size: 1.5vw;
 }
 .nav-links a {
   color: #8f8f8f;
   text-decoration: none;
-  margin: 10px;
+  margin-left: .5vw;
   padding: 5px;
   font-family: Poppins;
   font-style: normal;
@@ -166,8 +166,9 @@ header nav div a img {
 /* Dropdown Button */
 .dropbtn {
   color: #8f8f8f;
-  padding: 12px;
-  font-size: 18px;
+  margin-left: 0.5vw;
+  padding: 5px;
+  font-size: 1.5vw;
   border-radius: 10px;
   background: #e5e5e5;
   border: 3px solid #e5e5e5;
@@ -184,23 +185,19 @@ header nav div a img {
 .dropdown-content {
   display: none;
   position: absolute;
-  font-size: 13px;
+  font-size: 1.5vw;
   color: #8f8f8f;
-  padding-bottom: 12px;
-  font-size: 18px;
-  /* border-radius: 10px; */
+  padding-bottom: 5px;
   background: #e5e5e5;
-  border: 3px solid #e5e5e5;
+  border: 1px solid #e5e5e5;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  border: 3px solid #e5e5e5;
-  /* color: black; */
+  border: 1px solid #e5e5e5;
   text-decoration: none;
-  /* display: block; */
 }
 
 /* Change color of dropdown links on hover */
@@ -220,44 +217,9 @@ header nav div a img {
 }
 /* -------------Responsive design------------- */
 /* Header */
-@media screen and (max-width: 1008px) {
-  header nav div a img {
-    width: 80px;
-    float: left;
-  }
-
-  .nav-links {
-    padding-top: 2.5em;
-    font-size: 10.5px;
-  }
-  .nav-links a {
-    margin: 5px;
-    padding: 2px;
-  }
-
-  .nav-links a:hover {
-    border: 1px solid #113cfc;
-    border-radius: 5px;
-  }
-  .dropbtn {
-    padding: 2px;
-    font-size: 10px;
-    border-radius: 5px;
-    border: 1px solid #e5e5e5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .dropdown-content {
-    font-size: 10px;
-    padding-bottom: 5px;
-    border: 1px solid #e5e5e5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  .dropdown-content a {
-    border: 1px solid #e5e5e5;
-  }
+ /* @media screen and (max-width: 1008px) {
   
-}
+ } */
 
 /* ===================HEADER CSS========================== */
 /* Footer styles */
@@ -676,7 +638,7 @@ footer div hr {
 .globalCouses-banner {
   background: #0d2240;
   width: 96%;
-  height: 453px;
+  height: 24.5vw;
   margin-top: 20px;
   margin-left: 31px;
   border: 1px solid #0d2240;
@@ -686,9 +648,9 @@ footer div hr {
 .global-couses-inner-banner {
   background: #ffcf06;
   width: 86%;
-  height: 453px;
-  margin-top: 150px;
-  margin-left: 124px;
+  height: 24.5vw;
+  margin-top: 10vw;
+  margin-left: 6vw;
   border: 1px solid #ffcf06;
   clear: both;
   margin-bottom: 40px;
@@ -703,12 +665,12 @@ footer div hr {
 
 .global-couses-inner-banner #banner-global-item1 h3 {
   text-align: center;
-  margin-top: 201px;
+  margin-top: 12vw;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500px;
-  font-size: 40px;
-  width: 600px;
+  font-size: 2.5vw;
+  width: 100%;
   line-height: 60px;
 
   color: #2250b2;
@@ -728,10 +690,13 @@ footer div hr {
 .global-couses-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 150px;
-  grid-column-gap: 40px;
+  margin-left: 8vw;
+  grid-column-gap: 2.5vw;
   margin-bottom: 30px;
 }
+
+
+
 .global-couses-content p {
   font-family: Poppins;
   font-style: normal;
@@ -753,7 +718,7 @@ footer div hr {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 2vw;
   line-height: 45px;
   color: #ffffff;
 }
@@ -772,6 +737,12 @@ footer div hr {
 }
 #global-couse {
   background: #e5e5e5;
+}
+
+@media screen and (max-width: 1008px) {
+  .global-couses-content{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* ================================================================ */
