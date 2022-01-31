@@ -1076,7 +1076,7 @@ p {
 }
 .home-page .card {
   width: 40vw;
-  height: 35vw;
+  height: 28vw;
   background: white;
   border-radius: 20px;
   padding: 25px;
@@ -1102,7 +1102,7 @@ p {
 .home-page .card p {
   color: #8f8f8f;
   margin-top: 40px;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 /* nous decouvrir */
 .home-page .histoire {
