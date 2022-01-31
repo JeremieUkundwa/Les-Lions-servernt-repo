@@ -1057,12 +1057,12 @@ p {
   margin-top: 2vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2vw 0.2vw;
+  gap: 1vw ;
   grid-auto-flow: row;
   grid-template-areas:
     ".."
     "..";
-  margin-left: 10vw;
+  margin-left: 2vw;
 }
 
 .home-page .image {
@@ -1070,13 +1070,13 @@ p {
   margin-bottom: 30px;
 }
 .home-page img {
-  width: 150px;
-  height: 150px;
+  width: 10vw;
+  height: 10vw;
   margin-top: -80px;
 }
 .home-page .card {
-  width: 500px;
-  height: 400px;
+  width: 40vw;
+  height: 35vw;
   background: white;
   border-radius: 20px;
   padding: 25px;
@@ -1086,6 +1086,7 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 30px;
 }
 .home-page .form form h3 {
   font-family: Poppins;
@@ -1101,6 +1102,7 @@ p {
 .home-page .card p {
   color: #8f8f8f;
   margin-top: 40px;
+  font-size: 2vw;
 }
 /* nous decouvrir */
 .home-page .histoire {
@@ -1323,19 +1325,21 @@ p {
   /* =====================Zone */
 
   .home-page .container {
-    margin-top: 2vw;
+    margin-top: 6vw;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2vw 2vw;
     grid-auto-flow: row;
-    grid-template-areas:
-      ".."
-      "..";
-    margin-left: 4vw;
+    margin-left: 1vw;
   }
 
   .home-page .card {
     margin-bottom: 30px;
+    width: 80vw;
+    height: 60vw;
+
+  }
+  .home-page .card p{
+    font-size: 4vw;
   }
   /* ==============nous decouv */
   .home-page .histoire {
