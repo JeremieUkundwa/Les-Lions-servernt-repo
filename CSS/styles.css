@@ -132,6 +132,17 @@ table {
 body {
   background-color: #f6f6f6;
 }
+main{
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+body .sticky + .content {
+  padding-top: 60px;
+}
 header {
   background-color: #f6f6f6;
   clear: both;
@@ -174,6 +185,9 @@ nav div div .navbar-nav .nav-item .nav-link:hover{
 
 }
 
+header nav{
+  overflow: hidden;
+}
 
 
 /* ============================ */
