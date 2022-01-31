@@ -265,6 +265,16 @@ header nav{
 @media screen and (max-width: 480px) {
 }
 /* ===================HEADER CSS========================== */
+
+/* =======================Carousel-CSSS */
+.carousel-inner .carousel-item  img {
+  height:800px;
+}
+#carouselExampleCaptions{
+  margin-top: -30px;
+}
+
+
 /* Footer styles */
 footer {
   bottom: 0;
@@ -276,6 +286,7 @@ footer {
   display: block;
   clear: both;
   padding-top: 50px;
+  overflow: hidden;
 }
 footer div ul li a {
   color: #fff;
@@ -934,30 +945,23 @@ footer div hr {
   border-radius: 20px;
   border-radius: 10px;
 }
-#banner-text {
+.carousel-inner .carousel-item .carousel-caption h5{
   font-family: Poppins;
   font-style: normal;
   font-weight: 600px;
   font-size: 4vw;
   line-height: 60px;
   color: #ffffff;
-  position: absolute;
-  margin-top: 20vw;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-bottom: 2vw;
 }
-#banner-texts {
+.carousel-inner .carousel-item .carousel-caption p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600px;
-  font-size: 2vw;
   line-height: 1.8vw;
   color: #ffffff;
-  position: absolute;
-  width: 60vw;
-  margin-top: 27vw;
-  margin-left: 55vw;
-  transform: translate(-60%, -50%);
+  font-size: 2vw;
+  margin-bottom: 14vw;
 }
 /* =====================================end of banner */
 a {
@@ -975,6 +979,7 @@ p {
   height: 35vw;
   margin-left: 1vw;
   margin-right: 1vw;
+  margin-top: 2vw;
 }
 .mot h3 {
   font-family: Poppins;
