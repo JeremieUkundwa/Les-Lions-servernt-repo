@@ -900,7 +900,7 @@ footer div hr {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600px;
-  font-size: 2.5vw;
+  font-size: 4vw;
   line-height: 60px;
   color: #ffffff;
   position: absolute;
@@ -912,12 +912,12 @@ footer div hr {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600px;
-  font-size: 1.3vw;
+  font-size: 2vw;
   line-height: 1.8vw;
   color: #ffffff;
   position: absolute;
   width: 60vw;
-  margin-top: 25vw;
+  margin-top: 27vw;
   margin-left: 55vw;
   transform: translate(-60%, -50%);
 }
@@ -947,7 +947,7 @@ p {
   color: #2250b2;
   text-align: center;
   padding-bottom: 5vw;
-  margin-bottom: 30px;
+  /* margin-bottom: 20px; */
 }
 .mot div h2 {
   font-family: Averia Serif Libre;
@@ -1025,23 +1025,15 @@ p {
   color: #000000;
 }
 
-.home-page .button {
-  color: blue;
-  background: #ffcf06;
-  border-radius: 10px;
-  font-weight: bold;
-  margin: 100px;
-  padding: 10px;
-  padding-right: 30px;
-}
-.home-page .btn:hover,
+.home-page .btn:hover, .mot-btn:hover
 .button-btn:hover {
   /* background: #2250B2; */
   color: #817d6c;
   transition: ease-in-out 0.3s;
 }
 .home-page .title {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: -40px;
   display: flex;
   justify-content: center;
 }
@@ -1140,15 +1132,16 @@ p {
 
   color: #8f8f8f;
 }
-.home-page .content-btn {
-  color: blue;
+.content-btn {
   background: #ffcf06;
+  width: 12vw;
   border-radius: 10px;
   font-weight: bold;
-  width: 200px;
-  padding: 10px;
-  margin-top: 25px;
-}
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 30px;
+  color: #2250b2;
+} 
 /* =======================================end of nous decouvrir */
 /* membres */
 .home-page .membres {
@@ -1683,8 +1676,8 @@ p {
 }
 table{
   float: right;
-  margin-right: 30vw;
-  margin-top: 100px;
+  margin-right: 20vw;
+  margin-top: 5vw;
 }
 td {
   text-align: center;

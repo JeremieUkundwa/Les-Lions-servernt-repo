@@ -11,7 +11,7 @@ const gridDiscr2 = document.querySelector('.gridMissionDescr2');
 const navLink1 = document.querySelector('.navLinkAccueil');
 const navLink2 = document.querySelector('.navLinkMotGoverneur');
 const navLink3 = document.querySelector('.navLinkNosZone');
-const navLink4 = document.querySelector('.navLinkDecouv');
+// const navLink4 = document.querySelector('.navLinkDecouv');
 const navLink5 = document.querySelector('.navLinkContact');
 const navLink6 = document.querySelector('.navLinkDistrict');
 
@@ -23,7 +23,7 @@ link.forEach(el => {
         navLink1.textContent = data[attr].navLinkAccueil;
         navLink2.textContent = data[attr].navLinkMotGoverneur;
         navLink3.textContent = data[attr].navLinkNosZone;
-        navLink4.textContent = data[attr].navLinkDecouv;
+        // navLink4.textContent = data[attr].navLinkDecouv;
         navLink5.textContent = data[attr].navLinkContact;
         navLink6.textContent = data[attr].navLinkDistrict;
         // translating Notre-history-page
