@@ -131,6 +131,7 @@ table {
 /* Styles for header */
 body {
   background-color: #f6f6f6;
+  overflow-x: hidden;
 }
 main{
   padding: 16px;
