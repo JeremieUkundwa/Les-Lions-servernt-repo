@@ -134,11 +134,12 @@ body {
 }
 header {
   background-color: #f6f6f6;
+  clear: both;
   /* font-size: medium; */
   width: 100vw;
   height: 7vw;
 }
-header nav div a img {
+/*header nav div a img {
   width: 7%;
   margin-right: 2vw;
   float: left;
@@ -162,7 +163,18 @@ header nav div a img {
   border-radius: 10px;
   color: #ffcf06;
   background-color: #113cfc;
+} */
+nav div div .navbar-nav .nav-item .nav-link{
+  color: #8f8f8f
 }
+nav div div .navbar-nav .nav-item .nav-link:hover{
+  color: #ffcc00;
+  background-color: #113cfc;
+  border-radius: 10px;
+
+}
+
+
 
 /* ============================ */
 /* Dropdown Button */
