@@ -1007,6 +1007,7 @@ p {
   margin-left: 1vw;
   margin-right: 1vw;
   margin-top: 2vw;
+  overflow: hidden;
 }
 .mot h3 {
   font-family: Poppins;
