@@ -1415,6 +1415,13 @@ p {
     border: none;
     margin-bottom: 10px;
   }
+  .content-btn{
+    width: 30vw;
+  }
+  .content-btn a{
+    font-size: 40px;
+    padding-right: 20px;
+  } 
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
