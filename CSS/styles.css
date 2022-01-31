@@ -1767,6 +1767,21 @@ td {
   border-right: none;
 }
 
+/* District convention */
+.district-convention-submit button{
+  margin-top: 20px;
+  background-color: #2250b2;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  margin-left: 250px;
+  border: none;
+  color: #ffcf06;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 /* ===================HOME PAGE UPDADed====== */
 /* 
 .Mot-du-Gouverneur {

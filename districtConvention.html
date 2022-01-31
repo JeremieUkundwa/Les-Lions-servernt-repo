@@ -130,52 +130,67 @@
         </div>
       </div>   
     </div>
-      <div class="inscrire">
+      <div class="inscrire" style="margin-bottom: 30px;">
         <section>
             <h2>fiche d'inscription a la 61ieme convention de district centre de conference de Kigali - Kigali convention center(Rwanda)</h2>
             <h3>date limite: 5 avril 2022</h3>
-      
-            <div>
+            <form action="">
+              <div>
                 <h2>identite et provenance</h2>
-                <div>
-                    <input type="text" placeholder="nom">
-                    <input type="text" placeholder="prénom">
+                
+                  <div>
+                    <input type="text" placeholder="nom" required>
+                    <input type="text" placeholder="prénom" required>
                     <input type="text" placeholder="nationalité">
                     <input type="text" placeholder="pays">
+                    <input type="text" id="club" placeholder="Club" required>
                     <input type="text" placeholder="Accompagné">
-                    <input type="text" placeholder="telephone">
                     <input type="text" placeholder="fonction principalés">
+                    <input type="text" placeholder="telephone" required>
+                    <input type="email" id="form-email" placeholder="Email">
                 </div>
             </div>
-                   
             <div>
                 <h2>Coordonnees de l'arrive a Kigali</h2>
                 <div>
                     <input type="text" placeholder="arrivant de">
                     <input type="date" placeholder="date">
-                    <input type="text" placeholder="aéroport">
-                    <input type="text" placeholder="moyen de transport">
                     <input type="time" placeholder="héure">
+                    <input type="text" placeholder="moyen de transport">
+                    <input type="text" placeholder="aéroport">
                     <input type="text" placeholder="frontière">
                 </div>
             </div>
-      
             <div>
                 <h2>hebergement: Je souhaite loger a: *</h2>
                 <div class="checkboxes">
-                    <div>
-                        <li>
-                            <input id="checkid2" type="checkbox" value="test" />
-                            <label for="checkid2">Hôtel</label>
-                        </li>
-                        <li>
-                            <input id="checkid2" type="checkbox" value="test" />
-                            <label for="checkid2">Famille</label>
-                        </li>
-                        <li>
-                            <input id="checkid2" type="checkbox" value="test" />
-                            <label for="checkid2">Autrés</label>
-                        </li>
+                    <div style="display: inline-block;">
+                      <tr><td><input type="checkbox" name="progress" id="progress1" value="1" tabIndex="1" onClick="ckChange(this)">Hôtel</td></tr>
+                      <tr><td><input type="checkbox" name="progress" id="progress2" value="1" tabIndex="1" onClick="ckChange(this)">Famille</td></tr>
+                      <tr><td><input type="checkbox" name="progress" id="progress3" value="1" tabIndex="1" onClick="ckChange(this)">Autres</td></tr>
+                      
+                      <script>
+                      function ckChange(ckType){
+                          var ckName = document.getElementsByName(ckType.name);
+                          var checked = document.getElementById(ckType.id);
+                      
+                          if (checked.checked) {
+                            for(var i=0; i < ckName.length; i++){
+                      
+                                if(!ckName[i].checked){
+                                    ckName[i].disabled = true;
+                                }else{
+                                    ckName[i].disabled = false;
+                                }
+                            } 
+                          }
+                          else {
+                            for(var i=0; i < ckName.length; i++){
+                              ckName[i].disabled = false;
+                            } 
+                          }    
+                      }
+                      </script>
                     </div>
                    
                 </div>
@@ -184,80 +199,113 @@
             <div>
                 <h2>frais d'inscription</h2>
                 <div>
-                    <li>Hospitality     $150      Le Frais d'inscription comprend: La trousse du conferencier et 1 rafraichissement. 2 pause- cafe et 2 Diners</li>
+                    <li>Hospitality &nbsp 150$ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Le Frais d'inscription comprend: La trousse du conferencier et 1 rafraichissement. 2 pause- cafe et 2 Diners</li>
                 </div>
             </div>
-         </section>
-        <div class="option">
-            <div class="frais-sup">
-        
-                 <li class="liste">
-                    <label for="checkid2">Diner compagnons Melvin Jones: 50$ par personne (boissons non comprises)</label>
-                </li>
+            <br><br>
+            <div >
+              <h2>FRAIS SUPPLEMENTAIRES : *</h2>
+              <tr><td><input type="checkbox" name="info" id="progress5" value="1" tabIndex="1" onClick="checkData(this)">Diner compagnons Melvin Jones : 50$ par personne (boissons non comprises)</td></tr><br>
+              <tr><td><input type="checkbox" name="info" id="progress6" value="1" tabIndex="1" onClick="checkData(this)">Visite guides de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris)</td></tr><br>
+              <tr><td><input type="checkbox" name="info" id="progress7" value="1" tabIndex="1" onClick="checkData(this)">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris)</td></tr><br>
+              <tr><td><input type="checkbox" name="info" id="progress8" value="1" tabIndex="1" onClick="checkData(this)">Pas encore decide</td></tr><br>
+              <tr><td><label style ="color: blue;"for="" class="franc-label">Montant a payer</label> <input type="number" name="franc" id="franc"><label for="">$</label></td></tr>
               
-                <li class="liste">
-                    <!-- <input id="checkid2" type="checkbox" value="test" /> -->
-                    <label for="checkid2">Visite guides de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris)</label>
-                </li>
-                <li class="liste">
-                    <!-- <input id="checkid2" type="checkbox" value="test" /> -->
-                    <label for="checkid2">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) </label>
-                </li>
-                <li class="liste">
-                    <!-- <input id="checkid2" type="checkbox" value="test" /> -->
-                    <label for="checkid2">Pas encore decide</label>
-                </li>
-                <label for="" class="franc-label">Montant a payer</label> <input type="text" name="franc" id="franc" placeholder="..............................................$">
-      
-                <div  class="reglements">
-                    <h2>Reglement de l'hospitality book et des frais supplementaires:*</h2>
-                    <div>
-                        <li>
-                            <input id="checkid2" type="checkbox" value="test" />
-                            <label for="checkid2">Je m’engage á versé la somme de 150$ au Trésorier du Club</label>
-                        </li>
-                        <!-- <input type="checkbox"><li>Je m’engage á versé la somme de 150$ par voie de transfert d’argent Mobile</li> -->
-                        <li>
-                            <input id="checkid2" type="checkbox" value="test" />
-                            <label for="checkid2">Je m’engage á versé la somme de 150$ par voie de transfert d’argent Mobile</label>
-                        </li>
-                        <hr>
-      
-                        <h3>BURUNDI</h3>
-                        <!-- <input type="checkbox" name="" id=""> Econet Leo":</li> -->
-                        <li class="liste">
-                          Econet Leo:  +25779960616
-                            <p>Nom de la receveuse : Arielle Kaneza</p><br>
-                        </li>
-                        <hr>
-      
-                        <h3>DRC</h3>
-                        <!-- <input type="checkbox" name="" id=""> <li>Mpesa (Vodacom): +243813907272</li> -->
-                        <li class="liste">
-                          Mpesa (Vodacom): +243813907272
-                        </li>
-           
-                        <li class="liste">Airtel Money: +243990260596 </li>
-                        
-                        <li class="liste">Orange Money:  +243897775922 </li>
-            
-                        <p>Nom du receveur : Junior Mbala Kazadi</p><br>
-                        <hr>
-      
-                        <h3>RWANDA</h3>
-                        <!-- <input type="checkbox" name="" id=""> <li>MTN:  +250785867949</li> -->
-                        <li class="liste">
-                          MTN:  +250785867949
-                        </li>
-                        <p>Nom de la receveuse : Patience Kamatamu</p><br>
-                        <hr>
-                        <br>
-                        <li id="last-line">Je vous prie de trouver en annexe la preuve de paiement de la somme de 150$ Verser au Compte bancaire : BANK OF KIGALI, Compte N°00040610090021/USD de LIONS CLUB KIGALI BK SWIFT CODE : BKIGRWRW 	</li>
-                    </div>
-                </div>
+              <script>
+              function checkData(checkType){
+                  var ckName = document.getElementsByName(checkType.name);
+                  var checked = document.getElementById(checkType.id);
+
+                  if (checked.checked) {
+                    for(var i=0; i < ckName.length; i++){
+
+                        if(!ckName[i].checked){
+                            ckName[i].disabled = true;
+                        }else{
+                            ckName[i].disabled = false;
+                        }
+                    } 
+                  }
+                  else {
+                    for(var i=0; i < ckName.length; i++){
+                      ckName[i].disabled = false;
+                    } 
+                  }    
+              }
+              </script>
             </div>
-        
-        </div>
+            <br><br>
+            <div>
+              <h2>Reglement de l'hospitality book et des frais supplementaires:*</h2>
+              <tr><td><input type="checkbox" name="paymentInfo" id="progress9" value="1" tabIndex="1" onClick="checkNextInfo(this)">Je m’engage á versé la somme de 150$ au Trésorier du Club</td></tr><br>
+              <tr><td><input type="checkbox" name="paymentInfo" id="progress10" value="1" tabIndex="1" onClick="checkNextInfo(this)">Je m’engage á versé la somme de 150$ par voie de transfert d’argent Mobile</td></tr><br>
+              <script>
+              function checkNextInfo(ckType){
+                  var ckName = document.getElementsByName(ckType.name);
+                  var checked = document.getElementById(ckType.id);
+              
+                  if (checked.checked) {
+                    for(var i=0; i < ckName.length; i++){
+              
+                        if(!ckName[i].checked){
+                            ckName[i].disabled = true;
+                        }else{
+                            ckName[i].disabled = false;
+                        }
+                    } 
+                  }
+                  else {
+                    for(var i=0; i < ckName.length; i++){
+                      ckName[i].disabled = false;
+                    } 
+                  }    
+              }
+              </script>
+            </div>
+            <hr>
+            <div>
+              <h2>BURUNDI</h2>
+              <tr><td><input type="checkbox" name="meansOfPaymentInfo" id="progress11" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Econet Leo : &nbsp &nbsp &nbsp &nbsp +25779960616 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Arielle Kaneza</span> </td></tr><br>
+              <hr>
+              <h2>DRC</h2>
+              <tr><td><input type="checkbox" name="meansOfPaymentInfo" id="progress12" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Mpesa (Vodacom) : &nbsp &nbsp &nbsp &nbsp +243813907272 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Junior Mbala Kazadi</span> </td></tr><br>
+              <tr><td><input type="checkbox" name="meansOfPaymentInfo" id="progress13" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Airtel Money: &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243990260596 </td></tr><br>
+              <tr><td><input type="checkbox" name="meansOfPaymentInfo" id="progress14" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Orange money:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243897775922 </td></tr><br>
+              <hr>
+              <h2>RWANDA</h2>
+              <tr><td><input type="checkbox" name="meansOfPaymentInfo" id="progress15" value="1" tabIndex="1" onClick="checkPaymentOption(this)">MTN :  &nbsp &nbsp &nbsp &nbsp +250785867949 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Patience Kamatamu</span> </td></tr><br>
+              <script>
+              function checkPaymentOption(ckType){
+                  var ckName = document.getElementsByName(ckType.name);
+                  var checked = document.getElementById(ckType.id);
+              
+                  if (checked.checked) {
+                    for(var i=0; i < ckName.length; i++){
+              
+                        if(!ckName[i].checked){
+                            ckName[i].disabled = true;
+                        }else{
+                            ckName[i].disabled = false;
+                        }
+                    } 
+                  }
+                  else {
+                    for(var i=0; i < ckName.length; i++){
+                      ckName[i].disabled = false;
+                    } 
+                  }    
+              }
+              </script>
+            </div>
+            <div>
+              <label for="">Je vous prie de trouver en annexe la preuve de paiement de la somme de 150$ Verser au Compte bancaire : BANK OF KIGALI, Compte N°00040610090021/USD de LIONS CLUB KIGALI BK SWIFT CODE : BKIGRWRW</label>
+            </div>
+            <div class="district-convention-submit">
+              <button type="submit">Envoyez</button>
+            </div>
+            </form>
+            
+         </section>
       </div>
    </main>
    <footer>
