@@ -1136,12 +1136,12 @@ p {
 }
 .content-btn {
   background: #ffcf06;
-  width: 12vw;
+  width: 11vw;
   border-radius: 10px;
   font-weight: bold;
   font-family: Poppins;
   font-style: normal;
-  font-size: 30px;
+  font-size: 20px;
   color: #2250b2;
 } 
 /* =======================================end of nous decouvrir */
@@ -1342,6 +1342,15 @@ p {
   }
   .home-page .card p{
     font-size: 4vw;
+    margin-top: -10px;
+  }
+  .home-page h4 {
+    font-size: 5vw;
+    margin-top: -30px;
+  }
+  .home-page .card .image img{
+    width: 80px;
+    height: 85px;
   }
   /* ==============nous decouv */
   .home-page .histoire {
