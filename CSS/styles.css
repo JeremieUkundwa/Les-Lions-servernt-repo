@@ -1235,10 +1235,11 @@ p {
   width: 100%;
   background: #2250b2;
   color: white;
+  clear: both;
 }
 
 .home-page #contact {
-  padding-right: 270px;
+  padding-right: 12vw;
   padding-bottom: 0px;
 }
 .home-page input {
@@ -1280,9 +1281,10 @@ p {
 }
 
 .home-page #email-photo {
-  padding-top: 50px;
-  width: 600px;
-  height: 600px;
+  padding-top: 8vw;
+  width: 40vw;
+  height: 40vw;
+  margin-left: 5vw;
 }
 
 .home-page #fname {
@@ -1422,6 +1424,17 @@ p {
     font-size: 40px;
     padding-right: 20px;
   } 
+
+  .home-page #email-photo {
+    padding-top: 8vw;
+    width: 40vw;
+    height: 40vw;
+    margin-left: 30vw;
+  }
+
+ td p{
+    font-size: 6vw;
+  }
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
