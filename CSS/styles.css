@@ -273,9 +273,36 @@ header nav{
 #carouselExampleCaptions{
   margin-top: -30px;
 }
+footer{
+  background-color: #0d2240;
+  color: #fff;
+  position: static;
+  width: 100%;
+  left: 0px;
+  display: block;
+  clear: both;
+  padding-top: 2vw;
+  overflow: hidden;
+  overflow: hidden;
+}
+footer div div ul li{
+  font-size: 10px;
+}
+footer div div h5{
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6c819e;
+  font-size: 20px;
+}
+
+footer a{
+  text-decoration: none;
+}
 
 
 /* Footer styles */
+/*
 footer {
   bottom: 0;
   background-color: #0d2240;
@@ -291,7 +318,7 @@ footer {
 footer div ul li a {
   color: #fff;
   text-decoration: none;
-  /* margin-bottom: -10px; */
+  /* margin-bottom: -10px;
 
 }
 footer div ul {
@@ -343,10 +370,10 @@ footer div hr {
 }
 .footer-class div a img {
   width: 120px;
-}
+}*/
 /* -------------Responsive design------------- */
 /* Header */
-@media screen and (max-width: 1008px) {
+/* @media screen and (max-width: 1008px) {
   footer {
     padding-top: 20px;
   }
@@ -378,7 +405,7 @@ footer div hr {
   .leo-logo {
     margin-top: 15%;
   }
-}
+} */
 
 /* =================mot-Du-Gouverneur=================== */
 .speech {
