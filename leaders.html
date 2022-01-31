@@ -11,21 +11,22 @@
 </head>
 <body style="background: #F6F6F6">
   <header>
-    <nav>
+    <nav class="collapsible">
       <div>
         <a href="./index.html"><img src="./images/projectLogo.png" alt="logo"></a>
       </div>
       <div class="nav-links">
-       <a class="active-page" href="./index.html">Accueil</a>
-       <a href="./index.html#link-mot-du-gouverneur">Mot du Gouverneur</a>
-       <a href="./index.html#zone">Nos Zones</a>
-       <a href="./index.html#nous-decouvrir">Nous Decouvrir</a>
-       <a href="./index.html#contactez-nous">Nous Contacter</a>
-       <a href="./districtConvention.html"style="color: #FFCF06; border: 1px solid #0D2240; border-radius: 10px; background-color: #0D2240;">Convention District</a>
+       <a class="active-page navLinkAccueil" href="./index.html">Accueil</a>
+       <a href="./index.html#link-mot-du-gouverneur" class="navLinkMotGoverneur">Mot du Gouverneur</a>
+       <a href="./index.html#zone" class="navLinkNosZone">Nos Zones</a>
+       <a href="./index.html#nous-decouvrir" class="navLinkDecouv">Nous Decouvrir</a>
+       <a href="./index.html#contactez-nous" class="navLinkContact">Nous Contacter</a>
+       <a href="./districtConvention.html"style="color: #FFCF06; border: 1px solid #0D2240; border-radius: 10px; background-color: #0D2240;" class="navLinkDistrict">Convention District</a>
        <div class="dropdown">
-        <button class="dropbtn">FRA <i class="fa fa-caret-down fa-lg"></i></button>
-        <div class="dropdown-content">
-          <a href="#">ENG</a>
+        <button class="dropbtn">Lang <i class="fa fa-caret-down fa-lg"></i></button>
+        <div class="dropdown-content langWrap">
+          <a href="#" language='french' class="lg">FRA</a>
+          <a href="#" language='english'class="lg">ENG</a>
         </div>
       </div>
       </div>
@@ -195,5 +196,6 @@
     <p style="color: #ffffff;">&copy; All Right Reserved.</p>
  </div>
 </footer>
+<script src="./Js/languageScript.js"></script>
 </body>
 </html>

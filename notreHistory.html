@@ -19,16 +19,17 @@
           <a href="./index.html"><img src="./images/projectLogo.png" alt="logo"></a>
         </div>
         <div class="nav-links">
-         <a class="active-page" href="./index.html">Accueil</a>
-         <a href="./index.html#link-mot-du-gouverneur">Mot du Gouverneur</a>
-         <a href="./index.html#zone">Nos Zones</a>
-         <a href="./index.html#nous-decouvrir">Nous Decouvrir</a>
-         <a href="./index.html#contactez-nous">Nous Contacter</a>
-         <a href="./districtConvention.html"style="color: #FFCF06; border: 1px solid #0D2240; border-radius: 10px; background-color: #0D2240;">Convention District</a>
+         <a class="active-page navLinkAccueil" href="./index.html">Accueil</a>
+         <a href="./index.html#link-mot-du-gouverneur" class="navLinkMotGoverneur">Mot du Gouverneur</a>
+         <a href="./index.html#zone" class="navLinkNosZone">Nos Zones</a>
+         <a href="./index.html#nous-decouvrir" class="navLinkDecouv">Nous Decouvrir</a>
+         <a href="./index.html#contactez-nous" class="navLinkContact">Nous Contacter</a>
+         <a href="./districtConvention.html"style="color: #FFCF06; border: 1px solid #0D2240; border-radius: 10px; background-color: #0D2240;" class="navLinkDistrict">Convention District</a>
          <div class="dropdown">
-          <button class="dropbtn">FRA <i class="fa fa-caret-down fa-lg"></i></button>
-          <div class="dropdown-content">
-            <a href="#">ENG</a>
+          <button class="dropbtn">Lang <i class="fa fa-caret-down fa-lg"></i></button>
+          <div class="dropdown-content langWrap">
+            <a href="#" language='french' class="lg">FRA</a>
+            <a href="#" language='english'class="lg">ENG</a>
           </div>
         </div>
         </div>
@@ -39,11 +40,11 @@
       <!-- Notre Historie sections -->
       <div class="notre-historie">
         <div class="banner-notre-historie" style="background-image: url(./images/lion5.png);">
-          <h2>Notre Histoire</h2>
+          <h2 class="bannerTitle">Notre Histoire</h2>
         </div>
         <div class="notre-historie-content">
-          <p>Les Lions servent. </p>
-          <p>
+          <p class="discritptionContentP1">Les Lions servent. </p>
+          <p class="discritptionContentP2">
             Un concept simple depuis notre création en 1917.
             Nos clubs regroupent des hommes et des femmes qui donnent leur temps
             et leurs efforts pour répondre aux problèmes localement et dans le
@@ -55,7 +56,7 @@
             héritage avec pour objectif d’avoir un impact encore plus fort à
             l’avenir.
           </p>
-          <p>
+          <p class="discritptionContentP3">
             Le Lions Clubs International réunit aujourd’hui 1, 4 millions
             d’Hommes et Femmes répartis dans 48 000 clubs à travers 208 pays.
             Avec chaque action terminée et chaque personne aidée, nous écrivons
@@ -66,8 +67,8 @@
         <div class="histoire-grid">
           <div id="histoire-grid-item1">
             <img src="./images/notre mission.png" alt="mission" />
-            <h3>Notre Mission</h3>
-            <p>
+            <h3 class="gridTitleMission1">Notre Mission</h3>
+            <p class="gridMissionDescr1">
               Donner aux Lions clubs, à leurs membres et à leurs partenaires les
               moyens d’agir pour la santé et le bien-être, de renforcer les
               liens au sein des collectivités, d’apporter un soutien à ceux qui
@@ -77,8 +78,8 @@
           </div>
           <div id="histoire-grid-item2">
             <img src="./images/vision.jpeg" alt="" />
-            <h3>Notre Vision</h3>
-            <p>
+            <h3 class="gridTitleVision1">Notre Vision</h3>
+            <p class="gridMissionDescr2">
               Être le leader mondial dans le domaine du service local et
               humanitaire.
             </p>
@@ -137,21 +138,6 @@
         <p style="color: #ffffff;">&copy; All Right Reserved.</p>
      </div>
     </footer>
-    <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-      
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight){
-            content.style.maxHeight = null;
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-          } 
-        });
-      }
-      </script>
+    <script src="./Js/languageScript.js"></script>
   </body>
 </html>
