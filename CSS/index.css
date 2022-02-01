@@ -423,6 +423,18 @@ table {
     line-height: 25px;
     padding-bottom: 8px;
   }
+  .container-table h2 {
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 5px;
+    color: #ffffff;
+  }
+  .container-table h3{
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 5px;
+    color: #ffffff;
+  }
   
 }
 
@@ -480,6 +492,18 @@ table {
   }
   .cont form textarea{
     width: 200px;
+  }
+  .container-table h2 {
+    font-size: 28px;
+    line-height: 50px;
+    margin-left: 2px;
+    color: #ffffff;
+  }
+  .container-table h3{
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 2px;
+    color: #ffffff;
   }
 }
 body {
