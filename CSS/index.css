@@ -258,7 +258,7 @@ table {
   padding-bottom: 10px;
   color: #000000;
 }
-.mondiales h5{
+.mondiales h5 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -460,26 +460,24 @@ table {
 }
 
 @media screen and (max-width: 480px) {
-
-  .histoire .col-md-auto{
+  .histoire .col-md-auto {
     margin-left: 21vw;
   }
-  .histoire .col-md-auto img{
+  .histoire .col-md-auto img {
     margin-top: 5vw;
   }
-  .histoire h5{
+  .histoire h5 {
     text-align: center;
     margin-top: -35vw;
     margin-bottom: 30vw;
-
   }
-  .histoire h6{
+  .histoire h6 {
     text-align: center;
   }
-  .mondiales h5{
+  .mondiales h5 {
     text-align: center;
   }
-  .histoire p{
+  .histoire p {
     text-align: left;
     font-size: 20px;
   }
@@ -555,7 +553,7 @@ table {
     margin-top: -20px;
   }
   .cont .onSmallScale {
-    margin-top: -80vw;
+    margin-top: -90vw;
   }
   .cont .onSmallScale img {
     margin-bottom: -2vw;
@@ -577,6 +575,14 @@ table {
     width: 150px;
     height: 30px;
     margin-left: 8vw;
+  }
+  .cont .image-holder{
+    margin-left: 12vw;
+  }
+  .cont img {
+    width: 40vw;
+    height: 30vw;
+    padding-left: 30px;
   }
 }
 body {
@@ -694,11 +700,10 @@ footer a {
   }
 }
 @media screen and (max-width: 485px) {
-  
   .footer-info li a {
     font-size: 8px;
   }
-   .footer-info h5 {
+  .footer-info h5 {
     font-size: 15px;
   }
   .footer-info .inner-div-1 {
