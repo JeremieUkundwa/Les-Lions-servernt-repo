@@ -459,16 +459,22 @@ table {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 485px) {
 
   .histoire .col-md-auto{
     margin-left: 21vw;
   }
+  .histoire .col-md-auto img{
+    margin-top: 5vw;
+  }
   .histoire h5{
     text-align: center;
-    margin-top: -33.5vw;
+    margin-top: -35vw;
     margin-bottom: 30vw;
 
+  }
+  .histoire h6{
+    text-align: center;
   }
   .mondiales h5{
     text-align: center;
