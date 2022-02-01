@@ -489,7 +489,7 @@ table {
   }
   .section-header {
     font-size: 20px;
-    line-height: 10px;
+    line-height: 15px;
   }
   .histoire .col h5 {
     font-size: 25px;
@@ -504,12 +504,14 @@ table {
   }
   .cont form input {
     width: 200px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    height: 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
     margin-left: 10px;
   }
   .cont form textarea{
     width: 200px;
+    height: 70px;
   }
   .container-table h2 {
     font-size: 28px;
@@ -533,14 +535,25 @@ table {
     margin-top: -400px;
   }
   .cont .onSmallScale img{
-    margin-bottom: -40px;
-    margin-top: -200px;
-    margin-left: 1.5vw;
+    margin-bottom: -2vw;
+    margin-top: -55vw;
+    margin-left: 1vw;
     width: 150px;
     height: 150px;
   }
   #link-mot-du-gouverneur h4{
+    margin-top: -30px;
     margin-bottom: 200px;
+  }
+  main{
+    padding: 5px;
+  }
+  .cont form button {
+    background-color: #2250b2;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    margin-left: 8vw;
   }
 }
 body {
@@ -581,6 +594,7 @@ header nav {
   overflow: hidden;
 }
 
+
 footer {
   background-color: #0d2240;
   color: #fff;
@@ -593,9 +607,9 @@ footer {
   overflow: hidden;
   overflow: hidden;
 }
-footer div div ul li {
-  font-size: 10px;
-}
+
+
+
 footer div div h5 {
   margin-bottom: 30px;
   font-weight: 600;
