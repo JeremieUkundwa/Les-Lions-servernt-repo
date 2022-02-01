@@ -279,10 +279,13 @@ table {
     font-size: 3vw;
     line-height: 20px;
   }
+  .cont .image-holder{
+    margin-left: 12vw;
+  }
   .cont img {
-    width: 25vw;
-    height: 24vw;
-    padding-left: 30px;
+    width: 40vw;
+    height: 30vw;
+    padding-left: 4vw;
   }
   .histoire .col-md-auto img {
     width: 28vw;
