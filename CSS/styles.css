@@ -2306,7 +2306,7 @@ td {
   }
   .container-speect .par-edit p{
     margin-left: .1vw;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 14px;
   }
   .cont p {
@@ -2339,7 +2339,7 @@ td {
     margin-left: 10vw;
   }
   .container-fanion .image-edit{
-    margin-top: -120vw;
+    margin-top: -150vw;
   }
 
   .ma-devise-container{
@@ -2348,5 +2348,7 @@ td {
   .ma-devise-container .par-edit{
     margin-top: -15vw;
   }
+
+  /* ================Notre-History------------ */
 
 }
