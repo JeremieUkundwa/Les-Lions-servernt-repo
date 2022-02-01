@@ -256,6 +256,10 @@ table {
 }
 
 @media screen and (max-width: 1024px) {
+  .zone-info {
+    margin-left: .5vw;
+    margin-right: .5vw;
+  }
   .cont h4 {
     font-size: 30px;
   }
@@ -362,6 +366,10 @@ table {
 }
 
 @media screen and (max-width: 680px) {
+  .zone-info {
+    margin-left: .5vw;
+    margin-right: .5vw;
+  }
   .container-table td {
     font-size: 30px;
   }
