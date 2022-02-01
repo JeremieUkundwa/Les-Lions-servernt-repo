@@ -258,7 +258,15 @@ table {
   padding-bottom: 10px;
   color: #000000;
 }
-
+.mondiales h5{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 42px;
+  padding-bottom: 10px;
+  color: #000000;
+}
 @media screen and (max-width: 1024px) {
   .zone-info {
     margin-left: 0.5vw;
@@ -452,6 +460,24 @@ table {
 }
 
 @media screen and (max-width: 480px) {
+
+  .histoire .col-md-auto{
+    margin-left: 21vw;
+  }
+  .histoire h5{
+    text-align: center;
+    margin-top: -33.5vw;
+    margin-bottom: 30vw;
+
+  }
+  .mondiales h5{
+    text-align: center;
+  }
+  .histoire p{
+    text-align: left;
+    font-size: 20px;
+  }
+
   .zone-info {
     margin-left: 0.2vw;
     margin-right: 0.2vw;
@@ -459,13 +485,9 @@ table {
   .container-table td {
     font-size: 20px;
   }
-  .histoire .col-md-auto img {
-    width: 30vw;
-    height: 30vw;
-    /* margin-left: -8vw; */
-  }
+
   .cont p {
-    font-size: 5vw;
+    font-size: 3.5vw;
     margin-left: -60px;
   }
   .cont a {
@@ -666,7 +688,7 @@ footer a {
   }
 }
 @media screen and (max-width: 485px) {
- 
+  
   .footer-info li a {
     font-size: 8px;
   }
