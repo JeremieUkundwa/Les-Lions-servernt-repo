@@ -451,7 +451,7 @@ table {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 485px) {
   .zone-info {
     margin-left: 0.2vw;
     margin-right: 0.2vw;
@@ -462,11 +462,10 @@ table {
   .histoire .col-md-auto img {
     width: 30vw;
     height: 30vw;
-    /* margin-left: -8vw; */
   }
   .cont p {
-    font-size: 5vw;
-    margin-left: -60px;
+    font-size: 3vw;
+    margin-left: -19vw;
   }
   .cont a {
     padding: 5px 15px 5px 15px;
@@ -527,12 +526,13 @@ table {
     margin-top: -20px;
   }
   .cont .onSmallScale {
-    margin-top: -400px;
+    margin-top: -52vw;
+    margin-left: 2vw;
   }
   .cont .onSmallScale img {
     margin-bottom: -2vw;
     margin-top: -55vw;
-    margin-left: 1vw;
+    margin-left: 3vw;
     width: 150px;
     height: 150px;
   }
