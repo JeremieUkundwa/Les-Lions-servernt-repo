@@ -667,10 +667,10 @@ footer a {
 }
 @media screen and (max-width: 480px) {
   .footer-info h5 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .footer-info li a {
-    font-size: 10px;
+    font-size: 5px;
   }
   .footer-info .inner-div-1 {
     padding-left: 2vw;
@@ -689,5 +689,8 @@ footer a {
   .footer-info .inner-div-1 .logo-2 img {
     width: 9vw;
     padding-top: 38px;
+  }
+  .footer-info .inner-div-1 .logo-2 p {
+    font-size: 5px;
   }
 }
