@@ -235,7 +235,7 @@ table {
   font-size: 30px;
 }
 
-.cont .onSmallScale{
+.cont .onSmallScale {
   margin-top: 20px;
 }
 
@@ -259,12 +259,10 @@ table {
   color: #000000;
 }
 
-
-
 @media screen and (max-width: 1024px) {
   .zone-info {
-    margin-left: .5vw;
-    margin-right: .5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
   }
   .cont h4 {
     font-size: 30px;
@@ -375,14 +373,14 @@ table {
   text-decoration: none;
   font-weight: bold;
 }
-.cont form textarea{
+.cont form textarea {
   width: 300px;
 }
 
 @media screen and (max-width: 680px) {
   .zone-info {
-    margin-left: .5vw;
-    margin-right: .5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
   }
   .container-table td {
     font-size: 30px;
@@ -392,7 +390,7 @@ table {
     height: 30vw;
     /* margin-left: -8vw; */
   }
-  .cont p{
+  .cont p {
     font-size: 5vw;
     font-size: 20px;
     margin-left: -60px;
@@ -415,7 +413,6 @@ table {
     line-height: 25px;
   }
   .zone-info .col .card h5 {
-
     font-size: 28px;
     line-height: 42px;
   }
@@ -433,32 +430,31 @@ table {
     margin-left: 5px;
     color: #ffffff;
   }
-  .container-table h3{
+  .container-table h3 {
     font-size: 18px;
     line-height: 20px;
     margin-left: 5px;
     color: #ffffff;
   }
-  .cont .onSmallScale{
+  .cont .onSmallScale {
     margin-top: -400px;
   }
-  .cont .onSmallScale img{
+  .cont .onSmallScale img {
     margin-bottom: -20vw;
     margin-top: -150px;
     margin-left: 15vw;
     width: 200px;
     height: 200px;
   }
-  #link-mot-du-gouverneur h4{
+  #link-mot-du-gouverneur h4 {
     margin-bottom: 250px;
   }
-  
 }
 
 @media screen and (max-width: 480px) {
   .zone-info {
-    margin-left: .2vw;
-    margin-right: .2vw;
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
   }
   .container-table td {
     font-size: 20px;
@@ -468,7 +464,7 @@ table {
     height: 30vw;
     /* margin-left: -8vw; */
   }
-  .cont p{
+  .cont p {
     font-size: 5vw;
     margin-left: -60px;
   }
@@ -483,7 +479,6 @@ table {
     line-height: 20px;
   }
   .zone-info .col .card h5 {
-
     font-size: 25px;
     line-height: 40px;
   }
@@ -509,7 +504,7 @@ table {
     margin-bottom: 15px;
     margin-left: 10px;
   }
-  .cont form textarea{
+  .cont form textarea {
     width: 200px;
     height: 70px;
   }
@@ -519,7 +514,7 @@ table {
     margin-left: 2px;
     color: #ffffff;
   }
-  .container-table h3{
+  .container-table h3 {
     font-size: 15px;
     line-height: 20px;
     margin-left: 2px;
@@ -531,21 +526,21 @@ table {
     margin-bottom: 20px;
     margin-top: -20px;
   }
-  .cont .onSmallScale{
+  .cont .onSmallScale {
     margin-top: -400px;
   }
-  .cont .onSmallScale img{
+  .cont .onSmallScale img {
     margin-bottom: -2vw;
     margin-top: -55vw;
     margin-left: 1vw;
     width: 150px;
     height: 150px;
   }
-  #link-mot-du-gouverneur h4{
+  #link-mot-du-gouverneur h4 {
     margin-top: -30px;
     margin-bottom: 200px;
   }
-  main{
+  main {
     padding: 5px;
   }
   .cont form button {
@@ -594,7 +589,30 @@ header nav {
   overflow: hidden;
 }
 
+.footer-info li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
 
+.footer-info .inner-div-1 {
+  padding-left: 10vw;
+  padding-top: 2vw;
+  margin-bottom: 100px;
+}
+.footer-info .inner-div-2 {
+  padding-left: 40vw;
+  background-color: #121e2c;
+}
+.footer-info .inner-div-1 .logo-1 img {
+  margin-left: 8vw;
+  width: 6vw;
+  padding-top: 20px;
+}
+.footer-info .inner-div-1 .logo-2 img {
+  width: 7vw;
+  padding-top: 18px;
+}
 footer {
   background-color: #0d2240;
   color: #fff;
@@ -608,8 +626,6 @@ footer {
   overflow: hidden;
 }
 
-
-
 footer div div h5 {
   margin-bottom: 30px;
   font-weight: 600;
@@ -620,4 +636,49 @@ footer div div h5 {
 
 footer a {
   text-decoration: none;
+}
+
+/* Footer responsive */
+@media screen and (max-width: 680px) {
+  .footer-info li a {
+    font-size: 14px;
+  }
+  .footer-info h5 {
+    font-size: 15px;
+  }
+  .footer-info .inner-div-1 {
+    padding-left: 3vw;
+    padding-top: 2vw;
+    margin-bottom: 70px;
+  }
+  .footer-info .inner-div-2 {
+    padding-left: 28vw;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-info h5 {
+    font-size: 12px;
+  }
+  .footer-info li a {
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    margin-bottom: 50px;
+  }
+  .footer-info .inner-div-2 {
+    padding-left: 28vw;
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 .logo-1 img {
+    margin-left: 5vw;
+    width: 8vw;
+    padding-top: 40px;
+  }
+  .footer-info .inner-div-1 .logo-2 img {
+    width: 9vw;
+    padding-top: 38px;
+  }
 }
