@@ -363,7 +363,7 @@ table {
   border-radius: 15px;
   width: 200px;
   height: 40px;
-  margin-left: 180px;
+  margin-left: 8vw;
   border: none;
   color: #ffcf06;
   text-decoration: none;
@@ -394,6 +394,7 @@ table {
     margin-bottom: 20px;
     font-size: 25px;
   }
+
 }
 
 body {
