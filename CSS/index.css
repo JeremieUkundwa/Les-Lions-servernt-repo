@@ -235,6 +235,10 @@ table {
   font-size: 30px;
 }
 
+.cont .onSmallScale{
+  margin-top: 20px;
+}
+
 .cont img {
   width: 463px;
   height: 482px;
@@ -435,6 +439,19 @@ table {
     margin-left: 5px;
     color: #ffffff;
   }
+  .cont .onSmallScale{
+    margin-top: -400px;
+  }
+  .cont .onSmallScale img{
+    margin-bottom: -20vw;
+    margin-top: -150px;
+    margin-left: 15vw;
+    width: 200px;
+    height: 200px;
+  }
+  #link-mot-du-gouverneur h4{
+    margin-bottom: 250px;
+  }
   
 }
 
@@ -472,6 +489,7 @@ table {
   }
   .section-header {
     font-size: 20px;
+    line-height: 10px;
   }
   .histoire .col h5 {
     font-size: 25px;
@@ -504,6 +522,25 @@ table {
     line-height: 20px;
     margin-left: 2px;
     color: #ffffff;
+  }
+  .zone-info .col .card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+  .cont .onSmallScale{
+    margin-top: -400px;
+  }
+  .cont .onSmallScale img{
+    margin-bottom: -40px;
+    margin-top: -200px;
+    margin-left: 1.5vw;
+    width: 150px;
+    height: 150px;
+  }
+  #link-mot-du-gouverneur h4{
+    margin-bottom: 200px;
   }
 }
 body {
