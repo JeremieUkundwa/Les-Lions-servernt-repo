@@ -2279,7 +2279,40 @@ td {
     margin-top: 15vw;
   }
 }
+/* ===============Updated information on notre-history------ */
+.notre-history-Impr{
+  margin-left: 4vw;
+  padding: 20px;
+  margin-top: -3vw;
+}
+.notre-history-Impr img{
+  width: 44vw;
+  height: 35vw;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.notre-history-Impr h3{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 1vw;
+  margin-left: 30px;
+  margin-bottom: 10px;
 
+  color: #000000;
+}
+
+.notre-history-Impr p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 2vw;
+  margin-bottom: 40px;
+
+  color: #8f8f8f;
+}
 @media screen and (max-width: 1600px){
 
 }
@@ -2374,4 +2407,28 @@ td {
     padding: 10px;
     
   } */
+  .notre-history-Impr{
+    margin-top: 3vw;
+  }
+  .notre-history-Impr img{
+    width: 50vw;
+    margin-bottom: 20px;
+    margin-left: 18vw;
+  }
+  .notre-history-Impr h3{
+    font-size: 25px;
+    line-height: 2vw;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .notre-history-Impr p{
+    font-size: 2vw;
+    line-height: 2.5vw;
+    margin-bottom: 40px;
+  }
+
+
 }
+
