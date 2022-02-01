@@ -1799,7 +1799,7 @@ td {
 }
 
 .table-format td {
-  border: 1px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
 }
 
 .table-format tr:first-child td {

@@ -260,13 +260,21 @@ table {
   .cont h4 {
     font-size: 30px;
   }
+  .cont p{
+    font-size: 3vw;
+  }
+  .cont img{
+    width: 25vw;
+    height: 24vw;
+    padding-left: 30px;
+  }
 }
 
 .district-structure {
   background: #2250b2;
   margin-top: -30px;
 }
-.district-structure h2 {
+.container-table h2 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -277,43 +285,41 @@ table {
   color: #ffffff;
 }
 
-.district-structure h3 {
+.container-table h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  /* identical to box height */
-  margin-left: 27px;
   color: #ffffff;
-}
-.district-structure .item1 {
-  float: left;
-  margin-top: 100px;
 }
 .table-format {
   border-collapse: collapse;
   border: none;
 }
-table {
+.container-table .table-info{
+  background: #2250b2;
+  margin-top: -30px;
+}
+/* table {
   float: right;
   margin-right: 20vw;
   margin-top: 5vw;
-}
-td {
+} */
+.container-table td {
   text-align: center;
   font-family: Poppins;
+  padding: 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
 
   /* identical to box height */
-
   color: #ffcc00;
 }
 
 .table-format td {
-  border: 1px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
 }
 
 .table-format tr:first-child td {
@@ -354,6 +360,14 @@ td {
   text-decoration: none;
   font-weight: bold;
 }
+
+
+@media screen and (max-width: 680px) {
+  .container-table td {
+    font-size: 30px;
+  }
+}
+
 body {
   background-color: #f6f6f6;
   overflow-x: hidden;
