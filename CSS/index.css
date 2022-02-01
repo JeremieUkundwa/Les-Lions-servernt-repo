@@ -123,8 +123,8 @@ q:after {
   content: "";
   content: none;
 }
-body{
-  background-color: #E5E5E5; 
+body {
+  background-color: #e5e5e5;
 }
 table {
   border-collapse: collapse;
@@ -132,11 +132,10 @@ table {
 }
 
 @media (min-width: 1200px) {
-  .container{
-      max-width: 970px;
+  .container {
+    max-width: 970px;
   }
 }
-
 
 .zone-info {
   margin-left: 20vw;
@@ -260,10 +259,10 @@ table {
   .cont h4 {
     font-size: 30px;
   }
-  .cont p{
+  .cont p {
     font-size: 3vw;
   }
-  .cont img{
+  .cont img {
     width: 25vw;
     height: 24vw;
     padding-left: 30px;
@@ -297,7 +296,7 @@ table {
   border-collapse: collapse;
   border: none;
 }
-.container-table .table-info{
+.container-table .table-info {
   background: #2250b2;
   margin-top: -30px;
 }
@@ -361,10 +360,24 @@ table {
   font-weight: bold;
 }
 
-
 @media screen and (max-width: 680px) {
   .container-table td {
     font-size: 30px;
+  }
+  .histoire .col-md-auto img {
+    width: 17vw;
+    height: 17vw;
+    /* margin-left: -8vw; */
+  }
+  .cont p{
+    font-size: 5vw;
+    margin-left: -60px;
+  }
+  .cont a {
+    padding: 5px 15px 5px 15px;
+    margin-left: 10vw;
+    margin-bottom: 20px;
+    font-size: 25px;
   }
 }
 
@@ -372,7 +385,7 @@ body {
   background-color: #f6f6f6;
   overflow-x: hidden;
 }
-main{
+main {
   padding: 16px;
 }
 .sticky {
@@ -390,24 +403,23 @@ header {
   width: 100vw;
   height: 7vw;
 }
-nav div div .navbar-nav .nav-item .nav-link{
+nav div div .navbar-nav .nav-item .nav-link {
   font-size: 2vw;
-  color: #8f8f8f
+  color: #8f8f8f;
 }
-nav div div .navbar-nav .nav-item .nav-link:hover{
+nav div div .navbar-nav .nav-item .nav-link:hover {
   color: #ffcc00;
   background-color: #113cfc;
   border-radius: 10px;
-
 }
 html {
   scroll-behavior: smooth;
 }
-header nav{
+header nav {
   overflow: hidden;
 }
 
-footer{
+footer {
   background-color: #0d2240;
   color: #fff;
   position: static;
@@ -419,10 +431,10 @@ footer{
   overflow: hidden;
   overflow: hidden;
 }
-footer div div ul li{
+footer div div ul li {
   font-size: 10px;
 }
-footer div div h5{
+footer div div h5 {
   margin-bottom: 30px;
   font-weight: 600;
   font-size: 16px;
@@ -430,6 +442,6 @@ footer div div h5{
   font-size: 20px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
 }
