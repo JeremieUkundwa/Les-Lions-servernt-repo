@@ -272,6 +272,11 @@ table {
     height: 24vw;
     padding-left: 30px;
   }
+  .histoire .col-md-auto img {
+    width: 28vw;
+    height: 28vw;
+    /* margin-left: -8vw; */
+  }
 }
 
 .district-structure {
