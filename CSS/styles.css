@@ -133,7 +133,7 @@ body {
   background-color: #f6f6f6;
   overflow-x: hidden;
 }
-main{
+main {
   padding: 16px;
   margin-top: -52px;
 }
@@ -177,21 +177,19 @@ header {
   color: #ffcf06;
   background-color: #113cfc;
 } */
-nav div div .navbar-nav .nav-item .nav-link{
+nav div div .navbar-nav .nav-item .nav-link {
   font-size: 2vw;
-  color: #8f8f8f
+  color: #8f8f8f;
 }
-nav div div .navbar-nav .nav-item .nav-link:hover{
+nav div div .navbar-nav .nav-item .nav-link:hover {
   color: #ffcc00;
   background-color: #113cfc;
   border-radius: 10px;
-
 }
 
-header nav{
+header nav {
   overflow: hidden;
 }
-
 
 /* ============================ */
 /* Dropdown Button */
@@ -270,10 +268,10 @@ header nav{
 /* ===================HEADER CSS========================== */
 
 /* =======================Carousel-CSSS */
-.carousel-inner .carousel-item  img {
-  height:800px;
+.carousel-inner .carousel-item img {
+  height: 800px;
 }
-#carouselExampleCaptions{
+#carouselExampleCaptions {
   margin-top: -30px;
 }
 
@@ -751,7 +749,7 @@ footer div hr {
 
   color: #000000;
 }
-#histoire-grid-item1{
+#histoire-grid-item1 {
   padding: 30px;
 }
 
@@ -1033,7 +1031,7 @@ footer div hr {
 #global-couse {
   background: #e5e5e5;
 }
-.global-couses-content .disaster-section h3{
+.global-couses-content .disaster-section h3 {
   font-size: 27px;
 }
 
@@ -1063,7 +1061,7 @@ footer div hr {
   border-radius: 20px;
   border-radius: 10px;
 }
-.carousel-inner .carousel-item .carousel-caption h5{
+.carousel-inner .carousel-item .carousel-caption h5 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600px;
@@ -1907,7 +1905,7 @@ td {
 }
 
 /* District convention */
-.district-convention-submit button{
+.district-convention-submit button {
   margin-top: 30px;
   background-color: #2250b2;
   border-radius: 15px;
@@ -1920,7 +1918,6 @@ td {
   font-weight: bold;
   margin-bottom: 30px;
 }
-
 
 /* ===================HOME PAGE UPDADed====== */
 
@@ -1966,7 +1963,7 @@ td {
   border-radius: 10px;
 }
 
-.section-header{
+.section-header {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -1977,8 +1974,6 @@ td {
 
   color: #2250b2;
 }
-
-
 
 /* 
 .Mot-du-Gouverneur {
@@ -2185,7 +2180,6 @@ td {
   box-sizing: border-box;
 }
 
-
 .cont {
   border: none;
   background-color: white;
@@ -2221,15 +2215,15 @@ td {
   color: #2250b2;
 }
 
-.container-speect img{
+.container-speect img {
   width: 30vw;
   height: 40vw;
   /* margin-right: -30px; */
 }
-.container-fanion .par-edit p{
+.container-fanion .par-edit p {
   margin-left: 20px;
 }
-.container-fanion .image-edit img{
+.container-fanion .image-edit img {
   width: 35vw;
   margin-left: 10vw;
 }
@@ -2239,7 +2233,7 @@ td {
 .ma-devise-container h2{
   /* margin-bottom: -7vw; */
 /* } */
-.ma-devise-container p{
+.ma-devise-container p {
   text-align: center;
   margin-left: 30px;
   padding-bottom: 20px;
@@ -2255,7 +2249,7 @@ td {
     height: 17vw;
     /* margin-left: -8vw; */
   }
-  .container-speect .image-edit{
+  .container-speect .image-edit {
     margin-left: 25vw;
     margin-top: -20px;
   }
@@ -2264,34 +2258,34 @@ td {
     line-height: 20px;
     margin-bottom: -10vw;
   }
-  .section-header{
+  .section-header {
     font-size: 20px;
   }
 
-  .container-fanion .par-edit{
+  .container-fanion .par-edit {
     margin-top: -20vw;
   }
-  .container-fanion .image-edit img{
+  .container-fanion .image-edit img {
     width: 40vw;
     margin-left: 16vw;
   }
-  .container-fanion .image-edit{
+  .container-fanion .image-edit {
     margin-top: 15vw;
   }
 }
 /* ===============Updated information on notre-history------ */
-.notre-history-Impr{
+.notre-history-Impr {
   margin-left: 4vw;
   padding: 20px;
   margin-top: -3vw;
 }
-.notre-history-Impr img{
+.notre-history-Impr img {
   width: 44vw;
   height: 35vw;
   margin-top: -20px;
   margin-bottom: 20px;
 }
-.notre-history-Impr h3{
+.notre-history-Impr h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -2303,7 +2297,7 @@ td {
   color: #000000;
 }
 
-.notre-history-Impr p{
+.notre-history-Impr p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -2313,11 +2307,9 @@ td {
 
   color: #8f8f8f;
 }
-@media screen and (max-width: 1600px){
-
+@media screen and (max-width: 1600px) {
 }
 @media screen and (max-width: 480px) {
-
   .container-table td {
     font-size: 30px;
   }
@@ -2326,23 +2318,23 @@ td {
     height: 17vw;
     /* margin-left: -8vw; */
   }
-  .container-speect{
-    margin-left: .2vw;
+  .container-speect {
+    margin-left: 0.2vw;
     padding-bottom: 5vw;
   }
-  .container-speect .image-edit{
+  .container-speect .image-edit {
     margin-left: 17vw;
     margin-top: -20px;
   }
-  .container-speect .par-edit{
+  .container-speect .par-edit {
     margin-left: -2vw;
     padding-left: 1px;
     padding-right: -5px;
     padding-bottom: 10vw;
     margin-top: -10vw;
   }
-  .container-speect .par-edit p{
-    margin-left: .1vw;
+  .container-speect .par-edit p {
+    margin-left: 0.1vw;
     font-size: 12px;
     line-height: 14px;
   }
@@ -2350,15 +2342,15 @@ td {
     font-size: 3.5vw;
     line-height: 25px;
   }
-  .section-header{
+  .section-header {
     font-size: 20px;
   }
-  .container-fanion{
-    margin-left: .2vw;
+  .container-fanion {
+    margin-left: 0.2vw;
     padding-bottom: 20vw;
     margin-top: -40px;
   }
-  .container-fanion .par-edit{
+  .container-fanion .par-edit {
     padding-left: 2px;
     padding-right: 0;
     padding-bottom: 10vw;
@@ -2366,20 +2358,20 @@ td {
     margin-top: 50vw;
     margin-left: -3vw;
   }
-  .container-fanion .par-edit p{
+  .container-fanion .par-edit p {
     font-size: 12px;
     line-height: 14px;
     padding-left: -20px;
   }
-  .container-fanion .image-edit img{
+  .container-fanion .image-edit img {
     width: 40vw;
     margin-left: 10vw;
   }
-  .container-fanion .image-edit{
+  .container-fanion .image-edit {
     margin-top: -180vw;
   }
 
-  .ma-devise-container .par-edit{
+  .ma-devise-container .par-edit {
     margin-top: -15vw;
   }
 
@@ -2390,29 +2382,28 @@ td {
     margin-bottom: 20px;
     padding-bottom: 50px;
     line-height: 18px;
-
   }
-.notre-historie{
-  margin-top: 40px;
-}
-  .notre-history-Impr{
+  .notre-historie {
+    margin-top: 40px;
+  }
+  .notre-history-Impr {
     margin-top: 80vw;
-    margin-left: .2vw;
+    margin-left: 0.2vw;
   }
-  .notre-history-Impr img{
+  .notre-history-Impr img {
     width: 80vw;
     height: 50vw;
     margin-bottom: 20px;
   }
-  .notre-history-Impr h3{
+  .notre-history-Impr h3 {
     font-size: 25px;
     line-height: 2vw;
     margin-left: 30px;
     margin-bottom: 10px;
     text-align: center;
   }
-  
-  .notre-history-Impr p{
+
+  .notre-history-Impr p {
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 40px;
@@ -2420,6 +2411,28 @@ td {
   }
 
   /*  membre-lions-responsive*/
+  .devenir-membre-lions .log img {
+    margin-left: 40.5%;
+  }
 
+  .devenir-membre-lions .log p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+
+  .devenir-membre-lions-content {
+    margin-left: 8px;
+    margin-bottom: 30px;
+    width: 98%;
+  }
+  .devenir-membre-lions-content h3 {
+    font-size: 24px;
+  }
+  .devenir-membre-lions-content p {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
 
+/* -==== */
