@@ -2370,7 +2370,6 @@ td {
   .container-fanion .image-edit {
     margin-top: -190vw;
   }
-
   .ma-devise-container .par-edit {
     margin-top: -15vw;
   }
@@ -2412,7 +2411,8 @@ td {
 
   /*  membre-lions-responsive*/
   .devenir-membre-lions .log img {
-    margin-top: 30px;
+    width: 130px;
+    margin-top: 60px;
     margin-left: 30%;
   }
 
@@ -2430,6 +2430,7 @@ td {
   .devenir-membre-lions-content h3 {
     font-size: 20px;
     margin-top: -30px;
+    line-height: 30px;
   }
   /* .devenir-membre-lions-content p ,.devenir-membre-lions-content h3{
     margin-top: -30px;
@@ -2444,7 +2445,7 @@ td {
   /* ----------Devenir membre Leo  -------- */
   .devenir-membre-Leo .logo-leo img {
     margin-top: 20px;
-    margin-left: 23%;
+    margin-left: 20%;
   }
   .devenir-membre-Leo .logo-leo h3 {
     font-size: 20px;
