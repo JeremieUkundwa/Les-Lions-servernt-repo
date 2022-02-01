@@ -474,6 +474,16 @@ table {
     margin-top: -35vw;
     margin-bottom: 30vw;
   }
+  .intra-member-devenir h5{
+    margin-top: -44vw;
+  }
+  .intra-member-devenir h6{
+    margin-top: -32vw;
+    margin-bottom: 32vw;
+  }
+  .intra-member-devenir .col-md-auto img{
+    margin-top: 15vw;
+  }
   .histoire h6 {
     text-align: center;
   }
