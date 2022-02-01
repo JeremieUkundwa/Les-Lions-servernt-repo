@@ -412,6 +412,14 @@ table {
     font-size: 28px;
     line-height: 42px;
   }
+  .section-header {
+    font-size: 25px;
+  }
+  .histoire .col h5 {
+    font-size: 28px;
+    line-height: 25px;
+    padding-bottom: 8px;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -445,6 +453,20 @@ table {
 
     font-size: 25px;
     line-height: 40px;
+  }
+  .section-header {
+    font-size: 20px;
+  }
+  .histoire .col h5 {
+    font-size: 25px;
+    line-height: 20px;
+    padding-bottom: 5px;
+  }
+  .cont a {
+    padding: 2.5px 10px 2.5px 10px;
+    margin-left: 10vw;
+    margin-bottom: 20px;
+    font-size: 22px;
   }
 }
 body {
