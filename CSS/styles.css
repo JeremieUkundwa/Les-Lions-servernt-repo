@@ -2355,8 +2355,8 @@ td {
   }
   .container-fanion{
     margin-left: .2vw;
-    /* padding-left: -20px; */
     padding-bottom: 20vw;
+    margin-top: -40px;
   }
   .container-fanion .par-edit{
     padding-left: 2px;
@@ -2379,9 +2379,6 @@ td {
     margin-top: -180vw;
   }
 
-  .ma-devise-container{
-    
-  }
   .ma-devise-container .par-edit{
     margin-top: -15vw;
   }
