@@ -733,6 +733,7 @@ footer div hr {
   grid-column-gap: 2vw;
   grid-template-columns: 1fr 1fr;
   margin-left: 8vw;
+  padding: 30px;
 }
 .histoire-grid div img {
   width: 38vw;
@@ -750,6 +751,9 @@ footer div hr {
 
   color: #000000;
 }
+#histoire-grid-item1{
+  padding: 30px;
+}
 
 #histoire-grid-item1 p {
   width: 500px;
@@ -757,7 +761,7 @@ footer div hr {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2vw;
   line-height: 30px;
   margin-bottom: 40px;
 
@@ -2339,7 +2343,7 @@ td {
     margin-left: 10vw;
   }
   .container-fanion .image-edit{
-    margin-top: -150vw;
+    margin-top: -180vw;
   }
 
   .ma-devise-container{
@@ -2350,5 +2354,24 @@ td {
   }
 
   /* ================Notre-History------------ */
-
+  .histoire-grid div img {
+    margin-left: 20vw;
+  }
+  .notre-historie-content {
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
+  }
+  .histoire-grid div h3{
+    /* margin-left: 20vw; */
+    text-align: center;
+  }
+  /* .histoire-grid div p{
+    padding-right: 10px;
+    font-size: 10vw;
+    margin-right: 12vw;
+  }
+  .histoire-grid {
+    padding: 10px;
+    
+  } */
 }
