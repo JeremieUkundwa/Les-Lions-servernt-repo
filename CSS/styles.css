@@ -2387,16 +2387,13 @@ td {
   }
 
   /* ================Notre-History------------ */
-  .histoire-grid div img {
-    margin-left: 20vw;
-  }
   .notre-historie-content {
-    font-size: 2.5vw;
-    margin-bottom: 1vw;
-  }
-  .histoire-grid div h3{
-    /* margin-left: 20vw; */
-    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    line-height: 18px;
+
   }
   /* .histoire-grid div p{
     padding-right: 10px;
@@ -2408,12 +2405,13 @@ td {
     
   } */
   .notre-history-Impr{
-    margin-top: 3vw;
+    margin-top: 10vw;
+    margin-left: .2vw;
   }
   .notre-history-Impr img{
-    width: 50vw;
+    width: 90vw;
+    height: 50vw;
     margin-bottom: 20px;
-    margin-left: 18vw;
   }
   .notre-history-Impr h3{
     font-size: 25px;
@@ -2424,9 +2422,10 @@ td {
   }
   
   .notre-history-Impr p{
-    font-size: 2vw;
-    line-height: 2.5vw;
+    font-size: 15px;
+    line-height: 20px;
     margin-bottom: 40px;
+    padding-bottom: 30px;
   }
 
 
