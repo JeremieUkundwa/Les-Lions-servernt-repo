@@ -2412,6 +2412,7 @@ td {
 
   /*  membre-lions-responsive*/
   .devenir-membre-lions .log img {
+    margin-top: 20px;
     margin-left: 36%;
   }
 
@@ -2435,6 +2436,35 @@ td {
   }
 
   /* ---next---- */
+
+  /* ----------Devenir membre Leo  -------- */
+  .devenir-membre-Leo .logo-leo img {
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+  .devenir-membre-Leo .logo-leo h3 {
+    font-size: 20px;
+  }
+  .devenir-membre-Leo .logo-leo p {
+    margin-left: 10px;
+    font-size: 10px;
+    line-height: 12px;
+    width: 90%;
+  }
+
+  .devenir-membre-leo-content {
+    margin-left: 2px;
+    margin-bottom: 30px;
+    width: 98%;
+  }
+  .devenir-membre-leo-content h3 {
+    font-size: 15px;
+  }
+
+  .devenir-membre-leo-content p {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 
 /* -==== */
