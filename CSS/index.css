@@ -255,6 +255,8 @@ table {
   color: #000000;
 }
 
+
+
 @media screen and (max-width: 1024px) {
   .zone-info {
     margin-left: .5vw;
@@ -394,9 +396,57 @@ table {
     margin-bottom: 20px;
     font-size: 25px;
   }
+  .cont h4 {
+    font-size: 5vw;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    transform: rotate(0.26deg);
+  }
+  .zone-info .col .card p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .zone-info .col .card h5 {
 
+    font-size: 28px;
+    line-height: 42px;
+  }
 }
 
+@media screen and (max-width: 420px) {
+  .zone-info {
+    margin-left: .2vw;
+    margin-right: .2vw;
+  }
+  .container-table td {
+    font-size: 20px;
+  }
+  .histoire .col-md-auto img {
+    width: 30vw;
+    height: 30vw;
+    /* margin-left: -8vw; */
+  }
+  .cont p{
+    font-size: 5vw;
+    margin-left: -60px;
+  }
+  .cont a {
+    padding: 5px 15px 5px 15px;
+    margin-left: 10vw;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .zone-info .col .card p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .zone-info .col .card h5 {
+
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
 body {
   background-color: #f6f6f6;
   overflow-x: hidden;
