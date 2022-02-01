@@ -2429,7 +2429,11 @@ td {
   }
   .devenir-membre-lions-content h3 {
     font-size: 20px;
+    margin-top: -30px;
   }
+  /* .devenir-membre-lions-content p ,.devenir-membre-lions-content h3{
+    margin-top: -30px;
+  } */
   .devenir-membre-lions-content p {
     font-size: 10px;
     line-height: 15px;
@@ -2440,7 +2444,7 @@ td {
   /* ----------Devenir membre Leo  -------- */
   .devenir-membre-Leo .logo-leo img {
     margin-top: 20px;
-    margin-left: 25%;
+    margin-left: 23%;
   }
   .devenir-membre-Leo .logo-leo h3 {
     font-size: 20px;
@@ -2460,8 +2464,11 @@ td {
   .devenir-membre-leo-content h3 {
     font-size: 15px;
   }
-
+  .devenir-membre-leo-content p,.devenir-membre-leo-content h3{
+    margin-top: -30px;
+  }
   .devenir-membre-leo-content p {
+    margin-top: -10px;
     font-size: 10px;
     line-height: 12px;
   }
