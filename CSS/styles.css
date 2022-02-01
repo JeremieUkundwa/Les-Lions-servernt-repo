@@ -2402,11 +2402,11 @@ td {
     
   } */
   .notre-history-Impr{
-    margin-top: 10vw;
+    margin-top: 30vw;
     margin-left: .2vw;
   }
   .notre-history-Impr img{
-    width: 90vw;
+    width: 80vw;
     height: 50vw;
     margin-bottom: 20px;
   }
@@ -2419,7 +2419,7 @@ td {
   }
   
   .notre-history-Impr p{
-    font-size: 15px;
+    font-size: 12px;
     line-height: 20px;
     margin-bottom: 40px;
     padding-bottom: 30px;
