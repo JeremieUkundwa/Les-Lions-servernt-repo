@@ -655,6 +655,15 @@ footer a {
     padding-left: 28vw;
     font-size: 10px;
   }
+  .footer-info .inner-div-1 .logo-1 img {
+    margin-left: 6vw;
+    width: 7vw;
+    padding-top: 35px;
+  }
+  .footer-info .inner-div-1 .logo-2 img {
+    width: 7vw;
+    padding-top: 30px;
+  }
 }
 @media screen and (max-width: 480px) {
   .footer-info h5 {
