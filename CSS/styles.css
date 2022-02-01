@@ -2308,10 +2308,10 @@ td {
     font-size: 15px;
     line-height: 14px;
   }
-  /* .cont p {
-    font-size: 15px;
-    line-height: 20px;
-  } */
+  .cont p {
+    font-size: 3.5vw;
+    line-height: 25px;
+  }
   .section-header{
     font-size: 20px;
   }
