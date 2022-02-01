@@ -2368,7 +2368,7 @@ td {
     margin-left: 10vw;
   }
   .container-fanion .image-edit {
-    margin-top: -200vw;
+    margin-top: -190vw;
   }
 
   .ma-devise-container .par-edit {
@@ -2387,7 +2387,7 @@ td {
     margin-top: 40px;
   }
   .notre-history-Impr {
-    margin-top: 80vw;
+    margin-top: 100vw;
     margin-left: 0.2vw;
   }
   .notre-history-Impr img {
@@ -2412,19 +2412,19 @@ td {
 
   /*  membre-lions-responsive*/
   .devenir-membre-lions .log img {
-    margin-top: 20px;
-    margin-left: 36%;
+    margin-top: 30px;
+    margin-left: 30%;
   }
 
   .devenir-membre-lions .log p {
     font-size: 10px;
-    line-height: 20px;
+    line-height: 15px;
     margin-left: 10px;
   }
 
   .devenir-membre-lions-content {
     margin-left: 2px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     width: 98%;
   }
   .devenir-membre-lions-content h3 {
@@ -2432,7 +2432,7 @@ td {
   }
   .devenir-membre-lions-content p {
     font-size: 10px;
-    line-height: 20px;
+    line-height: 15px;
   }
 
   /* ---next---- */
@@ -2440,7 +2440,7 @@ td {
   /* ----------Devenir membre Leo  -------- */
   .devenir-membre-Leo .logo-leo img {
     margin-top: 20px;
-    margin-left: 35%;
+    margin-left: 25%;
   }
   .devenir-membre-Leo .logo-leo h3 {
     font-size: 20px;
@@ -2454,7 +2454,7 @@ td {
 
   .devenir-membre-leo-content {
     margin-left: 2px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     width: 98%;
   }
   .devenir-membre-leo-content h3 {
