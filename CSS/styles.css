@@ -2237,7 +2237,7 @@ td {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 480px) {
 
   .container-speect .image-edit{
     margin-left: 25vw;
