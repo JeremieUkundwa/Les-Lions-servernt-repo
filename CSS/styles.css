@@ -276,7 +276,32 @@ header nav{
 #carouselExampleCaptions{
   margin-top: -30px;
 }
-footer{
+
+.footer-info li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-info .inner-div-1 {
+  padding-left: 10vw;
+  padding-top: 2vw;
+  margin-bottom: 100px;
+}
+.footer-info .inner-div-2 {
+  padding-left: 40vw;
+  background-color: #121e2c;
+}
+.footer-info .inner-div-1 .logo-1 img {
+  margin-left: 8vw;
+  width: 6vw;
+  padding-top: 20px;
+}
+.footer-info .inner-div-1 .logo-2 img {
+  width: 7vw;
+  padding-top: 18px;
+}
+footer {
   background-color: #0d2240;
   color: #fff;
   position: static;
@@ -288,10 +313,8 @@ footer{
   overflow: hidden;
   overflow: hidden;
 }
-footer div div ul li{
-  font-size: 10px;
-}
-footer div div h5{
+
+footer div div h5 {
   margin-bottom: 30px;
   font-weight: 600;
   font-size: 16px;
@@ -299,8 +322,62 @@ footer div div h5{
   font-size: 20px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
+}
+
+/* Footer responsive */
+@media screen and (max-width: 680px) {
+  .footer-info li a {
+    font-size: 14px;
+  }
+  .footer-info h5 {
+    font-size: 15px;
+  }
+  .footer-info .inner-div-1 {
+    padding-left: 3vw;
+    padding-top: 2vw;
+    margin-bottom: 70px;
+  }
+  .footer-info .inner-div-2 {
+    padding-left: 28vw;
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 .logo-1 img {
+    margin-left: 6vw;
+    width: 7vw;
+    padding-top: 35px;
+  }
+  .footer-info .inner-div-1 .logo-2 img {
+    width: 7vw;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-info h5 {
+    font-size: 12px;
+  }
+  .footer-info li a {
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    margin-bottom: 50px;
+  }
+  .footer-info .inner-div-2 {
+    padding-left: 28vw;
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 .logo-1 img {
+    margin-left: 5vw;
+    width: 8vw;
+    padding-top: 40px;
+  }
+  .footer-info .inner-div-1 .logo-2 img {
+    width: 9vw;
+    padding-top: 38px;
+  }
 }
 
 
