@@ -261,6 +261,7 @@ table {
   }
   .cont p {
     font-size: 3vw;
+    line-height: 20px;
   }
   .cont img {
     width: 25vw;
@@ -365,12 +366,13 @@ table {
     font-size: 30px;
   }
   .histoire .col-md-auto img {
-    width: 17vw;
-    height: 17vw;
+    width: 30vw;
+    height: 30vw;
     /* margin-left: -8vw; */
   }
   .cont p{
     font-size: 5vw;
+    font-size: 20px;
     margin-left: -60px;
   }
   .cont a {
