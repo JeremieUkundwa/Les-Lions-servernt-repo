@@ -207,9 +207,10 @@ table {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 36px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-bottom: 30px;
   color: #8f8f8f;
   transform: rotate(0.02deg);
   padding-left: 50px;
@@ -231,7 +232,7 @@ table {
   border-radius: 10px;
   padding: 10px 30px 10px 30px;
   margin-left: 10vw;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 30px;
 }
 
@@ -244,11 +245,72 @@ table {
   height: 482px;
 }
 
-.histoire .col-md-auto img {
+/* ==============NOTRE-HISTORY CSS========== */
+.home-notre-history .logo-image img {
+  margin-top: 2vw;
+  /* margin-bottom: 20px; */
   width: 9vw;
   height: 9vw;
   margin-left: -8vw;
 }
+
+/* ---------------------end------------------ */
+
+/* ==============DEVENIR-MEMBRES- CSS========== */
+
+/* 1. lIONS */
+.home-devenir-member .lion img {
+  margin-top:4vw;
+  width: 9vw;
+  height: 9vw;
+  margin-left: -8vw;
+}
+
+.home-devenir-member .lion h6 {
+  padding-left: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+/*2. LEO  */
+.home-devenir-member .leo h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.home-devenir-member .leo img {
+  /* margin-top: vw; */
+  width: 9vw;
+  height: 9vw;
+  margin-left: -8vw;
+}
+/* ---------------------end------------------ */
+/* ==============NOS LEADERS CSS========== */
+.home-notre-history .logo-image img {
+  margin-top: 5vw;
+  width: 9vw;
+  height: 9vw;
+  margin-left: -8vw;
+}
+
+/* ---------------------end------------------ */
+
+/* ==============NOS-CAUSES-MONDIALES- CSS========== */
+.home-notre-history .logo-image img {
+  margin-top: 5vw;
+  width: 9vw;
+  height: 9vw;
+  margin-left: -8vw;
+}
+
+/* ---------------------end------------------ */
+
 .histoire .col h5 {
   font-family: Poppins;
   font-style: normal;
@@ -256,6 +318,7 @@ table {
   font-size: 33px;
   line-height: 42px;
   padding-bottom: 10px;
+  margin-left: 2.5vw;
   color: #000000;
 }
 .mondiales h5 {
@@ -265,6 +328,7 @@ table {
   font-size: 33px;
   line-height: 42px;
   padding-bottom: 10px;
+  margin-left: 2.5vw;
   color: #000000;
 }
 @media screen and (max-width: 1024px) {
@@ -279,7 +343,7 @@ table {
     font-size: 3vw;
     line-height: 20px;
   }
-  .cont .image-holder{
+  .cont .image-holder {
     margin-left: 12vw;
   }
   .cont img {
@@ -474,14 +538,14 @@ table {
     margin-top: -35vw;
     margin-bottom: 30vw;
   }
-  .intra-member-devenir h5{
+  .intra-member-devenir h5 {
     margin-top: -47vw;
   }
-  .intra-member-devenir h6{
+  .intra-member-devenir h6 {
     margin-top: -32vw;
     margin-bottom: 35vw;
   }
-  .intra-member-devenir .col-md-auto img{
+  .intra-member-devenir .col-md-auto img {
     margin-top: 17vw;
   }
   .histoire h6 {
@@ -589,7 +653,7 @@ table {
     height: 30px;
     margin-left: 8vw;
   }
-  .cont .image-holder{
+  .cont .image-holder {
     margin-left: 12vw;
   }
   .cont img {
@@ -621,9 +685,11 @@ header {
   height: 7vw;
 }
 nav div div .navbar-nav .nav-item .nav-link {
-  font-size: 2vw;
+  /* font-size: 2vw; */
   color: #8f8f8f;
 }
+
+
 nav div div .navbar-nav .nav-item .nav-link:hover {
   color: #ffcc00;
   background-color: #113cfc;
