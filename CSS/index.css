@@ -644,16 +644,57 @@ table {
 }
 
 @media screen and (max-width: 480px) {
+/* ===================Banner============== */
+/* mot */
+.mot {
+  width: 98vw;
+  height: 90vw;
+}
+.mot h3 {
+  font-size: 25px;
+  line-height: 30px;
+}
+.mot div blockquote {
+  font-size: 3vw;
+  line-height:4vw;
+  margin-left: 7vw;
+}
+
+.mot a {
+  font-size: 4vw;
+}
+
+/* ======================= */
+
+
+
+.carousel .carousel-inner{
+  padding-top: 25vw;
+}
+.carousel .carousel-inner img {
+  height: 300px;
+}
+
+.carousel .carousel-inner .carousel-caption h5{
+  font-size: 25px;
+}
+.carousel .carousel-inner .carousel-caption p {
+
+  font-size: 12px;
+  line-height: 20px;
+}
+
   .histoire .col-md-auto {
-    margin-left: 21vw;
+    margin-top: 10px;
+    margin-left: 18vw;
   }
   .histoire .col-md-auto img {
-    margin-top: 5vw;
+    margin-top: 10vw;
   }
   .histoire h5 {
-    text-align: center;
-    margin-top: -35vw;
-    margin-bottom: 30vw;
+    padding-left: 5vw;
+    margin-top: -38vw;
+    margin-bottom: 32vw;
   }
   .intra-member-devenir h5 {
     margin-top: -47vw;
@@ -667,6 +708,9 @@ table {
   }
   .histoire h6 {
     text-align: center;
+  }
+  .mondiales{
+    margin-left: 10px;
   }
   .mondiales h5 {
     text-align: center;
