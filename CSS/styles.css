@@ -2439,10 +2439,12 @@ td {
     font-size: 20px;
   }
   .container-fanion {
+    padding-top: -30px;
     margin-left: 0.2vw;
-    padding-bottom: 20vw;
+    padding-bottom: 10vw;
     /* margin-top: -40px; */
   }
+  
   .container-fanion .par-edit {
     width: 100vw;
     padding-left: 2px;
@@ -2458,18 +2460,21 @@ td {
     padding-left: -20px;
   }
   .container-fanion .image-edit img {
-    width: 40vw;
-    height: 30vw;
+    width: 50vw;
+    height: 65vw;
     margin-left: 10vw;
   }
   .container-fanion .image-edit {
     margin-top: -190vw;
   }
-
+  .ma-devise-container{
+    margin-top: -30px;
+  }
   .ma-devise-container .par-edit {
     width: 100vw;
     margin-left: 1vw;
     padding-right: 10vw;
+    margin-top: -50px;
   }
   .ma-devise-container .par-edit p {
     font-size: 12px;
