@@ -1666,6 +1666,10 @@ p {
 
   color: #8f8f8f;
 }
+#les-derigeants div img {
+  width: 18vw;
+  height: 22vw;
+}
 
 #les-derigeants h3 {
   text-align: left;
@@ -2445,7 +2449,7 @@ td {
     padding-bottom: 10vw;
     /* margin-top: -40px; */
   }
-  
+
   .container-fanion .par-edit {
     width: 100vw;
     padding-left: 2px;
@@ -2468,7 +2472,7 @@ td {
   .container-fanion .image-edit {
     margin-top: -190vw;
   }
-  .ma-devise-container{
+  .ma-devise-container {
     margin-top: -30px;
   }
   .ma-devise-container .par-edit {
@@ -2486,7 +2490,6 @@ td {
     margin-left: 30px;
     padding-bottom: 20px;
   }
-
 
   /* ================Notre-History------------ */
   .notre-historie-content {
@@ -2524,7 +2527,7 @@ td {
   }
 
   /*  membre-lions-responsive*/
-  .devenir-membre-lions{
+  .devenir-membre-lions {
     margin-top: 60px;
   }
   .devenir-membre-lions .log img {
@@ -2593,6 +2596,41 @@ td {
     margin-top: -10px;
     font-size: 10px;
     line-height: 12px;
+  }
+
+  /* ===============Leades Page============== */
+  #les-derigeants{
+    margin-left: 50px;
+  }
+  #les-derigeants div img {
+    width: 60vw;
+    height: 70vw;
+  }
+  #les-derigeants h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .african-cheafs .row {
+    margin-left: 6vw;
+  }
+  .african-cheafs h4 {
+   text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #000000;
+  }
+
+  .leader-page .para p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .leader-page .leaders-photo{
+    margin-top: 100px;
+  }
+  .leader-page div h1{
+    font-size: 25px;
+    margin-left: 20px;
   }
 }
 
