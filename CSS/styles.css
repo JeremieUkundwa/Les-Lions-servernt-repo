@@ -1667,6 +1667,46 @@ p {
   color: #8f8f8f;
 }
 
+#les-derigeants h3 {
+  text-align: left;
+  padding-right: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+
+  color: #000000;
+}
+.african-cheafs .row {
+  margin-left: 6vw;
+}
+.african-cheafs h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 10px;
+
+  color: #000000;
+}
+
+.leader-page .para {
+  margin-top: 30px;
+  margin-left: 5vw;
+}
+
+.leader-page .para p {
+  padding-right: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #8f8f8f;
+}
+
 .leader-page h3 {
   color: #2250b2;
   text-align: center;
@@ -2275,12 +2315,12 @@ td {
   margin-left: 10vw;
 }
 
-.ma-devise-container .par-edit{
+.ma-devise-container .par-edit {
   width: 80%;
   margin-left: 25vw;
   padding-right: 30vw;
 }
-.ma-devise-container .par-edit p{
+.ma-devise-container .par-edit p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
