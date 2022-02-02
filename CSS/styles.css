@@ -2061,25 +2061,25 @@ td {
   color: #2250b2;
 }
 .container-speect {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .container-speect .par-edit {
   width: 50vw;
   margin-left: -300px;
 }
 .container-speect .par-edit p {
-  margin-left: 20px;
+  margin-left: 4vw;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 37px;
+  font-size: 15px;
+  line-height: 1.5em;
 
   color: #8f8f8f;
 }
 .container-speect img {
-  width: 30vw;
-  height: 35vw;
+  padding-left: 10vw;
+  aspect-ratio: auto 398 / 620;
   /* margin-right: -30px; */
 }
 .container-fanion {
@@ -2090,15 +2090,15 @@ td {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
-  line-height: 33px;
+  font-size: 15px;
+  line-height: 1.5em;
 
   color: #8f8f8f;
 }
 
 .container-fanion .image-edit img {
-  width: 507px;
-  height: 697px;
+  width: 400px;
+  height: 450px;
   margin-left: 10vw;
 }
 
@@ -2111,10 +2111,10 @@ td {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
-  line-height: 33px;
+  font-size: 15px;
+  line-height: 1.5em;
   text-align: center;
-
+  overflow-wrap: break-word;
   color: #8f8f8f;
 }
 .ma-devise-container p {
@@ -2257,7 +2257,7 @@ footer .footer-col{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: #ffcd06d8;
+	background-color: #f0f0efd8;
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
