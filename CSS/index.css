@@ -136,6 +136,86 @@ table {
     max-width: 970px;
   }
 }
+/* ===============Header====================== */
+.container-fluid{
+  margin-left: 15vw;
+}
+
+.container-fluid div ul li{
+  padding-left: 2vw;
+}
+
+/* ================Mot-de-gourvernel=============== */
+.mot {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 98vw;
+  height: 40vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 2vw;
+}
+.mot h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #2250b2;
+  text-align: center;
+  padding-bottom: 8vw;
+  /* margin-bottom: 20px; */
+}
+.mot div h2 {
+  font-family: Averia Serif Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.5vw;
+  line-height: 6vw;
+  margin-left: 5vw;
+  margin-top: -4vw;
+  color: #000000;
+
+  transform: rotate(0.26deg);
+}
+.mot div blockquote {
+  width: 50vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3vw;
+  line-height: 1.8vw;
+  margin-left: 7vw;
+  color: #8f8f8f;
+  padding-bottom: 1vw;
+  margin-bottom: 1vw;
+  transform: rotate(0.02deg);
+}
+.mot div #gvr {
+  border-radius: 50vw;
+  width: 29vw;
+  height: 29vw;
+  margin-top: -9vw;
+  margin-right: 6vw;
+  float: right;
+}
+.mot .inner-btton{
+  margin-top: 1vw;
+}
+.mot a{
+  /* margin-top: 30px; */
+  text-decoration: none;
+  background: #ffcf06;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  margin-left: 10vw;
+  margin-bottom: 40px;
+  font-size: 2vw;
+}
+/* ==============END============== */
+
+
+
 
 .zone-info {
   margin-left: 20vw;
@@ -318,8 +398,11 @@ table {
   font-size: 33px;
   line-height: 42px;
   padding-bottom: 10px;
-  margin-left: 2.5vw;
+  margin-left: 45px;
   color: #000000;
+}
+.mondiales {
+  margin-left: 45px;
 }
 .mondiales h5 {
   font-family: Poppins;
@@ -328,7 +411,7 @@ table {
   font-size: 33px;
   line-height: 42px;
   padding-bottom: 10px;
-  margin-left: 2.5vw;
+  margin-left: 45px;
   color: #000000;
 }
 @media screen and (max-width: 1024px) {
@@ -358,9 +441,19 @@ table {
   }
 }
 
-.district-structure {
+/* .district-structure {
   background: #2250b2;
+  padding-left: 30vw;
   margin-top: -30px;
+} */
+
+
+.container-table .div-1{
+  margin-top: 4vw;
+}
+.container-table .div-2{
+  margin-top: 3.6vw;
+  margin-left: -20px;
 }
 .container-table h2 {
   font-family: Poppins;
@@ -377,6 +470,7 @@ table {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
+  margin-left: 27px;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
@@ -388,12 +482,9 @@ table {
 .container-table .table-info {
   background: #2250b2;
   margin-top: -30px;
+  padding-bottom: 10vw;
 }
-/* table {
-  float: right;
-  margin-right: 20vw;
-  margin-top: 5vw;
-} */
+
 .container-table td {
   text-align: center;
   font-family: Poppins;
@@ -401,8 +492,6 @@ table {
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
-
-  /* identical to box height */
   color: #ffcc00;
 }
 
@@ -430,25 +519,30 @@ table {
 }
 
 .cont form input {
+  border: none;
   width: 300px;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
-
+#contactez-nous h3{
+  margin-left: 22vw;
+}
 .cont form button {
   background-color: #2250b2;
   border-radius: 15px;
   width: 200px;
   height: 40px;
-  margin-left: 8vw;
+  margin-left: 7vw;
   border: none;
   color: #ffcf06;
   text-decoration: none;
   font-weight: bold;
 }
 .cont form textarea {
+  padding-left: 11px;
+  border: none;
   width: 300px;
 }
 
@@ -677,6 +771,7 @@ main {
 body .sticky + .content {
   padding-top: 60px;
 }
+/* ===================hEADES================= */
 header {
   background-color: #f6f6f6;
   clear: both;

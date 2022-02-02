@@ -145,12 +145,32 @@ main {
 body .sticky + .content {
   padding-top: 60px;
 }
+/* ===============Header====================== */
+.container-fluid{
+  margin-left: 15vw;
+}
+
+.container-fluid div ul li{
+  padding-left: 2vw;
+}
+
 header {
   background-color: #f6f6f6;
   clear: both;
   /* font-size: medium; */
   width: 100vw;
   height: 7vw;
+}
+nav div div .navbar-nav .nav-item .nav-link {
+  /* font-size: 2vw; */
+  color: #8f8f8f;
+}
+
+
+nav div div .navbar-nav .nav-item .nav-link:hover {
+  color: #ffcc00;
+  background-color: #113cfc;
+  border-radius: 10px;
 }
 /*header nav div a img {
   width: 7%;
@@ -177,7 +197,7 @@ header {
   color: #ffcf06;
   background-color: #113cfc;
 } */
-nav div div .navbar-nav .nav-item .nav-link {
+/* nav div div .navbar-nav .nav-item .nav-link {
   font-size: 2vw;
   color: #8f8f8f;
 }
@@ -185,13 +205,13 @@ nav div div .navbar-nav .nav-item .nav-link:hover {
   color: #ffcc00;
   background-color: #113cfc;
   border-radius: 10px;
-}
+} */
 
 header nav {
   overflow: hidden;
 }
 
-/* ============================ */
+/* ==============end============== */
 /* Dropdown Button */
 .dropbtn {
   color: #8f8f8f;
@@ -2172,13 +2192,13 @@ td {
   padding: 10px;
   margin-top: 25px;
 } */
-
+/* 
 .nav-item {
   text-align: left;
   padding: -20px;
   font-size: 1.9vw;
   box-sizing: border-box;
-}
+} */
 
 .cont {
   border: none;
