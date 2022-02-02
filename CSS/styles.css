@@ -146,11 +146,11 @@ body .sticky + .content {
   padding-top: 60px;
 }
 /* ===============Header====================== */
-.container-fluid{
+.container-fluid {
   margin-left: 15vw;
 }
 
-.container-fluid div ul li{
+.container-fluid div ul li {
   padding-left: 2vw;
 }
 
@@ -165,7 +165,6 @@ nav div div .navbar-nav .nav-item .nav-link {
   /* font-size: 2vw; */
   color: #8f8f8f;
 }
-
 
 nav div div .navbar-nav .nav-item .nav-link:hover {
   color: #ffcc00;
@@ -2234,25 +2233,63 @@ td {
   text-align: center;
   color: #2250b2;
 }
+.container-speect {
+  margin-left: 10px;
+}
+.container-speect .par-edit {
+  width: 50vw;
+  margin-left: -300px;
+}
+.container-speect .par-edit p {
+  margin-left: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
 
+  color: #8f8f8f;
+}
 .container-speect img {
   width: 30vw;
-  height: 40vw;
+  height: 35vw;
   /* margin-right: -30px; */
 }
-.container-fanion .par-edit p {
-  margin-left: 20px;
+.container-fanion {
+  margin-left: 4vw;
 }
+.container-fanion .par-edit p {
+  margin-left: 3vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #8f8f8f;
+}
+
 .container-fanion .image-edit img {
-  width: 35vw;
+  width: 507px;
+  height: 697px;
   margin-left: 10vw;
 }
-/* .ma-devise-container{
-  margin-top: 30px;
+
+.ma-devise-container .par-edit{
+  width: 80%;
+  margin-left: 25vw;
+  padding-right: 30vw;
 }
-.ma-devise-container h2{
-  /* margin-bottom: -7vw; */
-/* } */
+.ma-devise-container .par-edit p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #8f8f8f;
+}
 .ma-devise-container p {
   text-align: center;
   margin-left: 30px;
@@ -2300,20 +2337,16 @@ td {
   margin-top: -3vw;
 }
 .notre-history-Impr img {
-  width: 44vw;
-  height: 35vw;
-  margin-top: -20px;
+  width: 620px;
+  height: 433px;
   margin-bottom: 20px;
 }
 .notre-history-Impr h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 2vw;
-  line-height: 1vw;
-  margin-left: 30px;
-  margin-bottom: 10px;
-
+  font-size: 30px;
+  line-height: 47px;
   color: #000000;
 }
 
@@ -2321,9 +2354,8 @@ td {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 2vw;
-  line-height: 2vw;
-  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 30px;
 
   color: #8f8f8f;
 }
@@ -2485,7 +2517,8 @@ td {
   .devenir-membre-leo-content h3 {
     font-size: 15px;
   }
-  .devenir-membre-leo-content p,.devenir-membre-leo-content h3{
+  .devenir-membre-leo-content p,
+  .devenir-membre-leo-content h3 {
     margin-top: -30px;
   }
   .devenir-membre-leo-content p {
