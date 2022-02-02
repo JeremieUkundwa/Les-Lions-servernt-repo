@@ -967,10 +967,14 @@ footer .footer-col {
   color: #ffcd06d8;
   background-color: #0d2240;
 }
+.footer .copyright hr{
+  width: 50%;
+  margin-left: 25vw;
+}
 .footer .copyright {
   color: white;
   padding-top: 40px;
-  margin: 10px 650px;
+  /* margin: 10px 650px; */
   background-color: #0d2240;
   padding-top: 50px;
   font-weight: 300;

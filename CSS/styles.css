@@ -1475,10 +1475,16 @@ p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
-  line-height: 42px;
+  font-size: 18px;
+  line-height: 10px;
 
   color: #000000;
+}
+#les-derigeants div p{
+  padding-top: 10px;
+  font-size: 16px;
+  margin-top: -60px;
+  width: 250px;
 }
 .african-cheafs .row {
   margin-left: 6vw;
@@ -1497,14 +1503,18 @@ p {
   margin-top: 30px;
   margin-left: 5vw;
 }
-
+.leader-page .para{
+  width: 80%;
+  height: 60px;
+}
 .leader-page .para p {
-  padding-right: 100px;
+  /* padding-right: 100px; */
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  line-height: 1.5em;
 
   color: #8f8f8f;
 }
@@ -1542,10 +1552,13 @@ p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 42px;
 
   color: #000000;
+}
+.leader-page p{
+  font-size: 16px;
 }
 
 .leader-page .african-leaders {
@@ -1579,8 +1592,8 @@ p {
   margin-left: 90px;
 }
 .leader-page .round-pic {
-  width: 200px;
-  height: 200px;
+  width: 132px;
+  height: 132px;
   border-radius: 50%;
   border: 2px solid black;
 }
@@ -2316,6 +2329,20 @@ footer .footer-col{
 	color: #C4C4C4;
 	text-align: center;
 }
+.footer .copyright hr{
+  width: 50%;
+  margin-left: 25vw;
+}
+.footer .copyright {
+  color: white;
+  padding-top: 40px;
+  /* margin: 10px 650px; */
+  background-color: #0d2240;
+  padding-top: 50px;
+  font-weight: 300;
+  color: #c4c4c4;
+  text-align: center;
+}
 /*responsive*/
 @media(max-width: 767px){
  footer .footer-col{
@@ -2542,7 +2569,8 @@ footer .footer .copyright{
     line-height: 20px;
   }
   .african-cheafs .row {
-    margin-left: 6vw;
+    margin-left: 10vw;
+    width: 80%;
   }
   .african-cheafs h4 {
    text-align: center;
