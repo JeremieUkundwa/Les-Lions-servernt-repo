@@ -2319,20 +2319,6 @@ footer .footer-col{
 	color: #ffcd06d8;
 	background-color: #0D2240;
 }
-.footer .copyright{
-	color: white;
-	padding-top: 40px;
-	margin: 10px 650px;
-	background-color: #0D2240;
-	padding-top: 50px;
-	font-weight: 300;
-	color: #C4C4C4;
-	text-align: center;
-}
-.footer .copyright hr{
-  width: 50%;
-  margin-left: 25vw;
-}
 .footer .copyright {
   color: white;
   padding-top: 40px;
@@ -2343,6 +2329,11 @@ footer .footer-col{
   color: #c4c4c4;
   text-align: center;
 }
+.footer .copyright hr{
+  width: 50%;
+  margin-left: 25vw;
+}
+
 /*responsive*/
 @media(max-width: 767px){
  footer .footer-col{
