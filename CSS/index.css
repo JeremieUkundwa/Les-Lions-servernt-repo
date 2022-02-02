@@ -146,7 +146,7 @@ table {
 }
 /* ===================Banner============== */
 .carousel .carousel-inner img {
-  height: 700px;
+  height: 650px;
 }
 .carousel .carousel-inner .carousel-caption {
   vertical-align: middle;
@@ -176,7 +176,8 @@ table {
   background: #ffffff;
   border-radius: 12px;
   width: 98vw;
-  height: 40vw;
+  height: 30vw;
+  padding: 10px 30px 10px 30px;
   margin-left: 1vw;
   margin-right: 1vw;
   margin-top: 2vw;
@@ -192,24 +193,29 @@ table {
   padding-bottom: 8vw;
   /* margin-bottom: 20px; */
 }
+.mot .block-mot {
+  padding-left: 6vw;
+}
 .mot div h2 {
   font-family: Averia Serif Libre;
   font-style: normal;
   font-weight: normal;
-  font-size: 3.5vw;
+  font-size: 2vw;
   line-height: 6vw;
   margin-left: 5vw;
   margin-top: -4vw;
   color: #000000;
-
+  overflow-wrap: break-word;
   transform: rotate(0.26deg);
 }
 .mot div blockquote {
   width: 50vw;
+  overflow-wrap: break-word;
+  text-align: left;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.3vw;
+  font-size: 1vw;
   line-height: 1.8vw;
   margin-left: 7vw;
   color: #8f8f8f;
@@ -219,24 +225,24 @@ table {
 }
 .mot div #gvr {
   border-radius: 50vw;
-  width: 29vw;
-  height: 29vw;
-  margin-top: -9vw;
-  margin-right: 6vw;
+  width: 20vw;
+  height: 20vw;
+  margin-top: -5vw;
+  margin-right: 12vw;
   float: right;
 }
-.mot .inner-btton {
-  margin-top: 1vw;
-}
+/* .mot .inner-btton {
+  margin-top: 10px;
+/* } */
 .mot a {
   /* margin-top: 30px; */
   text-decoration: none;
   background: #ffcf06;
   border-radius: 10px;
-  padding: 10px 30px 10px 30px;
-  margin-left: 10vw;
-  margin-bottom: 40px;
-  font-size: 2vw;
+  padding: 10px 20px 10px 20px;
+  margin-left: 30px;
+  /* margin-bottom: 40px; */
+  font-size: 14px;
 }
 /* ==============END============== */
 
@@ -271,9 +277,9 @@ table {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-
+  font-size: 15px;
+  line-height: 20px;
+  overflow-wrap: break-word;
   color: #8f8f8f;
 }
 .zone-info .card {
@@ -305,18 +311,24 @@ table {
   padding: 20px 30px 20px 10vw;
   margin-bottom: 30px;
 }
-
+#nous-decouvrir h3 {
+  font-size: 32px;
+}
+/* .cont .par-edit{
+  padding-right: 40px;
+} */
 .cont p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-
+  overflow-wrap: break-word;
+  font-size: 15px;
+  line-height: 20px;
   margin-bottom: 30px;
   color: #8f8f8f;
   transform: rotate(0.02deg);
   padding-left: 50px;
+  padding-right: 100px;
 }
 
 .cont h4 {
@@ -333,10 +345,10 @@ table {
   text-decoration: none;
   background: #ffcf06;
   border-radius: 10px;
-  padding: 10px 30px 10px 30px;
-  margin-left: 10vw;
-  margin-bottom: 40px;
-  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 30px;
+  /* margin-bottom: 40px; */
+  font-size: 14px;
 }
 
 .cont .onSmallScale {
@@ -350,11 +362,11 @@ table {
 
 /* ==============NOTRE-HISTORY CSS========== */
 .home-notre-history .logo-image img {
-  margin-top: 2vw;
+  /* margin-top: 2vw;
   /* margin-bottom: 20px; */
-  width: 9vw;
-  height: 9vw;
-  margin-left: -8vw;
+  /* width: 6vw;
+  height: 6vw;
+  margin-left: -8vw; */
 }
 
 /* ---------------------end------------------ */
@@ -364,9 +376,9 @@ table {
 /* 1. lIONS */
 .home-devenir-member .lion img {
   margin-top: 4vw;
-  width: 9vw;
-  height: 9vw;
-  margin-left: -8vw;
+  width: 6vw;
+  height: 7vw;
+  margin-left: -5vw;
 }
 
 .home-devenir-member .lion h6 {
@@ -388,28 +400,27 @@ table {
   color: #000000;
 }
 .home-devenir-member .leo img {
-  /* margin-top: vw; */
   width: 9vw;
   height: 9vw;
+  padding-right: -40px;
+  padding-right: -30px;
   margin-left: -8vw;
 }
 /* ---------------------end------------------ */
 /* ==============NOS LEADERS CSS========== */
 .home-notre-history .logo-image img {
-  margin-top: 5vw;
-  width: 9vw;
-  height: 9vw;
-  margin-left: -8vw;
+  width: 6vw;
+  height: 7vw;
+  margin-left: -5vw;
 }
 
 /* ---------------------end------------------ */
 
 /* ==============NOS-CAUSES-MONDIALES- CSS========== */
 .home-notre-history .logo-image img {
-  margin-top: 5vw;
-  width: 9vw;
-  height: 9vw;
-  margin-left: -8vw;
+  width: 6vw;
+  height: 7vw;
+  margin-left: -5vw;
 }
 
 /* ---------------------end------------------ */
@@ -469,31 +480,31 @@ table {
   padding-left: 30vw;
   margin-top: -30px;
 } */
-
 .container-table .div-1 {
-  margin-top: 4vw;
+  margin-top: 8vw;
+  padding-left: 10vw;
 }
 .container-table .div-2 {
-  margin-top: 3.6vw;
+  margin-top: 6vw;
   margin-left: -20px;
 }
 .container-table h2 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 36px;
   line-height: 75px;
   /* identical to box height */
   margin-left: 27px;
   color: #ffffff;
 }
 
-.container-table h3 {
+.container-table .div-1 p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   margin-left: 27px;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
   color: #ffffff;
 }
@@ -504,7 +515,7 @@ table {
 .container-table .table-info {
   background: #2250b2;
   margin-top: -30px;
-  padding-bottom: 10vw;
+  padding-bottom: 5vw;
 }
 
 .container-table td {
@@ -513,7 +524,7 @@ table {
   padding: 20px;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 36px;
   color: #ffcc00;
 }
 
@@ -541,6 +552,7 @@ table {
 }
 
 .cont form input {
+  background: rgb(208, 208, 208);
   border: none;
   width: 300px;
   border-radius: 10px;
@@ -549,7 +561,8 @@ table {
   margin-left: 10px;
 }
 #contactez-nous h3 {
-  margin-left: 22vw;
+  margin-left: 29vw;
+  font-size: 36px;
 }
 .cont form button {
   background-color: #2250b2;
