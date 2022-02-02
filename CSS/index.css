@@ -686,14 +686,15 @@ table {
 
 /* ==============NOTRE-HISTORY CSS========== */
 .histoire .col-md-auto {
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 18vw;
   }
   .histoire .col-md-auto img {
-    margin-top: 10vw;
+    margin-top: 15vw;
   }
   .histoire h5 {
     /* padding-left: 1vw; */
+    text-align: center;
     margin-top: -38vw;
     margin-bottom: 32vw;
     font-size: 20px;
