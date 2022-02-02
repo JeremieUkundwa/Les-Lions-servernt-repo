@@ -137,14 +137,41 @@ table {
   }
 }
 /* ===============Header====================== */
-.container-fluid{
+.container-fluid {
   margin-left: 15vw;
 }
 
-.container-fluid div ul li{
+.container-fluid div ul li {
   padding-left: 2vw;
 }
+/* ===================Banner============== */
+.carousel .carousel-inner img {
+  height: 700px;
+}
+.carousel .carousel-inner .carousel-caption{
+  vertical-align: middle;
+  display: table-cell;
+}
+.carousel .carousel-inner .carousel-caption h5 {
+  margin-top: -18vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 100px;
 
+  color: #ffffff;
+}
+.carousel .carousel-inner .carousel-caption p {
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  
+  color: #FFFFFF;
+}
 /* ================Mot-de-gourvernel=============== */
 .mot {
   background: #ffffff;
@@ -199,10 +226,10 @@ table {
   margin-right: 6vw;
   float: right;
 }
-.mot .inner-btton{
+.mot .inner-btton {
   margin-top: 1vw;
 }
-.mot a{
+.mot a {
   /* margin-top: 30px; */
   text-decoration: none;
   background: #ffcf06;
@@ -213,9 +240,6 @@ table {
   font-size: 2vw;
 }
 /* ==============END============== */
-
-
-
 
 .zone-info {
   margin-left: 20vw;
@@ -340,7 +364,7 @@ table {
 
 /* 1. lIONS */
 .home-devenir-member .lion img {
-  margin-top:4vw;
+  margin-top: 4vw;
   width: 9vw;
   height: 9vw;
   margin-left: -8vw;
@@ -447,11 +471,10 @@ table {
   margin-top: -30px;
 } */
 
-
-.container-table .div-1{
+.container-table .div-1 {
   margin-top: 4vw;
 }
-.container-table .div-2{
+.container-table .div-2 {
   margin-top: 3.6vw;
   margin-left: -20px;
 }
@@ -526,7 +549,7 @@ table {
   margin-bottom: 10px;
   margin-left: 10px;
 }
-#contactez-nous h3{
+#contactez-nous h3 {
   margin-left: 22vw;
 }
 .cont form button {
@@ -784,7 +807,6 @@ nav div div .navbar-nav .nav-item .nav-link {
   /* font-size: 2vw; */
   color: #8f8f8f;
 }
-
 
 nav div div .navbar-nav .nav-item .nav-link:hover {
   color: #ffcc00;
