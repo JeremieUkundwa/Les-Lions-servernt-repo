@@ -762,6 +762,7 @@ body {
 }
 main {
   padding: 16px;
+  margin-top: -110px;
 }
 .sticky {
   position: fixed;
