@@ -148,7 +148,7 @@ table {
 .carousel .carousel-inner img {
   height: 700px;
 }
-.carousel .carousel-inner .carousel-caption {
+.carousel .carousel-inner .carousel-caption{
   vertical-align: middle;
   display: table-cell;
 }
@@ -163,13 +163,14 @@ table {
   color: #ffffff;
 }
 .carousel .carousel-inner .carousel-caption p {
+
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 30px;
-
-  color: #ffffff;
+  
+  color: #FFFFFF;
 }
 /* ================Mot-de-gourvernel=============== */
 .mot {
@@ -643,47 +644,48 @@ table {
 }
 
 @media screen and (max-width: 480px) {
-  /* ===================Banner============== */
-  /* mot */
-  .mot {
-    width: 98vw;
-    height: 90vw;
-  }
-  .mot h3 {
-    font-size: 25px;
-    line-height: 30px;
-  }
-  .mot div blockquote {
-    font-size: 3vw;
-    line-height: 4vw;
-    margin-left: 7vw;
-  }
+/* ===================Banner============== */
+/* mot */
+.mot {
+  width: 98vw;
+  height: 90vw;
+}
+.mot h3 {
+  font-size: 25px;
+  line-height: 30px;
+}
+.mot div blockquote {
+  font-size: 3vw;
+  line-height:4vw;
+  margin-left: 7vw;
+}
 
-  .mot a {
-    font-size: 4vw;
-  }
+.mot a {
+  font-size: 4vw;
+}
 
-  /* ======================= */
+/* ======================= */
 
-  .carousel {
-    margin-top: 150px;
-  }
+.carousel{
+  margin-top: 150px;
+}
 
-  .carousel .carousel-inner img {
-    height: 200px;
-  }
+.carousel .carousel-inner img {
+  height: 200px;
+}
 
-  .carousel .carousel-inner .carousel-caption h5 {
-    font-size: 23px;
-    line-height: 30px;
-  }
-  .carousel .carousel-inner .carousel-caption p {
-    font-size: 10px;
-    line-height: 15px;
-  }
+.carousel .carousel-inner .carousel-caption h5{
+  font-size: 23px;
+  line-height: 30px;
+}
+.carousel .carousel-inner .carousel-caption p {
+  font-size: 10px;
+  line-height: 15px;
+}
 
-  /* ==============NOTRE-HISTORY CSS========== */
-  .histoire .col-md-auto {
+
+/* ==============NOTRE-HISTORY CSS========== */
+.histoire .col-md-auto {
     margin-top: 12px;
     margin-left: 18vw;
   }
@@ -718,7 +720,7 @@ table {
   .histoire h6 {
     text-align: center;
   }
-  .mondiales {
+  .mondiales{
     margin-left: 10px;
   }
   .mondiales h5 {
@@ -873,111 +875,109 @@ html {
 header nav {
   overflow: hidden;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-footer body {
-  line-height: 1.5;
-  font-family: "Poppins", sans-serif;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-footer .container {
-  max-width: 1440px;
-  margin: auto;
-}
-footer .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 60px;
-}
-footer ul {
-  list-style: none;
-}
-.footer {
-  background-color: #0d2240;
-  padding: 70px 0;
-}
-footer .footer-col {
-  width: 16%;
-  padding: 0 15px;
-}
-.footer-col h4 {
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
-  position: relative;
-}
-.footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #ffcf06;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-}
-.footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
-.footer-col ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
+
+.footer-info li a {
+  color: #fff;
   text-decoration: none;
-  font-weight: 300;
-  color: #c4c4c4;
+  font-size: 18px;
+}
+
+.footer-info .inner-div-1 {
+  padding-left: 10vw;
+  padding-top: 2vw;
+  margin-bottom: 100px;
+}
+.footer-info .inner-div-2 {
+  padding-left: 40vw;
+  background-color: #121e2c;
+}
+.footer-info .inner-div-1 .logo-1 img {
+  margin-left: 8vw;
+  width: 6vw;
+  padding-top: 20px;
+}
+.footer-info .inner-div-1 .logo-2 img {
+  width: 7vw;
+  padding-top: 18px;
+}
+footer {
+  background-color: #0d2240;
+  color: #fff;
+  position: static;
+  width: 100%;
+  left: 0px;
   display: block;
-  transition: all 0.3s ease;
+  clear: both;
+  padding-top: 2vw;
+  overflow: hidden;
+  overflow: hidden;
 }
-.footer-col ul li a:hover {
-  color: #ffcf06;
-  padding-left: 8px;
+
+footer div div h5 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6c819e;
+  font-size: 20px;
 }
-.footer-col .social-links a {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: #ffcd06d8;
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #0d2240;
-  transition: all 0.5s ease;
+
+footer a {
+  text-decoration: none;
 }
-.footer-col .social-links a:hover {
-  color: #ffcd06d8;
-  background-color: #0d2240;
-}
-.footer .copyright {
-  color: white;
-  padding-top: 40px;
-  margin: 10px 650px;
-  background-color: #0d2240;
-  padding-top: 50px;
-  font-weight: 300;
-  color: #c4c4c4;
-  text-align: center;
-}
-/*responsive*/
-@media (max-width: 767px) {
-  footer .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
+
+/* Footer responsive */
+@media screen and (max-width: 680px) {
+  .footer-info li a {
+    font-size: 14px;
+  }
+  .footer-info h5 {
+    font-size: 15px;
+  }
+  .footer-info .inner-div-1 {
+    padding-left: 3vw;
+    padding-top: 2vw;
+    margin-bottom: 70px;
+  }
+  .footer-info .inner-div-2 {
+    padding-left: 28vw;
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 .logo-1 img {
+    margin-left: 6vw;
+    width: 7vw;
+    padding-top: 35px;
+  }
+  .footer-info .inner-div-1 .logo-2 img {
+    width: 7vw;
+    padding-top: 30px;
   }
 }
-@media (max-width: 574px) {
-  footer .footer-col {
-    width: 100%;
+@media screen and (max-width: 485px) {
+  .footer-info li a {
+    font-size: 8px;
   }
-  footer .footer .copyright {
-    margin-left: 10px;
-    width: 100%;
-    text-align: center;
+  .footer-info h5 {
+    font-size: 15px;
+  }
+  .footer-info .inner-div-1 {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    margin-bottom: 50px;
+  }
+  .footer-info .inner-div-2 {
+    padding-left: 28vw;
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 .logo-1 img {
+    margin-left: 5vw;
+    width: 8vw;
+    padding-top: 40px;
+  }
+  .footer-info .inner-div-1 .logo-2 img {
+    width: 9vw;
+    padding-top: 38px;
+  }
+  .footer-info .inner-div-1 .logo-2 p {
+    font-size: 5px;
   }
 }

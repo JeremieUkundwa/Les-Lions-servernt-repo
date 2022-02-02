@@ -294,6 +294,223 @@ header nav {
   margin-top: -30px;
 }
 
+.footer-info li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-info .inner-div-1 {
+  padding-left: 10vw;
+  padding-top: 2vw;
+  margin-bottom: 100px;
+}
+.footer-info .inner-div-2 {
+  padding-left: 40vw;
+  background-color: #121e2c;
+}
+.footer-info .inner-div-1 .logo-1 img {
+  margin-left: 8vw;
+  width: 6vw;
+  padding-top: 20px;
+}
+.footer-info .inner-div-1 .logo-2 img {
+  width: 7vw;
+  padding-top: 18px;
+}
+footer {
+  background-color: #0d2240;
+  color: #fff;
+  position: static;
+  width: 100%;
+  left: 0px;
+  display: block;
+  clear: both;
+  padding-top: 2vw;
+  overflow: hidden;
+  overflow: hidden;
+}
+
+footer div div h5 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6c819e;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* Footer responsive */
+
+/* Footer responsive */
+@media screen and (max-width: 680px) {
+  .footer-info li a {
+    font-size: 14px;
+  }
+  .footer-info h5 {
+    font-size: 15px;
+  }
+  .footer-info .inner-div-1 {
+    padding-left: 3vw;
+    padding-top: 2vw;
+    margin-bottom: 70px;
+  }
+  .footer-info .inner-div-2 {
+    padding-left: 28vw;
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 .logo-1 img {
+    margin-left: 6vw;
+    width: 7vw;
+    padding-top: 35px;
+  }
+  .footer-info .inner-div-1 .logo-2 img {
+    width: 7vw;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer div div h5 {
+    font-size: 10px;
+  }
+  .footer-info li a {
+    font-size: 8px;
+  }
+  .footer-info h5 {
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    margin-bottom: 50px;
+  }
+  .footer-info .inner-div-2 {
+    padding-left: 28vw;
+    font-size: 10px;
+  }
+  .footer-info .inner-div-1 .logo-1 img {
+    margin-left: 5vw;
+    width: 8vw;
+    padding-top: 40px;
+  }
+  .footer-info .inner-div-1 .logo-2 img {
+    width: 9vw;
+    padding-top: 38px;
+  }
+  .footer-info .inner-div-1 .logo-2 p {
+    font-size: 5px;
+  }
+}
+
+/* Footer styles */
+/*
+footer {
+  bottom: 0;
+  background-color: #0d2240;
+  color: #fff;
+  position: static;
+  width: 100%;
+  left: 0px;
+  display: block;
+  clear: both;
+  padding-top: 50px;
+  overflow: hidden;
+}
+footer div ul li a {
+  color: #fff;
+  text-decoration: none;
+  /* margin-bottom: -10px;
+
+}
+footer div ul {
+  list-style: none;
+}
+footer h3 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6c819e;
+}
+.footer-class {
+  padding-top: 30px;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10vw;
+  padding-bottom: 50px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+footer div hr {
+  margin-left: 3.5vw;
+  margin-top: 10px;
+  width: 90%;
+}
+.copyright-section {
+  text-align: center;
+  background-color: #121e2c;
+  padding-bottom: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.copyright-section p {
+  padding-top: 20px;
+}
+
+.footer-logo {
+  text-align: center;
+  margin-top: 12%;
+}
+.leo-logo {
+  margin-top: 10%;
+}
+.footer-class div a img {
+  width: 120px;
+}*/
+/* -------------Responsive design------------- */
+/* Header */
+/* @media screen and (max-width: 1008px) {
+  footer {
+    padding-top: 20px;
+  }
+  footer h3 {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .footer-class {
+    padding-bottom: 50px;
+  }
+  .copyright-section {
+    padding-bottom: 15px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  footer div li {
+    font-size: 10px;
+  }
+  footer hr {
+    width: 90%;
+  }
+  .footer-class div a img {
+    width: 80px;
+  }
+  .footer-logo {
+    margin-top: 20%;
+  }
+  .leo-logo {
+    margin-top: 15%;
+  }
+} */
+
 /* =================mot-Du-Gouverneur=================== */
 .speech {
   background: #ffffff;
@@ -2186,117 +2403,6 @@ td {
 
   color: #8f8f8f;
 }
-
-/* ================footer */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-footer body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
-footer .container{
-	max-width: 1440px;
-	margin:auto;
-}
-footer .row{
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: 60px;
-}
-footer ul{
-	list-style: none;
-}
-.footer{
-	background-color: #0D2240;
-    padding: 70px 0;
-}
-footer .footer-col{
-   width: 16%;
-   padding: 0 15px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #FFCF06;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #C4C4C4;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #FFCF06;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: #ffcd06d8;
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #0D2240;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: #ffcd06d8;
-	background-color: #0D2240;
-}
-.footer .copyright{
-	color: white;
-	padding-top: 40px;
-	margin: 10px 650px;
-	background-color: #0D2240;
-	padding-top: 50px;
-	font-weight: 300;
-	color: #C4C4C4;
-	text-align: center;
-}
-/*responsive*/
-@media(max-width: 767px){
- footer .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
- footer .footer-col{
-    width: 100%;
-}
-footer .footer .copyright{
-	margin-left: 10px;
-	width: 100%;
-	text-align: center;
-}
-}
-
 @media screen and (max-width: 1600px) {
 }
 @media screen and (max-width: 480px) {
