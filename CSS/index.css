@@ -669,14 +669,15 @@ table {
 
 
 .carousel .carousel-inner{
-  padding-top: 25vw;
+  padding-top: 20vw;
 }
 .carousel .carousel-inner img {
-  height: 300px;
+  height: 200px;
 }
 
 .carousel .carousel-inner .carousel-caption h5{
   font-size: 25px;
+  line-height: 40px;
 }
 .carousel .carousel-inner .carousel-caption p {
 
@@ -692,16 +693,16 @@ table {
     margin-top: 10vw;
   }
   .histoire h5 {
-    padding-left: 5vw;
+    padding-left: 1vw;
     margin-top: -38vw;
     margin-bottom: 32vw;
   }
   .intra-member-devenir h5 {
-    margin-top: -47vw;
+    margin-top: -48vw;
   }
   .intra-member-devenir h6 {
-    margin-top: -32vw;
-    margin-bottom: 35vw;
+    margin-top: -35vw;
+    margin-bottom: 38vw;
   }
   .intra-member-devenir .col-md-auto img {
     margin-top: 17vw;
@@ -713,7 +714,7 @@ table {
     margin-left: 10px;
   }
   .mondiales h5 {
-    text-align: center;
+    /* text-align: center; */
   }
   .histoire p {
     text-align: left;
