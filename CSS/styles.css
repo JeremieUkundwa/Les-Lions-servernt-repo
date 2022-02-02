@@ -2419,6 +2419,7 @@ td {
     margin-top: -20px;
   }
   .container-speect .par-edit {
+    width: 100vw;
     margin-left: -2vw;
     padding-left: 1px;
     padding-right: -5px;
@@ -2440,9 +2441,10 @@ td {
   .container-fanion {
     margin-left: 0.2vw;
     padding-bottom: 20vw;
-    margin-top: -40px;
+    /* margin-top: -40px; */
   }
   .container-fanion .par-edit {
+    width: 100vw;
     padding-left: 2px;
     padding-right: 0;
     padding-bottom: 10vw;
@@ -2457,14 +2459,28 @@ td {
   }
   .container-fanion .image-edit img {
     width: 40vw;
+    height: 30vw;
     margin-left: 10vw;
   }
   .container-fanion .image-edit {
     margin-top: -190vw;
   }
+
   .ma-devise-container .par-edit {
-    margin-top: -15vw;
+    width: 100vw;
+    margin-left: 1vw;
+    padding-right: 10vw;
   }
+  .ma-devise-container .par-edit p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .ma-devise-container p {
+    text-align: center;
+    margin-left: 30px;
+    padding-bottom: 20px;
+  }
+
 
   /* ================Notre-History------------ */
   .notre-historie-content {
