@@ -131,9 +131,6 @@ table {
   border-spacing: 0;
 }
 
-
-
-
 @media (min-width: 1200px) {
   .container {
     max-width: 970px;
@@ -179,11 +176,11 @@ table {
 .mot {
   background: #ffffff;
   border-radius: 12px;
-  width: 98vw;
+  width: 93vw;
   height: 30vw;
   padding: 10px 30px 10px 30px;
   margin-left: 3vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   margin-top: 2vw;
 }
 .mot h3 {
@@ -231,8 +228,8 @@ table {
   border-radius: 50vw;
   width: 20vw;
   height: 20vw;
-  margin-top: -5vw;
-  margin-right: 12vw;
+  margin-top: -7vw;
+  margin-right: 5vw;
   float: right;
 }
 /* .mot .inner-btton {
@@ -365,7 +362,7 @@ table {
 }
 
 /* ==============NOTRE-HISTORY CSS========== */
-.div-margin{
+.div-margin {
   margin-left: -35px;
 }
 
@@ -555,14 +552,14 @@ table {
 .cont form input {
   background: rgb(247 247 247);
   border: none;
-  width: 300px;
+  width: 524px;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
 #contactez-nous h3 {
-  margin-left: 29vw;
+  margin-left: 36vw;
   font-size: 36px;
 }
 .cont form button {
@@ -570,7 +567,7 @@ table {
   border-radius: 15px;
   width: 200px;
   height: 40px;
-  margin-left: 7vw;
+  margin-left: 12vw;
   border: none;
   color: #ffcf06;
   text-decoration: none;
@@ -579,7 +576,7 @@ table {
 .cont form textarea {
   padding-left: 11px;
   border: none;
-  width: 300px;
+  width: 524px;
 }
 
 @media screen and (max-width: 680px) {
@@ -875,7 +872,7 @@ nav div div .navbar-nav .nav-item .nav-link {
   /* font-size: 2vw; */
   color: #8f8f8f;
 }
-nav div div .navbar-nav .nav-item ul .dropdown-menu .show{
+nav div div .navbar-nav .nav-item ul .dropdown-menu .show {
   width: 20px;
 }
 nav div div .navbar-nav .nav-item .nav-link:hover {
@@ -970,7 +967,7 @@ footer .footer-col {
   color: #ffcd06d8;
   background-color: #0d2240;
 }
-.footer .copyright hr{
+.footer .copyright hr {
   width: 50%;
   margin-left: 25vw;
 }
