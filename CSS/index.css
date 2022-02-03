@@ -142,6 +142,7 @@ table {
 /* ===============Header====================== */
 .container-fluid {
   margin-left: 15vw;
+  margin-bottom: 30px;
 }
 
 .container-fluid div ul li {
@@ -181,7 +182,7 @@ table {
   width: 98vw;
   height: 30vw;
   padding: 10px 30px 10px 30px;
-  margin-left: 1vw;
+  margin-left: 3vw;
   margin-right: 1vw;
   margin-top: 2vw;
 }
@@ -310,7 +311,7 @@ table {
   background-color: white;
   border-radius: 10px;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 45px;
   padding: 20px 30px 20px 10vw;
   margin-bottom: 30px;
 }
@@ -364,12 +365,8 @@ table {
 }
 
 /* ==============NOTRE-HISTORY CSS========== */
-.home-notre-history .logo-image img {
-  /* margin-top: 2vw;
-  /* margin-bottom: 20px; */
-  /* width: 6vw;
-  height: 6vw;
-  margin-left: -8vw; */
+.div-margin{
+  margin-left: -35px;
 }
 
 /* ---------------------end------------------ */
@@ -519,6 +516,7 @@ table {
   background: #2250b2;
   margin-top: -30px;
   padding-bottom: 5vw;
+  width: 100vw;
 }
 
 .container-table td {
@@ -555,7 +553,7 @@ table {
 }
 
 .cont form input {
-  background: rgb(208, 208, 208);
+  background: rgb(247 247 247);
   border: none;
   width: 300px;
   border-radius: 10px;
