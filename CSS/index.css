@@ -501,7 +501,7 @@ table {
   font-style: normal;
   font-weight: 500;
   margin-left: 27px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 30px;
   color: #ffffff;
 }
@@ -511,7 +511,7 @@ table {
 }
 .container-table .table-info {
   background: #2250b2;
-  margin-top: -30px;
+  margin-top: -40px;
   padding-bottom: 5vw;
   width: 100vw;
 }
