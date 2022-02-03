@@ -496,7 +496,7 @@ header nav {
 .notre-historie .banner-notre-historie {
   background-size: cover;
   width: 100%;
-  height: 23vw;
+  height: 20vw;
 }
 
 .banner-notre-historie h2 {
@@ -504,13 +504,13 @@ header nav {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 3vw;
+  font-size: 2.5vw;
   line-height: 59px;
   position: absolute;
   width: 25vw;
-  height: 59px;
+  height: 50px;
   left: 8vw;
-  top: 17vw;
+  top: 15vw;
   color: #ffffff;
 }
 .notre-historie-content{
@@ -779,9 +779,9 @@ header nav {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500px;
-  font-size: 2.5vw;
+  font-size: 36px;
   width: 100%;
-  line-height: 60px;
+  /* line-height: 60px; */
 
   color: #2250b2;
 }
@@ -791,10 +791,10 @@ header nav {
 }
 
 .global-couses-content div img {
-  margin-top: 60px;
-  width: 195px;
-  height: 171px;
+  max-width: 35%;
   clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .global-couses-content {
@@ -802,20 +802,25 @@ header nav {
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 8vw;
   grid-column-gap: 2.5vw;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  padding-top: 20px;
 }
 
 .global-couses-content p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 14px;
+  line-height: 20px;
   margin-bottom: 20px;
   color: #8f8f8f;
 }
-
+.global-couses-content div{
+  width: 85%;
+  height: 400px;
+}
 .global-couses-content div a {
+  /* float: inline-end; */
   width: 50px;
   height: 68px;
   border: 1px solid #2250b2;
@@ -839,8 +844,8 @@ header nav {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 18px;
+  line-height: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #000000;
@@ -849,7 +854,7 @@ header nav {
   background: #e5e5e5;
 }
 .global-couses-content .disaster-section h3 {
-  font-size: 27px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 1008px) {
@@ -1601,7 +1606,7 @@ p {
 /* ==================Leadears css ends=========== */
 /* ======================================================== ===Inscription */
 
-.inscrire section {
+.inscrire{
   background: #efefef;
   width: 1140px;
   padding: 10px 0;
@@ -1609,7 +1614,7 @@ p {
   padding-left: 40px;
   padding-right: 40px;
   margin: 0 auto;
-  margin-top: 250px;
+  margin-top: 200px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -2289,6 +2294,7 @@ footer .footer-col{
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
+
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;

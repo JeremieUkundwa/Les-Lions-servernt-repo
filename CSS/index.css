@@ -131,6 +131,9 @@ table {
   border-spacing: 0;
 }
 
+
+
+
 @media (min-width: 1200px) {
   .container {
     max-width: 970px;
@@ -874,7 +877,9 @@ nav div div .navbar-nav .nav-item .nav-link {
   /* font-size: 2vw; */
   color: #8f8f8f;
 }
-
+nav div div .navbar-nav .nav-item ul .dropdown-menu .show{
+  width: 20px;
+}
 nav div div .navbar-nav .nav-item .nav-link:hover {
   color: #ffcc00;
   background-color: #113cfc;
