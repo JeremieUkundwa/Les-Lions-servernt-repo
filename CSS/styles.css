@@ -833,6 +833,15 @@ header nav {
   margin-bottom: 20px;
   color: #8f8f8f;
 }
+.global-couses-description{
+  padding-top: 50px;
+  width: 80vw;
+  margin-left: 10vw;
+}
+.global-couses-description p{
+ padding-left: 30px;
+ font-size: 15px;
+}
 .global-couses-content div{
   width: 85%;
   height: 400px;

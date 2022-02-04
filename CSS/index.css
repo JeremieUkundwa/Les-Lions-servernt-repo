@@ -252,17 +252,41 @@ table {
   margin-right: 20vw;
 }
 .zone-info .col .card img {
+  position: relative;
   width: 150px;
   height: 150px;
-  text-align: center;
-  margin-bottom: 30px;
-  /* margin-left: 10vw; */
-  margin-top: -30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* width: 50%; */
+  top: -15%;
+  left: 57px;
+  z-index: 1;
 }
+/* Animations */
+.zone-info .card .card-body {
+  position: relative;
+  top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.zone-info .card:hover {
+  height: 350px;
+}
+.zone-info .col .card:hover h5 {
+  margin-top: -45px;
+  padding-bottom: 20px;
+}
+.zone-info .card:hover .card-body {
+  margin-top: 100px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+/* .zone-info .col .card img:hover{
+  transform: scale(1.5);
+} */
 .zone-info .col .card h5 {
   margin-top: -20px;
   text-align: center;
@@ -271,7 +295,10 @@ table {
   font-weight: 500;
   font-size: 36px;
   line-height: 54px;
-
+  top: -15%;
+  left: 57px;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
   color: #000000;
 }
 .zone-info .col .card p {
@@ -287,6 +314,17 @@ table {
   border: none;
   background-color: white;
   border-radius: 10px;
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background-color: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
 }
 
 .section-header {
@@ -508,6 +546,11 @@ table {
 .table-format {
   border-collapse: collapse;
   border: none;
+  transition : 0.3s ease-in-out;
+}
+.table-format:hover{
+  transform: scale(1.5);
+  transition-delay: 0.2s;
 }
 .container-table .table-info {
   background: #2250b2;
