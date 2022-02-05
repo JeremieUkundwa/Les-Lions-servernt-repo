@@ -406,7 +406,27 @@
           </div>
         </div>
       </div>
+      <!-- function to trigger on view -->
+      <!-- <script>
+        // Remove the transition class
+        const square = document.querySelector('.animate__animated');
 
+        // Create the observer;
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              square.classList.add('animate__backInLeft');
+              square.classList.add('animate__backInRight');
+              return;
+            }
+
+            square.classList.remove('animate__backInLeft');
+            square.classList.remove('animate__backInRight');
+          });
+        });
+
+        observer.observe(document.querySelector('.animate__animated'));
+      </script> -->
       <!-- end of district -->
       <section style="scroll-margin-top: 7rem;" id="contactez-nous">
         <div class="cont" >
