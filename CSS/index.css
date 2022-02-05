@@ -548,10 +548,10 @@ table {
   border: none;
   transition: 0.3s ease-in-out;
 }
-.table-format:hover {
+/* .table-format:hover {
   transform: scale(1.5);
   transition-delay: 0.2s;
-}
+} */
 .container-table .table-info {
   background: #2250b2;
   margin-top: -40px;
