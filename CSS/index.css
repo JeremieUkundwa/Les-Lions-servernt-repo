@@ -256,7 +256,7 @@ table {
   width: 150px;
   height: 150px;
   top: -15%;
-  left: 57px;
+  left: 130px;
   z-index: 1;
 }
 /* Animations */
@@ -315,7 +315,7 @@ table {
   background-color: white;
   border-radius: 10px;
   position: relative;
-  max-width: 300px;
+  max-width: 450px;
   height: 215px;
   background-color: #fff;
   margin: 30px 10px;
