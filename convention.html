@@ -149,8 +149,8 @@
                     <input type="text" placeholder="pays">
                     <input type="text" id="club" placeholder="Club" required>
                     <input type="text" placeholder="Accompagné">
-                    <input type="text" placeholder="fonction principalés">
-                    <input type="number" placeholder="telephone" required>
+                    <input type="text" placeholder="Fonction Principale">
+                    <input type="number" placeholder="Téléphone" required>
                     <input type="email" id="form-email" placeholder="Email">
                 </div>
             </div>
@@ -158,9 +158,9 @@
                 <h2>Coordonnees de l'arrive a Kigali</h2>
                 <div>
                     <input type="text" placeholder="arrivant de">
-                    <input type="text" placeholder="date" onfocus="(this.type='date')" onblur="(this.type='text')">
-                    <input type="text" placeholder="héure"onfocus="(this.type='time')" onblur="(this.type='text')">
-                    <input type="text" placeholder="moyen de transport">
+                    <input type="text" placeholder="Date" onfocus="(this.type='date')" onblur="(this.type='text')">
+                    <input type="text" placeholder="Heure"onfocus="(this.type='time')" onblur="(this.type='text')">
+                    <input type="text" placeholder="Moyen de transport">
                     <input type="text" placeholder="aéroport">
                     <input type="text" placeholder="frontière">
                 </div>
@@ -169,9 +169,9 @@
                 <h2>hebergement: Je souhaite loger a: </h2>
                 <div class="checkboxes">
                     <div style="display: inline-block;">
-                      <tr><td><input required type="checkbox" name="progress" id="progress1" value="1" tabIndex="1" onClick="ckChange(this)">Hôtel</td></tr>
-                      <tr><td><input required type="checkbox" name="progress" id="progress2" value="1" tabIndex="1" onClick="ckChange(this)">Famille</td></tr>
-                      <tr><td><input required type="checkbox" name="progress" id="progress3" value="1" tabIndex="1" onClick="ckChange(this)">Autres</td></tr>
+                      <tr><td><input required type="checkbox" name="progress" id="progress1" value="1" tabIndex="1" onClick="ckChange(this)">Hôtel &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr> 
+                      <tr><td><input required type="checkbox" name="progress" id="progress2" value="1" tabIndex="1" onClick="ckChange(this)">Famille &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
+                      <tr><td><input required type="checkbox" name="progress" id="progress3" value="1" tabIndex="1" onClick="ckChange(this)">Autres &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
                       
                       <script>
                       function ckChange(ckType){
@@ -208,10 +208,10 @@
             </div>
             <br><br>
             <div >
-              <h2>FRAIS SUPPLEMENTAIRES : *</h2>
-              <tr><td><input required type="checkbox" name="info1" id="progress5" value="50" tabIndex="1" onClick="initialCheck(this)">Diner compagnons Melvin Jones : 50$ par personne (boissons non comprises)</td></tr><br>
-              <tr><td><input required type="checkbox" name="info" id="progress6" value="30" tabIndex="1" onClick="checkData(this)">Visite guides de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris)</td></tr><br>
-              <tr><td><input required type="checkbox" name="info" id="progress7" value="30" tabIndex="1" onClick="checkData(this)">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris)</td></tr><br>
+              <h2>FRAIS SUPPLEMENTAIRES : </h2>
+              <tr><td><input required type="checkbox" name="info1" id="progress5" value="50" tabIndex="1" onClick="initialCheck(this)">Diner compagnons Melvin Jones : 50$ par personne (boissons non comprises) Le 07\05</td></tr><br>
+              <tr><td><input required type="checkbox" name="info" id="progress6" value="30" tabIndex="1" onClick="checkData(this)">Visite guides de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09\05</td></tr><br>
+              <tr><td><input required type="checkbox" name="info" id="progress7" value="30" tabIndex="1" onClick="checkData(this)">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09\05</td></tr><br>
               <tr><td><input required type="checkbox" name="info" id="progress8" value="0" tabIndex="1" onClick="checkData(this)">Pas encore decide</td></tr><br>
               <tr><td><label style ="color: blue;"for="" class="franc-label">Montant a payer</label> <input type="number" name="franc" id="franc"><label for="">$</label></td></tr>
               
@@ -269,6 +269,8 @@
             <br><br>
             <div>
               <h2>Reglement de l'hospitality book et des frais supplementaires:</h2>
+              <tr><td><input required type="checkbox" name="paymentInfo" id="progress20" value="1" tabIndex="1" onClick="checkNextInfo(this)">Je m’engage á versé la somme de 150$ par transfert bancaire</td></tr><br>
+              <label style="padding-left: 40px; margin-top: -20px;" for="">Je vous prie de trouver en annexe la preuve de paiement de la somme de 150$ Verser au Compte bancaire : BANK OF KIGALI, Compte N°00040610090021/USD de LIONS CLUB KIGALI BK SWIFT CODE : BKIGRWRW</label>
               <tr><td><input required type="checkbox" name="paymentInfo" id="progress9" value="1" tabIndex="1" onClick="checkNextInfo(this)">Je m’engage á versé la somme de 150$ au Trésorier du Club</td></tr><br>
               <tr><td><input required type="checkbox" name="paymentInfo" id="progress10" value="1" tabIndex="1" onClick="checkNextInfo(this)">Je m’engage á versé la somme de 150$ par voie de transfert d’argent Mobile</td></tr><br>
               <script>
@@ -297,15 +299,15 @@
             <hr>
             <div>
               <h2 style="color: black; font-weight: bold;">BURUNDI</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress11" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Econet Leo : &nbsp &nbsp &nbsp &nbsp +25779960616 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Arielle Kaneza</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress11" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Ecocash : &nbsp &nbsp &nbsp &nbsp +25779960616 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Arielle Kaneza</span> </td></tr><br>
               <hr>
               <h2 style="color: black; font-weight: bold;">DRC</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress12" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Mpesa (Vodacom) : &nbsp &nbsp &nbsp &nbsp +243813907272 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Junior Mbala Kazadi</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress12" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Mpesa (Vodacom) : &nbsp &nbsp &nbsp &nbsp +243813907272 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Junior Mbala Kazadi</span> </td></tr><br>
               <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress13" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Airtel Money: &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243990260596 </td></tr><br>
               <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress14" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Orange money:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243897775922 </td></tr><br>
               <hr>
               <h2 style="color: black; font-weight: bold;">RWANDA</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress15" value="1" tabIndex="1" onClick="checkPaymentOption(this)">MTN :  &nbsp &nbsp &nbsp &nbsp +250785867949 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Patience Kamatamu</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress15" value="1" tabIndex="1" onClick="checkPaymentOption(this)">MobileMoney:  &nbsp &nbsp &nbsp &nbsp +250785867949 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Patience Kamatamu</span> </td></tr><br>
               <script>
               function checkPaymentOption(ckType){
                   var ckName = document.getElementsByName(ckType.name);
@@ -328,9 +330,6 @@
                   }    
               }
               </script>
-            </div>
-            <div>
-              <label for="">Je vous prie de trouver en annexe la preuve de paiement de la somme de 150$ Verser au Compte bancaire : BANK OF KIGALI, Compte N°00040610090021/USD de LIONS CLUB KIGALI BK SWIFT CODE : BKIGRWRW</label>
             </div>
             <div class="district-convention-submit">
               <button type="submit">Envoyez</button>

@@ -912,7 +912,7 @@ header {
   height: 7vw;
 }
 nav div div .navbar-nav .nav-item .nav-link {
-  /* font-size: 2vw; */
+  font-size: 17px;
   color: #8f8f8f;
 }
 nav div div .navbar-nav .nav-item ul .dropdown-menu .show {
