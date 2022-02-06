@@ -776,19 +776,18 @@ header nav {
 }
 .global-couses-inner-banner {
   background: #ffcf06;
-  width: 86%;
+  width: 77%;
   height: 24.5vw;
-  margin-top: 10vw;
-  margin-left: 6vw;
+  margin-top: 8vw;
+  margin-left: 11vw;
   border: 1px solid #ffcf06;
   clear: both;
   margin-bottom: 40px;
   display: inline-grid;
-  grid-template-columns: 0.5fr 2.5fr;
 }
 .globalCouses-banner .global-couses-inner-banner #banner-global-item2 img {
   -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 0%, 0% 80%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 30% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
 }
 
 .global-couses-inner-banner #banner-global-item1 {
@@ -859,6 +858,7 @@ header nav {
   padding-top: 50px;
   width: 80vw;
   margin-left: 10vw;
+  margin-bottom: 40px;
 }
 .global-couses-description p {
   padding-left: 30px;
