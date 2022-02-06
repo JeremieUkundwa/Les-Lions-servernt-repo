@@ -407,26 +407,30 @@
         </div>
       </div>
       <!-- function to trigger on view -->
-      <!-- <script>
-        // Remove the transition class
-        const square = document.querySelector('.animate__animated');
-
-        // Create the observer;
-        const observer = new IntersectionObserver(entries => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              square.classList.add('animate__backInLeft');
-              square.classList.add('animate__backInRight');
-              return;
+      <script>
+        function revealLeft() {
+          var reveals = document.querySelectorAll(".animate__animated");
+          for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            if(i ==0  || i==2){
+              if (elementTop < windowHeight) {
+              reveals[i].classList.add("animate__backInLeft");
+              } else {
+                reveals[i].classList.remove("animate__backInLeft");
+              }
             }
-
-            square.classList.remove('animate__backInLeft');
-            square.classList.remove('animate__backInRight');
-          });
-        });
-
-        observer.observe(document.querySelector('.animate__animated'));
-      </script> -->
+            else{
+              if (elementTop < windowHeight) {
+              reveals[i].classList.add("animate__backInRight");
+              } else {
+                reveals[i].classList.remove("animate__backInRight");
+              }
+            } 
+          }
+        }
+        window.addEventListener("scroll", revealLeft);
+      </script>
       <!-- end of district -->
       <section style="scroll-margin-top: 7rem;" id="contactez-nous">
         <div class="cont" >
