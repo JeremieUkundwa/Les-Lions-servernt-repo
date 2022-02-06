@@ -147,7 +147,7 @@ table {
 }
 /* ===================Banner============== */
 .carousel .carousel-inner img {
-  height: 650px;
+  height: 700px;
 }
 .carousel .carousel-inner .carousel-caption {
   vertical-align: middle;
@@ -911,6 +911,7 @@ header {
   width: 100vw;
   height: 7vw;
 }
+
 nav div div .navbar-nav .nav-item .nav-link {
   /* font-size: 17px; */
   color: #8f8f8f;
