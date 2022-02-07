@@ -420,7 +420,7 @@ header nav {
 }
 
 /* Applying responsivness on mot-gouverneur */
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
   .speech-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -491,7 +491,7 @@ header nav {
     width: 90vw;
     margin-left: 2vw;
   }
-}
+} */
 /* ==================Discover-us================== */
 /* ----------Notre-history-------- */
 .notre-historie .banner-notre-historie {
@@ -736,7 +736,7 @@ header nav {
   font-size: 16px;
   line-height: 1.5em;
 }
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
   .devenir-membre-lions .log img {
     margin-left: 38%;
     width: 150px;
@@ -762,7 +762,7 @@ header nav {
   }
 }
 @media screen and (max-width: 1024px) {
-}
+} */
 /* ==========================Global couses============ */
 .globalCouses-banner {
   background: #0d2240;
@@ -1904,211 +1904,6 @@ td {
   color: #2250b2;
 }
 
-/* 
-.Mot-du-Gouverneur {
-  width: 98%;
-  height: 30vw;
-  margin-left: 34px;
-  background: #ffffff;
-  border-radius: 12px;
-}
-.Mot-du-Gouverneur h3 {
-  text-align: center;
-  margin-top: 1.5vw;
-  margin-bottom: 1.5vw;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
-  color: #2250b2;
-}
-
-.Mot-du-Gouverneur-grid {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-}
-
-.Mot-du-Gouverneur .Mot-du-Gouverneur-grid div h4 {
-  margin-left: 4vw;
-  font-family: Averia Serif Libre;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3vw;
-  line-height: 58px;
-  color: #000000;
-  transform: rotate(0.26deg);
-}
-
-.Mot-du-Gouverneur .Mot-du-Gouverneur-grid div p {
-  margin-left: 8vw;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 20px;
-  color: #8f8f8f;
-  transform: rotate(0.02deg);
-  width: 740px;
-}
-.Mot-du-Gouverneur .Mot-du-Gouverneur-grid div a {
-  background: #ffcf06;
-  border-radius: 10px;
-  padding: 10px 30px 10px 30px;
-  margin-left: 10vw;
-  margin-bottom: 10px;
-}
-
-.Mot-du-Gouverneur .Mot-du-Gouverneur-grid .govern-img {
-  width: 463px;
-  height: 482px;
-}
-
-#zone {
-  clear: both;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 183px;
-}
-#zone h3 {
-  margin-left: 37vw;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-  color: #2250b2;
-}
-#zone .card-container-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2vw 0.2vw;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ".."
-    "..";
-  margin-left: 2vw;
-}
-#zone .card-container-grid div h4 {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  text-align: center;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 54px;
-
-  color: #000000;
-}
-#zone .card-container-grid .card {
-  width: 500px;
-  height: 400px;
-  background: white;
-  border-radius: 20px;
-  padding: 25px;
-  margin-left: 60px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-#zone .card-container-grid .card .image img {
-  width: 150px;
-  height: 150px;
-  margin-top: -80px;
-}
-#zone .card-container-grid .card .image {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.home-page .title {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-} */
-
-/* =============Start notre Histoire============== */
-/* nous decouvrir */
-/* #nous-decouvrir h3 {
-  margin-left: 45vw;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
-  color: #2250b2;
-}
-#nous-decouvrir .histoire-grid {
-  margin: 60px 0;
-  background: white;
-  border-radius: 20px;
-  width: 98%;
-  margin-left: 10px;
-  height: 400px;
-  display: grid;
-  grid-template-columns: 0.4fr 4fr;
-}
-#nous-decouvrir .histoire-grid div img {
-  width: 8vw;
-  height: 8vw;
-  margin-top: 50px;
-}
-
-#nous-decouvrir .histoire-grid div img #emblem {
-  float: left;
-  margin-left: 20px;
-  margin-top: 45px;
-}
-#nous-decouvrir .histoire-grid .content h5 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 42px;
-  padding-bottom: 10px;
-  color: #000000;
-}
-#nous-decouvrir .histoire-grid .content {
-  float: right;
-  margin-right: 35px;
-  width: 85%;
-  padding-top: 40px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  
-  color: #8f8f8f;
-}
-#nous-decouvrir .histoire-grid .content p{
-  margin-bottom: 20px;
-}
-#nous-decouvrir .histoire-grid .content a {
-  padding: 10px 30px 10px 30px;
-  color: blue;
-  background: #ffcf06;
-  border-radius: 10px;
-  font-weight: bold;
-  width: 200px;
-  padding: 10px;
-  margin-top: 25px;
-} */
-/* 
-.nav-item {
-  text-align: left;
-  padding: -20px;
-  font-size: 1.9vw;
-  box-sizing: border-box;
-} */
-
 .cont {
   border: none;
   background-color: white;
@@ -2151,10 +1946,10 @@ td {
   width: 50vw;
   margin-left: -10vw;
 }
-.container-speect .par-edit h5{
+.container-speect .par-edit h5 {
   margin-left: 4vw;
 }
-.container-speect .par-edit p{
+.container-speect .par-edit p {
   margin-left: 4vw;
   font-family: Poppins;
   font-style: normal;
@@ -2212,14 +2007,13 @@ td {
 }
 
 /* From home page */
-@media screen and (max-width: 680px) {
+/* @media screen and (max-width: 680px) {
   .container-table td {
     font-size: 30px;
   }
   .histoire .col-md-auto img {
     width: 17vw;
     height: 17vw;
-    /* margin-left: -8vw; */
   }
   .container-speect .image-edit {
     margin-left: 25vw;
@@ -2247,7 +2041,7 @@ td {
   .container-fanion .image-edit {
     margin-top: 15vw;
   }
-}
+} */
 /* ===============Updated information on notre-history------ */
 /* .notre-history-Impr {
   margin-left: 4vw;
@@ -2419,14 +2213,13 @@ footer .footer-col {
 
 @media screen and (max-width: 1600px) {
 }
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .container-table td {
     font-size: 30px;
   }
   .histoire .col-md-auto img {
     width: 17vw;
     height: 17vw;
-    /* margin-left: -8vw; */
   }
   .container-speect {
     margin-top: 40px;
@@ -2461,7 +2254,6 @@ footer .footer-col {
     padding-top: -30px;
     margin-left: 0.2vw;
     padding-bottom: 10vw;
-    /* margin-top: -40px; */
   }
 
   .container-fanion .par-edit {
@@ -2505,7 +2297,7 @@ footer .footer-col {
     padding-bottom: 20px;
   }
 
-  /* ================Notre-History------------ */
+  /* ================Notre-History------------ 
   .notre-historie-content {
     font-size: 12px;
     margin-left: 10px;
@@ -2540,7 +2332,7 @@ footer .footer-col {
     padding-bottom: 30px;
   }
 
-  /*  membre-lions-responsive*/
+  /*  membre-lions-responsive
   .devenir-membre-lions {
     margin-top: 60px;
   }
@@ -2568,15 +2360,15 @@ footer .footer-col {
   }
   /* .devenir-membre-lions-content p ,.devenir-membre-lions-content h3{
     margin-top: -30px;
-  } */
+  } 
   .devenir-membre-lions-content p {
     font-size: 10px;
     line-height: 15px;
   }
 
-  /* ---next---- */
+  /* ---next----
 
-  /* ----------Devenir membre Leo  -------- */
+  /* ----------Devenir membre Leo  --------
   .devenir-membre-Leo {
     margin-top: 60px;
   }
@@ -2612,7 +2404,7 @@ footer .footer-col {
     line-height: 12px;
   }
 
-  /* ===============Leades Page============== */
+  /* ===============Leades Page==============
   #les-derigeants {
     margin-left: 50px;
   }
@@ -2646,6 +2438,56 @@ footer .footer-col {
   .leader-page div h1 {
     font-size: 25px;
     margin-left: 20px;
+  }
+} */
+
+/* Responsive */
+
+@media (max-width: 574px) {
+  .container-speect {
+    margin-left: -1.5vw;
+    margin-top: 20vw;
+    margin-right: -1.5vw;
+    padding-left: 1.5vw;
+  }
+  .container-speect img {
+    padding-left: 2vw;
+  }
+
+  .container-speect .par-edit {
+    width: 95vw;
+    margin-left: -1vw;
+    padding-top: 5vw;
+    font-size: 14px;
+  }
+  .container-fanion {
+    margin-left: -1.5vw;
+    margin-top: 20vw;
+    margin-right: -1.5vw;
+    padding-left: 1.5vw;
+  }
+  .container-fanion .par-edit p {
+    font-size: 14px;
+    margin-top: 80vw;
+  }
+  .container-fanion .image-edit img {
+    width: 64vw;
+    height: 78vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -137vw;
+  }
+  .ma-devise-container {
+    margin-left: -1.5vw;
+    margin-top: 20vw;
+    margin-right: -1.5vw;
+    padding-left: 1.5vw;
+  }
+  .ma-devise-container .par-edit {
+    width: 100%;
+    margin-left: -3vw;
+    padding-right: 0vw;
   }
 }
 
