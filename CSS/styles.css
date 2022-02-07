@@ -2485,7 +2485,7 @@ footer .footer-col {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: -210vw;
+    margin-top: -205vw;
   }
   .ma-devise-container {
     margin-left: -1.5vw;
@@ -2517,7 +2517,7 @@ footer .footer-col {
     font-size: 14px;
     margin-left: 1vw;
     margin-bottom: 3vw;
-    height: 62vh;
+    height: 65vh;
     width: 100vw;
   }
   .notre-history-info {
@@ -2604,7 +2604,7 @@ footer .footer-col {
     margin-top: 12vh;
   }
   .leader-page .para {
-    height: 20vh;
+    height: 25vh;
     margin-top: 5vh;
   }
   .leader-page h1 {
@@ -2624,15 +2624,15 @@ footer .footer-col {
     padding-top: 20px;
   }
   #les-derigeants div img {
-    width: 45vw;
-    margin-left: auto;
-    height: 31vh;
+    width: 74vw;
+    margin-left: 6vw;
+    height: 46vh;
     margin-right: auto;
     display: block;
   }
-  #les-derigeants h3 { 
+  #les-derigeants h3 {
     text-align: center;
-    padding-right: 0px;
+    padding-right: 20vw;
     font-size: 18px;
     line-height: 18px;
   }
@@ -2641,9 +2641,23 @@ footer .footer-col {
     font-size: 14px;
     margin-top: -60px;
     width: 250px;
-    margin-left: 93px;
+    margin-left: 10vw;
     text-align: center;
-}
+  }
+  .african-cheafs .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .leader-page .round-pic {
+    border-radius: 50%;
+    margin-left: 20vw;
+  }
+  .leader-page h4 {
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    margin-left: -20vw;
+    text-align: center;
+  }
 }
 
 /* -==== */
