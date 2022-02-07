@@ -739,7 +739,7 @@ table {
   font-size: 58px;
 }
 
-
+/* 
 
 @media (max-width: 940px) {
   .carousel .carousel-inner img {
@@ -752,7 +752,7 @@ table {
     line-height: 43px;
   }
 
-  /* mot-de-gouverner */
+  /* mot-de-gouverner
   .mot {
     width: 95vw;
     height: 100vw;
@@ -788,7 +788,7 @@ table {
     font-size: 14px;
   }
 
-  /* card -responsive */
+  /* card -responsive
   #zone {
     margin-top: 60px;
   }
@@ -831,7 +831,7 @@ table {
     width: 80vw;
     overflow-wrap: break-word;
   }
-  /* ==============NOS-CAUSES-MONDIALES- CSS========== */
+  /* ==============NOS-CAUSES-MONDIALES- CSS========== 
   .home-notre-history .logo-image img {
     width: 15vw;
     height: 15vw;
@@ -839,7 +839,7 @@ table {
     margin-left: auto;
   }
 
-  /* ---------------------end------------------ */
+  /* ---------------------end------------------ 
 
   .histoire .col h5 {
    
@@ -908,7 +908,7 @@ table {
   .mondiales .col a {
     margin-left: 18vw;
   }
-  /* ========contact */
+  /* ========contact 
   #contactez-nous h3 {
     margin-left: -3vw;
     text-align: center;
@@ -947,7 +947,7 @@ table {
   .container-table td{
     font-size: 30px;
   }
-}
+} */
 
 
 
