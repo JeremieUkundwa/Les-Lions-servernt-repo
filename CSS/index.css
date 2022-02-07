@@ -945,6 +945,218 @@ table {
   }
 }
 
+
+@media (max-width: 940px) {
+  .carousel .carousel-inner img {
+    height: 380px;
+    margin-top: 140px;
+  }
+  .carousel .carousel-inner .carousel-caption h5 {
+    margin-top: -20vw;
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  /* mot-de-gouverner */
+  .mot {
+    width: 95vw;
+    height: 100vw;
+    padding: 10px 30px 10px 0px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+  }
+
+  .mot div h2 {
+    ont-size: 24px;
+    line-height: 28px;
+    margin-left: -2vw;
+    margin-top: 41vw;
+  }
+  .mot div blockquote {
+    display: block;
+    width: 90vw;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: -3vw;
+  }
+  .mot div #gvr {
+    width: 45vw;
+    height: 45vw;
+    margin-left: auto;
+    margin-right: 25vw;
+  }
+
+  .mot a {
+    padding: 6px 11px 7px 13px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  /* card -responsive */
+  #zone {
+    margin-top: 60px;
+  }
+  .zone-info{
+    margin-left: 33vw;
+  }
+  .zone-info .col .card h5 {
+    margin-top: -20px;
+    font-size: 25px;
+    line-height: 54px;
+    top: -15%;
+    margin-left: 15px;
+  }
+  .zone-info .card {
+    border: none;
+    background-color: white;
+    width: 95vw;
+    height: 215px;
+    margin: 30px -107px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
+  }
+  .zone-info .col .card img {
+    position: relative;
+    top: -15%;
+    left: 27vw;
+    z-index: 1;
+  }
+  .zone-info .col .card img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: -15%;
+    left: 18vw;
+    z-index: 1;
+}
+  .zone-info .col .card p {
+    font-size: 15px;
+    line-height: 20px;
+    width: 80vw;
+    overflow-wrap: break-word;
+  }
+  /* ==============NOS-CAUSES-MONDIALES- CSS========== */
+  .home-notre-history .logo-image img {
+    width: 15vw;
+    height: 15vw;
+    display: block;
+    margin-left: auto;
+  }
+
+  /* ---------------------end------------------ */
+
+  .histoire .col h5 {
+   
+    text-align: left;
+    font-size: 33px;
+    line-height: 42px;
+    padding-bottom: 10px;
+    margin-left: 43px;
+  }
+  .mondiales {
+    margin-left: 45px;
+  }
+  .mondiales h5 {
+    text-align: left;
+    font-size: 33px;
+    line-height: 42px;
+    padding-bottom: 10px;
+    margin-left: 155px;
+  }
+  .cont p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding-left: 43px;
+    padding-right: 4px;
+  }
+  .cont {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 2px;
+    margin-left: 12px;
+    padding: 15px 10px 20px 2vw;
+    margin-bottom: 30px;
+  }
+  .cont a {
+    margin-left: 6vw;
+    padding: 6px 12px 7px 14px;
+  }
+  .home-devenir-member .lion img {
+    margin-top: 12vw;
+    width: 15vw;
+    height: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .home-devenir-member .leo img {
+    width: 15vw;
+    height: 17vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .home-devenir-member .div-margin h6 {
+    margin-left: 70px;
+    text-align: left;
+  }
+  .home-devenir-member .div-margin a {
+    margin-left: 6vw;
+  }
+  .mondiales .col p {
+    padding-left: 18vw;
+    padding-right: 4px;
+  }
+  .mondiales .col a {
+    margin-left: 18vw;
+  }
+  /* ========contact */
+  #contactez-nous h3 {
+    margin-left: -3vw;
+    text-align: center;
+    font-size: 36px;
+  }
+  .container-table .div-2{
+    margin-top: -14vw;
+    margin-left: 50vw;
+  }
+  .cont img {
+    width: 350px;
+    height: 348px;
+    margin-left: 22vw;
+    margin-bottom: 20px;
+  }
+  .cont form{
+    margin-left: 20vw;
+  }
+  .cont form input {
+    width: 50vw;
+  }
+  .cont form textarea {
+    width: 50vw;
+  }
+  .cont form button {
+    margin-left: 18vw;
+  }
+  .container-table h2 {
+    font-size: 28px;
+    margin-left: -17px;
+  }
+  .container-table .div-1 p {
+    margin-left: -14px;
+    font-size: 14px;
+  }
+  .container-table td{
+    font-size: 30px;
+  }
+}
+
+
+
+
 /* @media screen and (max-width: 680px) {
   .zone-info {
     margin-left: 0.5vw;
