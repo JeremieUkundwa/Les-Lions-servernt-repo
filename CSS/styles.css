@@ -2676,8 +2676,9 @@ footer .footer-col {
   /* =======Next page */
   .globalCouses-banner {
     margin-top: 17vh;
-    height: 31.5vw;
+    height: 32.5vw;
     margin-bottom: 6vh;
+    margin-left: 7px;
   }
   .global-couses-inner-banner #banner-global-item1 h3 {
     text-align: center;
@@ -2687,9 +2688,9 @@ footer .footer-col {
     width: 71%;
   }
   #banner-global-item2 img {
-    width: 116%;
-    height: 31.5vw;
-    /* padding-right: 28px; */
+    width: 123%;
+    height: 29.5vw;
+    margin-left: -8vw;
   }
   .global-couses-inner-banner {
     height: 17vh;
@@ -2713,7 +2714,7 @@ footer .footer-col {
   }
   .global-couses-content p {
     font-size: 13px;
-    height: 10vh;
+    height: 13vh;
   }
 
   /* next page============ */
