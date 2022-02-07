@@ -2626,6 +2626,9 @@ footer .footer-col {
     padding-top: 20vh;
     color: #ffffff;
   }
+  .leader-page h3{
+    margin-top: 4vw;
+  }
   #les-derigeants {
     display: grid;
     grid-template-columns: 1fr;
@@ -2643,7 +2646,7 @@ footer .footer-col {
   }
   #les-derigeants h3 {
     text-align: center;
-    padding-right: 18vw;
+    padding-right: 15vw;
     font-size: 18px;
     line-height: 18px;
   }
@@ -2652,7 +2655,7 @@ footer .footer-col {
     font-size: 14px;
     margin-top: -60px;
     width: 250px;
-    margin-left: 8vw;
+    margin-left: 4vw;
     text-align: center;
   }
   .african-cheafs .row {
