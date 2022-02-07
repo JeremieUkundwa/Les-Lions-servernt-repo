@@ -341,7 +341,7 @@ table {
 }
 
 /* Responsive design for mot-de governeur */
-@media (max-width: 980px) {
+/* @media (max-width: 980px) {
   .mot {
     background: #ffffff;
     border-radius: 12px;
@@ -361,7 +361,7 @@ table {
     color: #2250b2;
     text-align: center;
     padding-bottom: 8vw;
-    /* margin-bottom: 20px; */
+    /* margin-bottom: 20px; *
   }
   .mot .block-mot {
     padding-left: 6vw;
@@ -401,22 +401,18 @@ table {
     margin-right: 5vw;
     float: right;
   }
-  /* .mot .inner-btton {
-    margin-top: 10px;
-  /* } */
   .mot a {
-    /* margin-top: 30px; */
+    /* margin-top: 30px;
     text-decoration: none;
     background: #ffcf06;
     border-radius: 10px;
     padding: 10px 20px 10px 20px;
     margin-left: 30px;
-    /* margin-bottom: 40px; */
     font-size: 14px;
   }
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .mot {
     width: 95vw;
     height: 85vw;
@@ -450,7 +446,7 @@ table {
     margin-left: 20px;
     font-size: 14px;
   }
-}
+} */
 
 /* ================== */
 
@@ -743,207 +739,6 @@ table {
   font-size: 58px;
 }
 
-@media (max-width: 574px) {
-  .carousel .carousel-inner img {
-    height: 325px;
-    margin-top: 130px;
-  }
-  .carousel .carousel-inner .carousel-caption h5 {
-    margin-top: -30vw;
-
-    font-size: 36px;
-    line-height: 37px;
-  }
-
-  /* mot-de-gouverner */
-  .mot {
-    width: 95vw;
-    height: 190vw;
-    padding: 10px 30px 10px 0px;
-    margin-left: 0px;
-    margin-bottom: 100px;
-  }
-
-  .mot div h2 {
-    font-size: 20px;
-    line-height: 28px;
-    margin-left: -2vw;
-    margin-top: 47vw;
-  }
-  .mot div blockquote {
-    display: block;
-    width: 90vw;
-    overflow-wrap: break-word;
-    font-size: 14px;
-    line-height: 28px;
-    margin-left: -3vw;
-  }
-  .mot div #gvr {
-    width: 50vw;
-    height: 50vw;
-    margin-left: auto;
-    margin-right: 22vw;
-  }
-
-  .mot a {
-    padding: 6px 11px 7px 13px;
-    margin-left: 20px;
-    font-size: 14px;
-  }
-
-  /* card -responsive */
-  #zone {
-    margin-top: 60px;
-  }
-  .zone-info .col .card h5 {
-    margin-top: -20px;
-    font-size: 25px;
-    line-height: 54px;
-    top: -15%;
-    margin-left: 15px;
-  }
-  .zone-info .card {
-    border: none;
-    background-color: white;
-    width: 95vw;
-    height: 215px;
-    margin: 30px -107px;
-    padding: 20px 15px;
-    box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
-  }
-  .zone-info .col .card img {
-    position: relative;
-    top: -15%;
-    left: 27vw;
-    z-index: 1;
-  }
-  .zone-info .col .card img {
-    /* position: relative; */
-    width: 120px;
-    height: 120px;
-    /* top: -15%; */
-    /* left: 7vw; */
-    /* z-index: 1; */
-}
-  .zone-info .col .card p {
-    font-size: 15px;
-    line-height: 20px;
-    width: 80vw;
-    overflow-wrap: break-word;
-  }
-  /* ==============NOS-CAUSES-MONDIALES- CSS========== */
-  .home-notre-history .logo-image img {
-    width: 20vw;
-    height: 20vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* ---------------------end------------------ */
-
-  .histoire .col h5 {
-    text-align: center;
-    font-size: 33px;
-    line-height: 42px;
-    padding-bottom: 10px;
-    margin-left: 59px;
-  }
-  .mondiales {
-    margin-left: 45px;
-  }
-  .mondiales h5 {
-    text-align: center;
-    font-size: 33px;
-    line-height: 42px;
-    padding-bottom: 10px;
-    margin-left: 15px;
-  }
-  .cont p {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 30px;
-    padding-left: 43px;
-    padding-right: 4px;
-  }
-  .cont {
-    border: none;
-    background-color: white;
-    border-radius: 10px;
-    margin-right: 2px;
-    margin-left: 12px;
-    padding: 15px 10px 20px 2vw;
-    margin-bottom: 30px;
-  }
-  .cont a {
-    margin-left: 12vw;
-    padding: 6px 12px 7px 14px;
-  }
-  .home-devenir-member .lion img {
-    margin-top: 4vw;
-    width: 20vw;
-    height: 20vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  .home-devenir-member .leo img {
-    width: 22vw;
-    height: 22vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  .home-devenir-member .div-margin h6 {
-    margin-left: 70px;
-    text-align: center;
-  }
-  .home-devenir-member .div-margin a {
-    margin-left: 12vw;
-  }
-  .mondiales .col p {
-    padding-left: 7px;
-    padding-right: 4px;
-  }
-  .mondiales .col a {
-    margin-left: 4vw;
-  }
-  /* ========contact */
-  #contactez-nous h3 {
-    margin-left: -3vw;
-    text-align: center;
-    font-size: 36px;
-  }
-  .cont img {
-    width: 300px;
-    height: 343px;
-    margin-left: 3vw;
-    margin-bottom: 20px;
-  }
-  .cont form{
-    margin-left: -8px;
-  }
-  .cont form input {
-    width: 65vw;
-  }
-  .cont form textarea {
-    width: 50vw;
-  }
-  .cont form button {
-    margin-left: 18vw;
-  }
-  .container-table h2 {
-    font-size: 28px;
-    margin-left: -17px;
-  }
-  .container-table .div-1 p {
-    margin-left: -14px;
-    font-size: 14px;
-  }
-  .container-table td{
-    font-size: 30px;
-  }
-}
 
 
 @media (max-width: 940px) {
@@ -967,7 +762,7 @@ table {
   }
 
   .mot div h2 {
-    ont-size: 24px;
+    font-size: 24px;
     line-height: 28px;
     margin-left: -2vw;
     margin-top: 41vw;
@@ -1155,6 +950,212 @@ table {
 }
 
 
+
+
+@media (max-width: 574px) {
+  .carousel .carousel-inner img {
+    height: 325px;
+    margin-top: 130px;
+  }
+  .carousel .carousel-inner .carousel-caption h5 {
+    margin-top: -30vw;
+
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  /* mot-de-gouverner */
+  .mot {
+    width: 95vw;
+    height: 190vw;
+    padding: 10px 30px 10px 0px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+  }
+
+  .mot div h2 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: -2vw;
+    margin-top: 47vw;
+  }
+  .mot div blockquote {
+    display: block;
+    width: 90vw;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: -3vw;
+  }
+  .mot div #gvr {
+    width: 50vw;
+    height: 50vw;
+    margin-left: auto;
+    margin-right: 22vw;
+  }
+
+  .mot a {
+    padding: 6px 11px 7px 13px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  /* card -responsive */
+  #zone {
+    margin-top: 60px;
+  }
+  .zone-info{
+    margin-left: 33vw;
+  }
+  .zone-info .col .card h5 {
+    margin-top: -20px;
+    font-size: 25px;
+    line-height: 54px;
+    top: -15%;
+    margin-left: 15px;
+  }
+  .zone-info .card {
+    border: none;
+    background-color: white;
+    width: 95vw;
+    height: 215px;
+    margin: 30px -107px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
+  }
+  .zone-info .col .card img {
+    position: relative;
+    top: -15%;
+    left: 27vw;
+    z-index: 1;
+  }
+  .zone-info .col .card img {
+    /* position: relative; */
+    width: 120px;
+    height: 120px;
+    /* top: -15%; */
+    /* left: 7vw; */
+    /* z-index: 1; */
+}
+  .zone-info .col .card p {
+    font-size: 15px;
+    line-height: 20px;
+    width: 80vw;
+    overflow-wrap: break-word;
+  }
+  /* ==============NOS-CAUSES-MONDIALES- CSS========== */
+  .home-notre-history .logo-image img {
+    width: 20vw;
+    height: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ---------------------end------------------ */
+
+  .histoire .col h5 {
+    text-align: center;
+    font-size: 33px;
+    line-height: 42px;
+    padding-bottom: 10px;
+    margin-left: 59px;
+  }
+  .mondiales {
+    margin-left: 45px;
+  }
+  .mondiales h5 {
+    text-align: center;
+    font-size: 33px;
+    line-height: 42px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+  }
+  .cont p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding-left: 43px;
+    padding-right: 4px;
+  }
+  .cont {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 2px;
+    margin-left: 12px;
+    padding: 15px 10px 20px 2vw;
+    margin-bottom: 30px;
+  }
+  .cont a {
+    margin-left: 12vw;
+    padding: 6px 12px 7px 14px;
+  }
+  .home-devenir-member .lion img {
+    margin-top: 4vw;
+    width: 20vw;
+    height: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .home-devenir-member .leo img {
+    width: 22vw;
+    height: 22vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .home-devenir-member .div-margin h6 {
+    margin-left: 70px;
+    text-align: center;
+  }
+  .home-devenir-member .div-margin a {
+    margin-left: 12vw;
+  }
+  .mondiales .col p {
+    padding-left: 7px;
+    padding-right: 4px;
+  }
+  .mondiales .col a {
+    margin-left: 4vw;
+  }
+  /* ========contact */
+  #contactez-nous h3 {
+    margin-left: -3vw;
+    text-align: center;
+    font-size: 36px;
+  }
+  .cont img {
+    width: 300px;
+    height: 343px;
+    margin-left: 3vw;
+    margin-bottom: 20px;
+  }
+  .cont form{
+    margin-left: -8px;
+  }
+  .cont form input {
+    width: 65vw;
+  }
+  .cont form textarea {
+    width: 50vw;
+  }
+  .cont form button {
+    margin-left: 18vw;
+  }
+  .container-table h2 {
+    font-size: 28px;
+    margin-left: -17px;
+  }
+  .container-table .div-1 p {
+    margin-left: -14px;
+    font-size: 14px;
+  }
+  .container-table td{
+    font-size: 30px;
+  }
+}
 
 
 /* @media screen and (max-width: 680px) {
