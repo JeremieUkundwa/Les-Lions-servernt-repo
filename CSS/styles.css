@@ -918,7 +918,12 @@ header nav {
     grid-template-columns: 1fr 1fr;
     margin-left: 6vw;
     margin-right: 0vw;
+    margin-top: 10px;
   }
+  .global-couses-content div {
+    width: 85%;
+    height: 47vh;
+}
 }
 /* ================================================================ */
 .banner {
@@ -2550,7 +2555,7 @@ footer .footer-col {
 
   /* =============next page */
   .devenir-membre-lions .log {
-    padding-top: 15vw;
+    padding-top: 7vw;
   }
 
   .devenir-membre-lions .log p {
@@ -2561,12 +2566,12 @@ footer .footer-col {
   }
   .lions-glid-images {
     grid-template-columns: 1fr;
-    margin-left: 5vw;
+    margin-left: 10vw;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   .lions-glid-images img {
-    width: 76vw;
+    width: 51vw;
     height: 70vh;
     margin-left: 30px;
     border-radius: 10px;
@@ -2589,7 +2594,7 @@ footer .footer-col {
     overflow-x: hidden;
   }
   .devenir-membre-Leo {
-    margin-top: 14vw;
+    margin-top: 7vw;
     width: 100vw;
   }
   .devenir-membre-Leo .logo-leo p {
@@ -2597,7 +2602,7 @@ footer .footer-col {
     font-size: 14px;
   }
   .leo-images-pages img {
-    width: 78vw;
+    width: 55vw;
   }
   .devenir-membre-leo-content {
     margin-left: 5px;
@@ -2692,7 +2697,7 @@ footer .footer-col {
     margin-left: -8vw;
   }
   .global-couses-inner-banner {
-    height: 33vh;
+    height: 60vh;
   }
 
   .global-couses-description {
@@ -2713,7 +2718,7 @@ footer .footer-col {
   }
   .global-couses-content p {
     font-size: 13px;
-    height: 13vh;
+    height: 20vh;
   }
 
   /* next page============ */
