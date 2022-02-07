@@ -2454,7 +2454,7 @@ footer .footer-col {
 
 /* Responsive */
 
-@media (max-width: 940px) {
+@media screen and (max-width: 940px) {
   .container-speect {
     margin-left: 1.5vw;
     margin-top: 16vw;
@@ -2755,7 +2755,7 @@ footer .footer-col {
 }
 
 
-@media (max-width: 574px) {
+@media screen and (max-width: 574px) {
   .container-speect {
     margin-left: -1.5vw;
     margin-top: 20vw;
