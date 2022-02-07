@@ -800,7 +800,7 @@ table {
     font-size: 25px;
     line-height: 54px;
     top: -15%;
-    /* margin-left: -30px; */
+    margin-left: 15px;
   }
   .zone-info .card {
     border: none;
@@ -917,17 +917,17 @@ table {
   .cont img {
     width: 300px;
     height: 343px;
-    margin-left: -20px;
+    margin-left: 3vw;
     margin-bottom: 20px;
   }
   .cont form{
     margin-left: -8px;
   }
   .cont form input {
-    width: 295px;
+    width: 50vw;
   }
   .cont form textarea {
-    width: 295px;
+    width: 50vw;
   }
   .cont form button {
     margin-left: 18vw;
