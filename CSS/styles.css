@@ -2746,6 +2746,12 @@ footer .footer-col {
   .payment-information td{
     font-size: 14px;
   }
+  .form-info{
+    font-size: 14px;
+  }
+  .district-convention-submit button{
+    margin-left: 21vw;
+  }
 }
 
 /* -==== */
