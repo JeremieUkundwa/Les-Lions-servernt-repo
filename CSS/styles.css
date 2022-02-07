@@ -1848,6 +1848,11 @@ td {
   margin-bottom: 30px;
 }
 
+.message-gove img {
+  padding-left: 6vw;
+  width: 450px;
+}
+
 /* ===================HOME PAGE UPDADed====== */
 
 .zone-info {
@@ -2698,6 +2703,29 @@ footer .footer-col {
     padding-left: 5px;
     font-size: 14px;
   }
+  .global-couses-content div a {
+    padding: 4px 20px;
+
+    line-height: 30px;
+  }
+
+  /* next page============ */
+  .inscrire {
+    width: 98vw;
+    padding: 10px 0;
+    padding-left: 3px;
+    padding-right: 5px;
+    margin-top: 200px;
+  }
+  .inscrire input {
+    width: 67vw;
+    height: 40px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+}
 }
 
 /* -==== */
