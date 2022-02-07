@@ -2485,7 +2485,7 @@ footer .footer-col {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: -215vw;
+    margin-top: -210vw;
   }
   .ma-devise-container {
     margin-left: -1.5vw;
@@ -2517,7 +2517,7 @@ footer .footer-col {
     font-size: 14px;
     margin-left: 1vw;
     margin-bottom: 3vw;
-    height: 90vw;
+    height: 62vh;
     width: 100vw;
   }
   .notre-history-info {
@@ -2525,7 +2525,7 @@ footer .footer-col {
   }
   .notre-history-info .card {
     width: 95vw;
-    height: 75vh;
+    height: 77vh;
   }
 
   .notre-history-info .card img {
@@ -2541,7 +2541,7 @@ footer .footer-col {
 
   /* =============next page */
   .devenir-membre-lions .log {
-    padding-top: 28vw;
+    padding-top: 29vw;
   }
 
   .devenir-membre-lions .log p {
