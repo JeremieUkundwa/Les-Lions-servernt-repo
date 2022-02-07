@@ -2545,12 +2545,10 @@ footer .footer-col {
   }
 
   .devenir-membre-lions .log p {
-
     font-size: 14px;
     line-height: 1.5em;
     margin-left: 3px;
     width: 100%;
-
   }
   .lions-glid-images {
     grid-template-columns: 1fr;
@@ -2563,6 +2561,18 @@ footer .footer-col {
     height: 450px;
     border-radius: 10px;
     margin-bottom: 20px;
+  }
+  .devenir-membre-lions-content {
+    margin-left: 15px;
+    width: 96%;
+
+    padding: 18px;
+  }
+  .devenir-membre-lions-content p {
+    font-size: 14px;
+  }
+  .devenir-membre-lions-content h3{
+    font-size: 20px;
   }
 }
 
