@@ -2861,7 +2861,7 @@ footer .footer-col {
 
   /* =============next page */
   .devenir-membre-lions .log {
-    padding-top: 29vw;
+    padding-top: 32vw;
   }
 
   .devenir-membre-lions .log p {
@@ -2872,7 +2872,7 @@ footer .footer-col {
   }
   .lions-glid-images {
     grid-template-columns: 1fr;
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-top: 20px;
     margin-bottom: 20px;
   }
