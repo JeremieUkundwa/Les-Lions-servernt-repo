@@ -2571,13 +2571,36 @@ footer .footer-col {
   .devenir-membre-lions-content p {
     font-size: 14px;
   }
-  .devenir-membre-lions-content h3{
+  .devenir-membre-lions-content h3 {
     font-size: 20px;
   }
-  main{
-    
+  main {
     padding: 15px 8px 15px 5px;
+    overflow-x: hidden;
   }
+  .devenir-membre-Leo {
+    margin-top: 20vw;
+    width: 100vw;
+  }
+  .devenir-membre-Leo .logo-leo p {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .leo-images-pages img {
+    width: 78vw;
+  }
+  .devenir-membre-leo-content {
+    margin-left: 5px;
+    width: 98%;
+    padding: 15px;
+}
+.devenir-membre-leo-content p {
+  font-size: 14px;
+}
+.devenir-membre-leo-content h3 {
+  font-size: 20px;
+}
+
 }
 
 /* -==== */
