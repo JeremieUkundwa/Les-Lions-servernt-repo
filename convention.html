@@ -235,33 +235,14 @@
               <tr><td><input required type="checkbox" name="info" id="progress6" value="30" tabIndex="1" onClick="checkData(this)">Visite guides de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
               <tr><td><input required type="checkbox" name="info" id="progress7" value="30" tabIndex="1" onClick="checkData(this)">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
               <tr><td><input required type="checkbox" name="info" id="progress8" value="0" tabIndex="1" onClick="checkData(this)">Pas encore décidé</td></tr><br>
-              <tr><td><label style ="color: blue;"for="" class="franc-label">Montan total à</label> <input type="number" name="franc" id="franc"><label for="">$</label></td></tr>
+              <tr><td><label style ="color: blue;"for="" class="franc-label">Montan total à</label> <input type="text" name="franc" id="franc"><label for="">$</label></td></tr>
               
               <script>
                   document.getElementById('franc').addEventListener('keypress', (e) => {
                   e.preventDefault();
                 });
                 document.getElementById("franc").value = 0;
-              // function initialCheck(checkFist){
-              //   var ckName = document.getElementsByName(checkType.name);
-              //     var checked = document.getElementById(checkType.id);
-              //     var inital = document.getElementById("franc").value;
-              //     if (checked.checked) {
-              //       for(var i=0; i < ckName.length; i++){
-                        
-              //           if(!ckName[i].checked){
-              //               ckName[i].disabled = true;
-              //               document.getElementById("franc").value = 50;
-              //           }
-              //       } 
-              //     }
-              //     else {
-              //       for(var i=0; i < ckName.length; i++){
-              //         ckName[i].disabled = false;
-              //         document.getElementById("franc").value = Number(inital);
-              //       } 
-              //     }  
-              // }
+              
               function checkData(checkType){
                   var ckName = document.getElementsByName(checkType.name);
                   var checked = document.getElementById(checkType.id);
@@ -270,7 +251,6 @@
                   var total=Number(getValue1) +150 +Number(inital);
                   if (checked.checked) {
                     for(var i=0; i < ckName.length; i++){
-                        if(i == 0 && !ckName[i].checked){
                           if(!ckName[i].checked){
                             ckName[i].disabled = true;
                             document.getElementById("franc").value = total;
@@ -278,16 +258,8 @@
                               ckName[i].disabled = false;
                           }
                         }
-                        // if(i==0 && !ckName[i].checked){
-                        //   if(!ckName[i].checked){
-                        //     ckName[i].disabled = true;
-                        //     document.getElementById("franc").value = total;
-                        //   }else{
-                        //       ckName[i].disabled = false;
-                        //   }
-                        // }
+                          
                         
-                    } 
                   }
                   else {
                     for(var i=0; i < ckName.length; i++){
