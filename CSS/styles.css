@@ -2593,14 +2593,57 @@ footer .footer-col {
     margin-left: 5px;
     width: 98%;
     padding: 15px;
-}
-.devenir-membre-leo-content p {
-  font-size: 14px;
-}
-.devenir-membre-leo-content h3 {
-  font-size: 20px;
-}
+  }
+  .devenir-membre-leo-content p {
+    font-size: 14px;
+  }
+  .devenir-membre-leo-content h3 {
+    font-size: 20px;
+  }
+  .leader-page {
+    margin-top: 12vh;
+  }
+  .leader-page .para {
+    height: 20vh;
+    margin-top: 5vh;
+  }
+  .leader-page h1 {
+    margin-left: 21px;
 
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 20vh;
+    color: #ffffff;
+  }
+  #les-derigeants {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 4vw;
+    /* grid-column-gap: 10.5vw; */
+    margin-bottom: 10vh vh;
+    padding-top: 20px;
+  }
+  #les-derigeants div img {
+    width: 45vw;
+    margin-left: auto;
+    height: 31vh;
+    margin-right: auto;
+    display: block;
+  }
+  #les-derigeants h3 { 
+    text-align: center;
+    padding-right: 0px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #les-derigeants div p {
+    padding-top: 12px;
+    font-size: 14px;
+    margin-top: -60px;
+    width: 250px;
+    margin-left: 93px;
+    text-align: center;
+}
 }
 
 /* -==== */
