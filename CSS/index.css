@@ -145,6 +145,9 @@ table {
 .container-fluid div ul li {
   padding-left: 2vw;
 }
+.container-fluid a img{
+  width: 5vw;
+}
 /* ===================Banner============== */
 .carousel .carousel-inner img {
   height: 700px;
@@ -953,6 +956,9 @@ table {
 
 
 @media (max-width: 574px) {
+  .container-fluid a img{
+    width: 13vw;
+  }
   .carousel .carousel-inner img {
     height: 325px;
     margin-top: 130px;

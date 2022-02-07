@@ -154,7 +154,9 @@ body .sticky + .content {
 .container-fluid div ul li {
   padding-left: 2vw;
 }
-
+.container-fluid a img{
+  width: 5vw;
+}
 header {
   background-color: #f6f6f6;
   clear: both;
@@ -279,12 +281,7 @@ header nav {
 .dropdown:hover .dropbtn {
   /* background-color: #d3dedc; */
 }
-/* -------------Responsive design------------- */
-/* Header */
-@media screen and (max-width: 1024px) {
-}
-@media screen and (max-width: 480px) {
-}
+
 /* ===================HEADER CSS========================== */
 
 /* =======================Carousel-CSSS */
@@ -2460,6 +2457,9 @@ footer .footer-col {
 /* Responsive */
 
 @media screen and (max-width: 940px) {
+  .container-fluid a img{
+    width: 13vw;
+  }
   .container-speect {
     margin-left: 1.5vw;
     margin-top: 16vw;
@@ -2469,10 +2469,10 @@ footer .footer-col {
     font-size: 24px;
     line-height: 30px;
   }
-  .container-speect img {
+  /* .container-speect img {
     margin-left: 18vw;
     width: 45vw;
-  }
+  } */
   .container-speect .par-edit p {
     margin-left: 1vw;
     font-size: 14px;
@@ -2761,6 +2761,9 @@ footer .footer-col {
 
 
 @media screen and (max-width: 574px) {
+  .container-fluid a img{
+    width: 13vw;
+  }
   .container-speect {
     margin-left: -1.5vw;
     margin-top: 20vw;
