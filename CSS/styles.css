@@ -2485,7 +2485,7 @@ footer .footer-col {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: -200vw;
+    margin-top: -215vw;
   }
   .ma-devise-container {
     margin-left: -1.5vw;
@@ -2541,7 +2541,7 @@ footer .footer-col {
 
   /* =============next page */
   .devenir-membre-lions .log {
-    padding-top: 25vw;
+    padding-top: 28vw;
   }
 
   .devenir-membre-lions .log p {
@@ -2557,8 +2557,8 @@ footer .footer-col {
     margin-bottom: 20px;
   }
   .lions-glid-images img {
-    width: 400px;
-    height: 450px;
+    width: 82vw;
+    height: 50vh;
     border-radius: 10px;
     margin-bottom: 20px;
   }
@@ -2573,6 +2573,10 @@ footer .footer-col {
   }
   .devenir-membre-lions-content h3{
     font-size: 20px;
+  }
+  main{
+    
+    padding: 15px 8px 15px 5px;
   }
 }
 
