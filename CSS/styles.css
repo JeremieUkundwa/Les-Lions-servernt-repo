@@ -352,9 +352,7 @@ header nav {
 #item1 p {
   clear: both;
 }
-#item2 {
-  /* grid-column-start: 12; */
-}
+
 
 .ma-devise {
   text-align: center;
