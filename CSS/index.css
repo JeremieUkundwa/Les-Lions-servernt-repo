@@ -125,6 +125,7 @@ q:after {
 }
 body {
   background-color: #e5e5e5;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
 }
 table {
   border-collapse: collapse;
@@ -138,7 +139,8 @@ table {
 }
 /* ===============Header====================== */
 .container-fluid {
-  margin-left: 15vw;
+  padding-top: 26px;
+  margin-left: 17vw;
   margin-bottom: 30px;
 }
 
@@ -146,7 +148,7 @@ table {
   padding-left: 2vw;
 }
 .container-fluid a img{
-  width: 5vw;
+  width: 3vw;
 }
 /* ===================Banner============== */
 .carousel .carousel-inner img {
@@ -352,7 +354,7 @@ table {
   border-radius: 10px;
   margin-right: 10px;
   margin-left: 45px;
-  padding: 20px 30px 20px 10vw;
+  padding: 20px 30px 45px 10vw;
   margin-bottom: 30px;
 }
 #nous-decouvrir h3 {
@@ -851,7 +853,7 @@ header {
 
 nav div div .navbar-nav .nav-item .nav-link {
   /* font-size: 17px; */
-  color: #8f8f8f;
+  color: rgba(0,0,0,.6);
 }
 nav div div .navbar-nav .nav-item ul .dropdown-menu .show {
   width: 20px;
