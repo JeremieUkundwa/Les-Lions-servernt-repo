@@ -149,7 +149,7 @@ body .sticky + .content {
 /* ===============Header====================== */
 .container-fluid {
   padding-top: 26px;
-  margin-left: 17vw;
+  margin-left: 16vw;
   margin-bottom: 30px;
 }
 
@@ -1930,7 +1930,7 @@ footer body {
 }
 footer .container {
   max-width: 1440px;
-  margin: auto;
+  margin-left: -44px;
 }
 footer .row {
   display: flex;
