@@ -220,7 +220,7 @@ table {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1vw;
+  font-size: 0.9vw;
   line-height: 1.8vw;
   margin-left: 7vw;
   color: #8f8f8f;
@@ -310,7 +310,7 @@ table {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 20px;
   overflow-wrap: break-word;
   color: #8f8f8f;
@@ -367,7 +367,7 @@ table {
   font-style: normal;
   font-weight: 500;
   overflow-wrap: break-word;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 20px;
   margin-bottom: 30px;
   color: #8f8f8f;
@@ -518,7 +518,7 @@ table {
   font-style: normal;
   font-weight: 500;
   margin-left: 27px;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 30px;
   color: #ffffff;
 }
@@ -705,7 +705,7 @@ table {
     /* z-index: 1; */
 }
   .zone-info .col .card p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
     width: 80vw;
     overflow-wrap: break-word;
