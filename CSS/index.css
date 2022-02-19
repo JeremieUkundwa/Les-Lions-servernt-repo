@@ -140,7 +140,7 @@ table {
 /* ===============Header====================== */
 .container-fluid {
   padding-top: 26px;
-  margin-left: 16vw;
+  margin-left: 13vw;
   margin-bottom: 30px;
 }
 
@@ -159,11 +159,11 @@ table {
   display: table-cell;
 }
 .carousel .carousel-inner .carousel-caption h5 {
-  margin-top: -18vw;
+  margin-top: -25vw;
   font-family: 'Sen',Helvetica,Arial,Lucida,sans-serif!important;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 54px;
   padding-bottom: 30px;
 
   color: #ffffff;
@@ -172,7 +172,7 @@ table {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 30px;
 
   color: #f7f6f0d8;
@@ -205,7 +205,7 @@ table {
 .mot div h2 {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;  font-style: normal;
   font-weight: normal;
-  font-size: 2vw;
+  font-size: 2.378vw;
   line-height: 6vw;
   margin-left: 5vw;
   margin-top: -4vw;
@@ -220,7 +220,7 @@ table {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.9vw;
+  font-size: 1.188vw;
   line-height: 1.8vw;
   margin-left: 7vw;
   color: #8f8f8f;

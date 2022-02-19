@@ -149,7 +149,7 @@ body .sticky + .content {
 /* ===============Header====================== */
 .container-fluid {
   padding-top: 26px;
-  margin-left: 16vw;
+  margin-left: 13vw;
   margin-bottom: 30px;
 }
 
@@ -715,7 +715,7 @@ header nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 3vw;
   color: #8f8f8f;
   height: 100px;
 }
