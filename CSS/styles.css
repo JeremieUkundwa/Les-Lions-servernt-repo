@@ -2483,9 +2483,13 @@ footer .footer-col {
     overflow-x: hidden;
   }
   .devenir-membre-Leo {
-    margin-top: 34vw;
+    margin-top: 36vw;
     width: 100vw;
   }
+  .devenir-membre-Leo .logo-leo img {
+    width: 150px;
+    
+}
   .devenir-membre-Leo .logo-leo p {
     margin-left: 10px;
     font-size: 14px;
