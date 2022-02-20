@@ -2453,7 +2453,7 @@ footer .footer-col {
 
   /* =============next page */
   .devenir-membre-lions .log {
-    padding-top: 42vw;
+    padding-top: 45vw;
   }
   .devenir-membre-lions .log img {
     width: 100px;
@@ -2476,6 +2476,12 @@ footer .footer-col {
     border-radius: 10px;
     margin-bottom: 20px;
   }
+  .lions-glid-images .glid-1 img {
+    width: 290px;
+    height: 359px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
   .devenir-membre-lions-content {
     margin-left: 15px;
     width: 96%;
@@ -2512,6 +2518,10 @@ footer .footer-col {
     width: 98%;
     padding: 15px;
   }
+  .glid2 {
+    grid-template-columns: 1fr;
+    margin-left: 15px;
+}
   .devenir-membre-leo-content p {
     font-size: 14px;
   }
