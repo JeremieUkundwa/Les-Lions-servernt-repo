@@ -555,13 +555,23 @@ header nav {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.lions-glid-images img {
+.lions-glid-images .glid-1 img {
+  width: 379px;
+  height: 402px;
+  border-radius: 10px;
+  margin-left: -140px;
+}
+.lions-glid-images div {
+  width: 300px;
+}
+.lions-glid-images .glid2 img {
   width: 200px;
   height: 200px;
   border-radius: 10px;
 }
-.lions-glid-images div {
-  width: 300px;
+.glid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 /* ----------Devenir membre Lions Ends here-------- */
 
