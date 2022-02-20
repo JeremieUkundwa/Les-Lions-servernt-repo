@@ -632,7 +632,7 @@ table {
   /* mot-de-gouverner */
   .mot {
     width: 95vw;
-    height: 190vw;
+    height: 225vw;
     padding: 10px 30px 10px 0px;
     margin-left: 0px;
     margin-bottom: 100px;
@@ -805,7 +805,7 @@ table {
   .cont img {
     width: 266px;
     height: 343px;
-    margin-left: 3vw;
+    margin-left: 0vw;
     margin-bottom: 20px;
   }
   .cont form{
@@ -818,7 +818,7 @@ table {
     width: 75vw;
   }
   .cont form button {
-    margin-left: 18vw;
+    margin-left: 14vw;
   }
   .container-table h2 {
     font-size: 28px;

@@ -1880,7 +1880,7 @@ td {
   font-weight: 500;
   font-size: 15px;
   line-height: 1.5em;
-  margin-left: -31px;
+  margin-left: 30px;
   text-align: center;
   overflow-wrap: break-word;
   color: #8f8f8f;
@@ -1935,7 +1935,7 @@ footer .container {
 footer .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 196px;
+  margin-left: 50px;
   margin-right: -170px;
 }
 footer ul {
@@ -2387,7 +2387,7 @@ footer .footer-col {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: -205vw;
+    margin-top:  0vw;
   }
   .ma-devise-container {
     margin-left: -1.5vw;
