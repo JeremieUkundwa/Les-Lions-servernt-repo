@@ -895,8 +895,8 @@ footer .row {
   display: flex;
   flex-wrap: wrap;
   /* margin-left: 60px; */
-  margin-left: 50px;
-  margin-right: -170px;
+  margin-left: 190px;
+  margin-right: -65px;
 }
 footer ul {
   list-style: none;
@@ -910,7 +910,7 @@ footer .footer-col {
   padding: 0 15px;
 }
 .footer-col h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
@@ -931,7 +931,7 @@ footer .footer-col {
   margin-bottom: 10px;
 }
 .footer-col ul li a {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
@@ -989,6 +989,10 @@ footer .footer-col {
     width: 100%;
     text-align: center;
   }
+  footer .row {
+    margin-left: 50px;
+    margin-right: -170px;
+}
 }
 
 /* ==================Google Translation============ */

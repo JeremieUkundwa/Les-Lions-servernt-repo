@@ -569,7 +569,7 @@ header nav {
   height: 200px;
   border-radius: 10px;
 }
-.glid2{
+.glid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -1945,8 +1945,9 @@ footer .container {
 footer .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 50px;
-  margin-right: -170px;
+  /* margin-left: 60px; */
+  margin-left: 190px;
+  margin-right: -65px;
 }
 footer ul {
   list-style: none;
@@ -1960,7 +1961,7 @@ footer .footer-col {
   padding: 0 15px;
 }
 .footer-col h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
@@ -1980,14 +1981,12 @@ footer .footer-col {
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
-
 .footer-col ul li a {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
-  font-weight: 300;
-  color: #c4c4c4;
+  font-weight: 300px;
   display: block;
   transition: all 0.3s ease;
 }
@@ -1999,7 +1998,7 @@ footer .footer-col {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: #f0f0efd8;
+  background-color: #f7f6f0d8;
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
@@ -2011,6 +2010,10 @@ footer .footer-col {
   color: #ffcd06d8;
   background-color: #0d2240;
 }
+.footer .copyright hr {
+  width: 50%;
+  margin-left: 25vw;
+}
 .footer .copyright {
   color: white;
   padding-top: 40px;
@@ -2021,11 +2024,6 @@ footer .footer-col {
   color: #c4c4c4;
   text-align: center;
 }
-.footer .copyright hr {
-  width: 50%;
-  margin-left: 25vw;
-}
-
 /*responsive*/
 @media (max-width: 767px) {
   footer .footer-col {
@@ -2041,6 +2039,10 @@ footer .footer-col {
     margin-left: 10px;
     width: 100%;
     text-align: center;
+  }
+  footer .row {
+    margin-left: 50px;
+    margin-right: -170px;
   }
 }
 
@@ -2481,7 +2483,7 @@ footer .footer-col {
     height: 359px;
     border-radius: 10px;
     margin-left: 6px;
-}
+  }
   .devenir-membre-lions-content {
     margin-left: 15px;
     width: 96%;
@@ -2504,8 +2506,7 @@ footer .footer-col {
   }
   .devenir-membre-Leo .logo-leo img {
     width: 150px;
-    
-}
+  }
   .devenir-membre-Leo .logo-leo p {
     margin-left: 10px;
     font-size: 14px;
@@ -2521,7 +2522,7 @@ footer .footer-col {
   .glid2 {
     grid-template-columns: 1fr;
     margin-left: 15px;
-}
+  }
   .devenir-membre-leo-content p {
     font-size: 14px;
   }
