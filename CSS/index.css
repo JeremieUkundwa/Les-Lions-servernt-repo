@@ -125,7 +125,7 @@ q:after {
 }
 body {
   background-color: #e5e5e5;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
 table {
   border-collapse: collapse;
@@ -147,7 +147,7 @@ table {
 .container-fluid div ul li {
   padding-left: 2vw;
 }
-.container-fluid a img{
+.container-fluid a img {
   width: 3vw;
 }
 /* ===================Banner============== */
@@ -160,7 +160,7 @@ table {
 }
 .carousel .carousel-inner .carousel-caption h5 {
   margin-top: -25vw;
-  font-family: 'Sen',Helvetica,Arial,Lucida,sans-serif!important;
+  font-family: "Sen", Helvetica, Arial, Lucida, sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 54px;
@@ -169,7 +169,7 @@ table {
   color: #ffffff;
 }
 .carousel .carousel-inner .carousel-caption p {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -189,7 +189,7 @@ table {
   margin-top: 2vw;
 }
 .mot h3 {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -203,7 +203,8 @@ table {
   padding-left: 6vw;
 }
 .mot div h2 {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;  font-style: normal;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 2.378vw;
   line-height: 6vw;
@@ -217,7 +218,7 @@ table {
   width: 50vw;
   overflow-wrap: break-word;
   text-align: left;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.188vw;
@@ -295,7 +296,7 @@ table {
 .zone-info .col .card h5 {
   /* margin-top: -20px; */
   text-align: center;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -307,7 +308,7 @@ table {
   color: #000000;
 }
 .zone-info .col .card p {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -333,7 +334,7 @@ table {
 }
 
 .section-header {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -363,7 +364,7 @@ table {
   padding-right: 40px;
 } */
 .cont p {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   overflow-wrap: break-word;
@@ -401,8 +402,8 @@ table {
 }
 
 .cont img {
-  width: 463px;
-  height: 482px;
+  width: 372px;
+  height: 368px;
 }
 
 /* ==============NOTRE-HISTORY CSS========== */
@@ -424,7 +425,7 @@ table {
 
 .home-devenir-member .lion h6 {
   padding-left: 40px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -433,7 +434,7 @@ table {
 }
 /*2. LEO  */
 .home-devenir-member .leo h6 {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -467,7 +468,7 @@ table {
 /* ---------------------end------------------ */
 
 .histoire .col h5 {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 33px;
@@ -481,7 +482,7 @@ table {
   padding-bottom: 30px;
 }
 .mondiales h5 {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 33px;
@@ -493,7 +494,6 @@ table {
 
 /* ==============Table information=========== */
 
-
 .container-table .div-1 {
   margin-top: 8vw;
   padding-left: 10vw;
@@ -503,7 +503,7 @@ table {
   margin-left: -20px;
 }
 .container-table h2 {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -514,7 +514,7 @@ table {
 }
 
 .container-table .div-1 p {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 500;
   margin-left: 27px;
@@ -541,7 +541,7 @@ table {
 
 .container-table td {
   text-align: center;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   padding: 20px;
   font-style: normal;
   font-weight: bold;
@@ -563,6 +563,7 @@ table {
 
 .table-format tr td:first-child {
   border-left: none;
+  padding-right: 6vw;
 }
 
 .table-format tr td:last-child {
@@ -612,10 +613,9 @@ table {
   font-size: 58px;
 }
 
-
 /* ==== Mobile Responsive ================= */
 @media (max-width: 574px) {
-  .container-fluid a img{
+  .container-fluid a img {
     width: 13vw;
   }
   .carousel .carousel-inner img {
@@ -669,7 +669,7 @@ table {
   #zone {
     margin-top: 60px;
   }
-  .zone-info{
+  .zone-info {
     margin-left: 33vw;
   }
   .zone-info .col .card h5 {
@@ -703,13 +703,13 @@ table {
     /* top: -15%; */
     /* left: 7vw; */
     /* z-index: 1; */
-}
-.zone-info .card .card-body {
-  margin-top: 130px;
-  visibility: visible;
-  opacity: 1;
-  transition-delay: 0.2s;
-}
+  }
+  .zone-info .card .card-body {
+    margin-top: 130px;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
   .zone-info .col .card p {
     font-size: 14px;
     line-height: 20px;
@@ -808,7 +808,7 @@ table {
     margin-left: 0vw;
     margin-bottom: 20px;
   }
-  .cont form{
+  .cont form {
     margin-left: -8px;
   }
   .cont form input {
@@ -828,11 +828,10 @@ table {
     margin-left: -14px;
     font-size: 14px;
   }
-  .container-table td{
+  .container-table td {
     font-size: 30px;
   }
 }
-
 
 body {
   background-color: #f6f6f6;
@@ -861,7 +860,7 @@ header {
 
 nav div div .navbar-nav .nav-item .nav-link {
   font-size: 14px;
-  color: rgba(0,0,0,.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 nav div div .navbar-nav .nav-item ul .dropdown-menu .show {
   width: 20px;
@@ -894,9 +893,8 @@ footer .container {
 footer .row {
   display: flex;
   flex-wrap: wrap;
-  /* margin-left: 60px; */
-  margin-left: 190px;
-  margin-right: -65px;
+  margin-left: 15vw;
+  margin-right: -5vw;
 }
 footer ul {
   list-style: none;
@@ -992,7 +990,7 @@ footer .footer-col {
   footer .row {
     margin-left: 50px;
     margin-right: -170px;
-}
+  }
 }
 
 /* ==================Google Translation============ */
@@ -1029,6 +1027,6 @@ footer .footer-col {
   box-shadow: none !important;
 }
 
-*{
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+* {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
