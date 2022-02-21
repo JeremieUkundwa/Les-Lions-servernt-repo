@@ -542,10 +542,13 @@ table {
   padding: 20px;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 40px;
   color: #ffcc00;
 }
-
+.container-table td .content{
+  margin-top: 10px;
+  font-size: 18px;
+}
 .table-format td {
   border: 2px solid #e5e5e5;
 }
