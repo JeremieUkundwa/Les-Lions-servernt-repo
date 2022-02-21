@@ -1381,6 +1381,24 @@ p {
 }
 
 /* ========================Leades css=============== */
+.leader-table-info {
+  margin-left: 20px;
+  margin-right: -40px;
+  line-height: 1.5em;
+  color: #8f8f8f;
+  font-size: 14px;
+}
+.leader-table {
+  margin-left: 10px;
+  float: none;
+}
+.leader-table tr th {
+  height: 20px;
+}
+.leader-table tr th,
+.leader-table tr td {
+  width: 300px;
+}
 
 .leader-page .leaders-photo {
   background-position: center;
@@ -1689,12 +1707,12 @@ p {
   border-collapse: collapse;
   border: none;
 }
-table {
+.form-info table {
   float: right;
   margin-right: 20vw;
   margin-top: 5vw;
 }
-td {
+.form-info td {
   text-align: center;
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
