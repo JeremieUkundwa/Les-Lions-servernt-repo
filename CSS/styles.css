@@ -803,6 +803,9 @@ header nav {
   .global-couses-content div {
     width: 85%;
     height: 55vh;
+
+    margin-bottom: 30px;
+
   }
 }
 @media screen and (max-width: 570px) {
@@ -2683,6 +2686,7 @@ footer .footer-col {
   .global-couses-content p {
     font-size: 13px;
     height: 24vh;
+    margin-bottom: 30px;
   }
 
   /* next page============ */
