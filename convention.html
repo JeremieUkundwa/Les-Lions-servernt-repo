@@ -147,9 +147,9 @@
                 <h2>hebergement: Je souhaite loger a: </h2>
                 <div class="checkboxes">
                     <div style="display: inline-block;">
-                      <tr><td><input required type="checkbox" name="Accomadation" id="progress1" value="Hôtel" tabIndex="1" onClick="ckChange(this)">Hôtel &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr> 
-                      <tr><td><input required type="checkbox" name="Accomadation" id="progress2" value="Famille" tabIndex="1" onClick="ckChange(this)">Famille &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
-                      <tr><td><input required type="checkbox" name="Accomadation" id="progress3" value="Autres" tabIndex="1" onClick="ckChange(this)">Autres &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
+                      <tr><td><input required type="checkbox" name="hebergement: Je souhaite loger a:" id="progress1" value="Hôtel" tabIndex="1" onClick="ckChange(this)">Hôtel &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr> 
+                      <tr><td><input required type="checkbox" name="hebergement: Je souhaite loger a:" id="progress2" value="Famille" tabIndex="1" onClick="ckChange(this)">Famille &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
+                      <tr><td><input required type="checkbox" name="hebergement: Je souhaite loger a:" id="progress3" value="Autres" tabIndex="1" onClick="ckChange(this)">Autres &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
                       
                       <script>
                       function ckChange(ckType){
@@ -187,24 +187,24 @@
             <br><br>
             <div class="form-info">
               <h2>FRAIS SUPPLEMENTAIRES : </h2>
-              <tr><td><input required type="checkbox" name="info" id="progress5" value="50" tabIndex="1"onClick="checkData(this)">Diner compagnons Melvin Jones : 50$ par personne (boissons non comprises) Le 07\05</td></tr><br>
-              <tr><td><input required type="checkbox" name="info" name="info2" id="progress6" value="30" tabIndex="1" onClick="checkData(this)">Visite guidée de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
-              <tr><td><input required type="checkbox" name="info" name="info2" id="progress7" value="30" tabIndex="1" onClick="checkData(this)">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
-              <tr><td><input required type="checkbox" name="info" id="progress8" value="0" tabIndex="1"  onClick="checkData(this)">Pas encore décidé</td></tr><br>
-              <tr><td><label style ="color: #2250b2; margin-left: 40px;"for="" class="franc-label">Montan total</label> <input type="text" name="franc" id="franc"><label for="">$</label></td></tr>
+              <tr><td><input required type="checkbox" name="FRAIS SUPPLEMENTAIRES" id="progress5" value="50" tabIndex="1"onClick="checkData(this)">Diner compagnons Melvin Jones : 50$ par personne (boissons non comprises) Le 07\05</td></tr><br>
+              <tr><td><input required type="checkbox" name="FRAIS SUPPLEMENTAIRES" name="info2" id="progress6" value="30" tabIndex="1" onClick="checkData(this)">Visite guidée de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
+              <tr><td><input required type="checkbox" name="FRAIS SUPPLEMENTAIRES" name="info2" id="progress7" value="30" tabIndex="1" onClick="checkData(this)">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
+              <tr><td><input required type="checkbox" name="FRAIS SUPPLEMENTAIRES" id="progress8" value="0" tabIndex="1"  onClick="checkData(this)">Pas encore décidé</td></tr><br>
+              <tr><td><label style ="color: #2250b2; margin-left: 40px;"for="" class="franc-label">Montan total</label> <input type="text" name="Montan total" id="franc"><label for="">$</label></td></tr>
               
               <script>
-                  document.getElementById('franc').addEventListener('keypress', (e) => {
+                  document.getElementById('Montan total').addEventListener('keypress', (e) => {
                   e.preventDefault();
                 });
-                document.getElementById("franc").value = 0;
+                document.getElementById("Montan total").value = 0;
               
               function checkData(checkInitial){
-                  var ckName = document.getElementsByName("info");
+                  var ckName = document.getElementsByName("FRAIS SUPPLEMENTAIRES");
                   var nextCheck = document.getElementsByName("info2");
                   var checked = document.getElementById(checkInitial.id);
                   var getValue1 = document.getElementById(checkInitial.id).value;
-                  var inital = document.getElementById("franc").value;
+                  var inital = document.getElementById("Montan total").value;
                   var amount =0;
                   var total=Number(getValue1) +150 +Number(inital);
                   var deduct = Number(inital);
@@ -213,16 +213,16 @@
                           amount = 200;
                           
                           if(ckName[i].checked && i==0){
-                            document.getElementById("franc").value = amount;
+                            document.getElementById("Montan total").value = amount;
                             for(var j=1;j < ckName.length; j++){ 
                               if(ckName[j].checked && j==1){
                                 amount = 230;
-                                document.getElementById("franc").value = amount;
+                                document.getElementById("Montan total").value = amount;
                                 ckName[j+1].disabled = true;
                               }
                               if(ckName[j].checked && j==2){
                               amount = 230;
-                              document.getElementById("franc").value = amount;
+                              document.getElementById("Montan total").value = amount;
                               ckName[j-1].disabled = true;
                               }
                               if(j==3){
@@ -244,7 +244,7 @@
                             for(var i=0;i < ckName.length-1; i++){
                               if(!ckName[i].checked){
                                 ckName[i].disabled = true;
-                                document.getElementById("franc").value = 150;
+                                document.getElementById("Montan total").value = 150;
                               }
                             }
                         }  
@@ -255,14 +255,14 @@
                           if(!ckName[i].checked && i==0){
                             for(var j=1; j < ckName.length; j++){
                               ckName[j].disabled = false;
-                              document.getElementById("franc").value = 0;
+                              document.getElementById("Montan total").value = 0;
                             }
                           } 
                           if(!ckName[i].checked && i==3){
                             for(var i=0;i < ckName.length-1; i++){
                               if(!ckName[i].checked){
                                 ckName[i].disabled = false;
-                                document.getElementById("franc").value = 0;
+                                document.getElementById("Montan total").value = 0;
                               }
                             }
                           }
@@ -303,10 +303,10 @@
             <br><br>
             <div class="form-info">
               <h2>Reglement de l'hospitalite  et des frais supplementaires:</h2>
-              <tr><td><input required type="checkbox" name="paymentInfo" id="progress20" value="1" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total par transfert bancaire.</td></tr><br>
+              <tr><td><input required type="checkbox" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS" id="progress20" value="Je m'engage à verser le montant total par transfert bancaire" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total par transfert bancaire.</td></tr><br>
               <label style="padding-left: 40px; margin-top: -20px; font-weight: bold;" for="">Je vous prie de trouver en annexe la preuve de paiement du montant total Verser au Compte bancaire : BANK OF KIGALI, Compte N°00040610090021/USD de LIONS CLUB KIGALI BK SWIFT CODE : BKIGRWRW</label>
-              <tr><td><input required type="checkbox" name="paymentInfo" id="progress9" value="1" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total au Trésorier du Club</td></tr><br>
-              <tr><td><input required type="checkbox" name="paymentInfo" id="progress10" value="1" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total par voie de transfert d'argent mobile</td></tr><br>
+              <tr><td><input required type="checkbox" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS" id="progress9" value="Je m'engage à verser le montant total au Trésorier du Club" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total au Trésorier du Club</td></tr><br>
+              <tr><td><input required type="checkbox" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS" id="progress10" value="Je m'engage à verser le montant total par voie de transfert d'argent mobile" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total par voie de transfert d'argent mobile</td></tr><br>
               <script>
               function checkNextInfo(ckType){
                   var ckName = document.getElementsByName(ckType.name);
@@ -333,15 +333,15 @@
             <hr>
             <div class="payment-information form-info">
               <h2 style="color: black; font-weight: bold;">BURUNDI</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress11" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Ecocash : &nbsp &nbsp &nbsp &nbsp +25779960616 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Arielle Kaneza</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress11" value="Ecocash: +25779960616 Receiver name: Arielle Kaneza" tabIndex="1" onClick="checkPaymentOption(this)">Ecocash : &nbsp &nbsp &nbsp &nbsp +25779960616 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Arielle Kaneza</span> </td></tr><br>
               <hr>
               <h2 style="color: black; font-weight: bold;">DRC</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress12" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Mpesa (Vodacom) : &nbsp &nbsp &nbsp &nbsp +243813907272 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Junior Mbala Kazadi</span> </td></tr><br>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress13" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Airtel Money: &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243990260596 </td></tr><br>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress14" value="1" tabIndex="1" onClick="checkPaymentOption(this)">Orange money:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243897775922 </td></tr><br>
+              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress12" value="Mpesa (Vodacom): +243813907272 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkPaymentOption(this)">Mpesa (Vodacom) : &nbsp &nbsp &nbsp &nbsp +243813907272 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Junior Mbala Kazadi</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress13" value="Airtel Money:    +243990260596 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkPaymentOption(this)">Airtel Money: &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243990260596 </td></tr><br>
+              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress14" value="Orange money:    +243897775922 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkPaymentOption(this)">Orange money:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243897775922 </td></tr><br>
               <hr>
               <h2 style="color: black; font-weight: bold;">RWANDA</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress15" value="1" tabIndex="1" onClick="checkPaymentOption(this)">MobileMoney:  &nbsp &nbsp &nbsp &nbsp +250788685005 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Jules Ngoga Mubiligi</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress15" value="MobileMoney: +250788685005 Receiver Name: Jules Ngoga Mubiligi" tabIndex="1" onClick="checkPaymentOption(this)">MobileMoney:  &nbsp &nbsp &nbsp &nbsp +250788685005 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Jules Ngoga Mubiligi</span> </td></tr><br>
               <script>
               function checkPaymentOption(ckType){
                   var ckName = document.getElementsByName(ckType.name);
