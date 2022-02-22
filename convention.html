@@ -119,37 +119,37 @@
                 <h2>identite et provenance</h2>
                 
                   <div>
-                    <input type="text" placeholder="nom" required>
-                    <input type="text" placeholder="prénom" required>
-                    <input type="text" placeholder="nationalité">
-                    <input type="text" placeholder="pays">
-                    <input type="text" id="club" placeholder="Club" required>
-                    <input type="text" placeholder="Fonction Principale">
-                    <input type="text" placeholder="Accompagné">
+                    <input type="text" name="Nom: " placeholder="nom" required>
+                    <input type="text" name="prénom" placeholder="prénom" required>
+                    <input type="text" name="nationalité" placeholder="nationalité">
+                    <input type="text" name="pays" placeholder="pays">
+                    <input type="text" name="Club" id="club" placeholder="Club" required>
+                    <input type="text" name="Fonction Principale" placeholder="Fonction Principale">
+                    <input type="text" name="Accompagné" placeholder="Accompagné">
                     
-                    <input type="number" placeholder="Téléphone" required>
-                    <input type="email" id="form-email" placeholder="Email">
+                    <input type="number" name="Téléphone" placeholder="Téléphone" required>
+                    <input type="email" name="Email" id="form-email" placeholder="Email">
                 </div>
               </div>
               <div>
                 <h2>Coordonnees de l'arrive a Kigali</h2>
                 <div>
-                    <input type="text" placeholder="arrivant de">
-                    <input type="text" placeholder="Moyen de transport">
-                    <input type="text" placeholder="Date" onfocus="(this.type='date')" onblur="(this.type='text')">
-                    <input type="text" placeholder="Heure"onfocus="(this.type='time')" onblur="(this.type='text')">
+                    <input type="text" name="arrivant-de" placeholder="arrivant de">
+                    <input type="text" name="Moyen-de-transport" placeholder="Moyen de transport">
+                    <input type="text" name="Date" placeholder="Date" onfocus="(this.type='date')" onblur="(this.type='text')">
+                    <input type="text" name="Heure" placeholder="Heure"onfocus="(this.type='time')" onblur="(this.type='text')">
                     
-                    <input type="text" placeholder="aéroport">
-                    <input type="text" placeholder="frontière">
+                    <input type="text" name="aéroport" placeholder="aéroport">
+                    <input type="text" name="frontière" placeholder="frontière">
                 </div>
               </div>
               <div>
                 <h2>hebergement: Je souhaite loger a: </h2>
                 <div class="checkboxes">
                     <div style="display: inline-block;">
-                      <tr><td><input required type="checkbox" name="progress" id="progress1" value="1" tabIndex="1" onClick="ckChange(this)">Hôtel &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr> 
-                      <tr><td><input required type="checkbox" name="progress" id="progress2" value="1" tabIndex="1" onClick="ckChange(this)">Famille &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
-                      <tr><td><input required type="checkbox" name="progress" id="progress3" value="1" tabIndex="1" onClick="ckChange(this)">Autres &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
+                      <tr><td><input required type="checkbox" name="Accomadation" id="progress1" value="Hôtel" tabIndex="1" onClick="ckChange(this)">Hôtel &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr> 
+                      <tr><td><input required type="checkbox" name="Accomadation" id="progress2" value="Famille" tabIndex="1" onClick="ckChange(this)">Famille &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
+                      <tr><td><input required type="checkbox" name="Accomadation" id="progress3" value="Autres" tabIndex="1" onClick="ckChange(this)">Autres &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td></tr>
                       
                       <script>
                       function ckChange(ckType){
