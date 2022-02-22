@@ -945,8 +945,8 @@ footer .container {
 footer .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 15vw;
-  margin-right: -5vw;
+  margin-left: 12vw;
+  margin-right: -7vw;
 }
 footer ul {
   list-style: none;
@@ -967,7 +967,6 @@ footer .footer-col {
   font-weight: 500;
   position: relative;
 }
-
 .footer-col h4::before {
   content: "";
   position: absolute;
