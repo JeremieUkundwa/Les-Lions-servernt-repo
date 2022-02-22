@@ -270,99 +270,170 @@
                   }    
               }
 
-
-              // function checkData(checkType){
-              //     var ckName = document.getElementsByName(checkType.name);
-              //     var checked = document.getElementById(checkType.id);
-              //     var getValue1 = document.getElementById(checkType.id).value;
-              //     var inital = document.getElementById("franc").value;
-              //     var total=Number(getValue1) +150 +Number(inital);
-              //     var deduct = Number(inital);
-              //     if (checked.checked) {
-              //       for(var i=0; i < ckName.length; i++){
-              //             if(!ckName[i].checked){
-              //               ckName[i].disabled = true;
-              //               document.getElementById("franc").value = total;
-              //             }else{
-              //                 ckName[i].disabled = false;
-                              
-              //             }
-              //           }
-                          
-                        
-              //     }
-                  // else {
-                  //   for(var i=0; i < ckName.length; i++){
-                  //     ckName[i].disabled = false;
-                  //     document.getElementById("franc").value = 0;
-                  //   } 
-                  // }    
-              // }
               </script>
             </div>
             <br><br>
             <div class="form-info">
               <h2>Reglement de l'hospitalite  et des frais supplementaires:</h2>
-              <tr><td><input required type="checkbox" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS" id="progress20" value="Je m'engage à verser le montant total par transfert bancaire" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total par transfert bancaire.</td></tr><br>
+              <tr><td><input required type="checkbox" name="Reglement de l'hospitalite  et des frais supplementaires" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS"   id="progress20" value="Je m'engage à verser le montant total par transfert bancaire" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total par transfert bancaire.</td></tr><br>
               <label style="padding-left: 40px; margin-top: -20px; font-weight: bold;" for="">Je vous prie de trouver en annexe la preuve de paiement du montant total Verser au Compte bancaire : BANK OF KIGALI, Compte N°00040610090021/USD de LIONS CLUB KIGALI BK SWIFT CODE : BKIGRWRW</label>
-              <tr><td><input required type="checkbox" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS" id="progress9" value="Je m'engage à verser le montant total au Trésorier du Club" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total au Trésorier du Club</td></tr><br>
-              <tr><td><input required type="checkbox" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS" id="progress10" value="Je m'engage à verser le montant total par voie de transfert d'argent mobile" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total par voie de transfert d'argent mobile</td></tr><br>
-              <script>
-              function checkNextInfo(ckType){
-                  var ckName = document.getElementsByName(ckType.name);
-                  var checked = document.getElementById(ckType.id);
+              <tr><td><input required type="checkbox" name="Reglement de l'hospitalite  et des frais supplementaires" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS"   id="progress9" value="Je m'engage à verser le montant total au Trésorier du Club" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total au Trésorier du Club</td></tr><br>
+              <tr><td><input required type="checkbox" name="Reglement de l'hospitalite  et des frais supplementaires" name="PAYMENT OF HOSPITALITY AND ADDITIONAL COSTS"   id="progress10" value="Je m'engage à verser le montant total par voie de transfert d'argent mobile" tabIndex="1" onClick="checkNextInfo(this)">Je m'engage à verser le montant total par voie de transfert d'argent mobile</td></tr><br>
               
-                  if (checked.checked) {
-                    for(var i=0; i < ckName.length; i++){
-              
-                        if(!ckName[i].checked){
-                            ckName[i].disabled = true;
-                        }else{
-                            ckName[i].disabled = false;
-                        }
-                    } 
-                  }
-                  else {
-                    for(var i=0; i < ckName.length; i++){
-                      ckName[i].disabled = false;
-                    } 
-                  }    
-              }
-              </script>
             </div>
             <hr>
             <div class="payment-information form-info">
               <h2 style="color: black; font-weight: bold;">BURUNDI</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress11" value="Ecocash: +25779960616 Receiver name: Arielle Kaneza" tabIndex="1" onClick="checkPaymentOption(this)">Ecocash : &nbsp &nbsp &nbsp &nbsp +25779960616 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Arielle Kaneza</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="Reglement de l'hospitalite  et des frais supplementaires" name="meansOfPaymentInfo" id="progress11"   value="Ecocash: +25779960616 Receiver name: Arielle Kaneza" tabIndex="1" onClick="checkNextInfo(this)">Ecocash : &nbsp &nbsp &nbsp &nbsp +25779960616 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveuse : <span style="font-weight: bold;">Arielle Kaneza</span> </td></tr><br>
               <hr>
               <h2 style="color: black; font-weight: bold;">DRC</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress12" value="Mpesa (Vodacom): +243813907272 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkPaymentOption(this)">Mpesa (Vodacom) : &nbsp &nbsp &nbsp &nbsp +243813907272 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Junior Mbala Kazadi</span> </td></tr><br>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress13" value="Airtel Money:    +243990260596 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkPaymentOption(this)">Airtel Money: &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243990260596 </td></tr><br>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress14" value="Orange money:    +243897775922 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkPaymentOption(this)">Orange money:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243897775922 </td></tr><br>
+              <tr><td><input required type="checkbox" name="Reglement de l'hospitalite  et des frais supplementaires" name="meansOfPaymentInfo" id="progress12"   value="Mpesa (Vodacom): +243813907272 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkNextInfo(this)">Mpesa (Vodacom) : &nbsp &nbsp &nbsp &nbsp +243813907272 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Junior Mbala Kazadi</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="Reglement de l'hospitalite  et des frais supplementaires" name="meansOfPaymentInfo" id="progress13"   value="Airtel Money:    +243990260596 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkNextInfo(this)">Airtel Money: &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243990260596 </td></tr><br>
+              <tr><td><input required type="checkbox" name="Reglement de l'hospitalite  et des frais supplementaires" name="meansOfPaymentInfo" id="progress14"   value="Orange money:    +243897775922 Name of receiver: Junior Mbala Kazadi" tabIndex="1" onClick="checkNextInfo(this)">Orange money:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +243897775922 </td></tr><br>
               <hr>
               <h2 style="color: black; font-weight: bold;">RWANDA</h2>
-              <tr><td><input required type="checkbox" name="meansOfPaymentInfo" id="progress15" value="MobileMoney: +250788685005 Receiver Name: Jules Ngoga Mubiligi" tabIndex="1" onClick="checkPaymentOption(this)">MobileMoney:  &nbsp &nbsp &nbsp &nbsp +250788685005 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Jules Ngoga Mubiligi</span> </td></tr><br>
+              <tr><td><input required type="checkbox" name="Reglement de l'hospitalite  et des frais supplementaires" name="meansOfPaymentInfo" id="progress15"   value="MobileMoney: +250788685005 Receiver Name: Jules Ngoga Mubiligi" tabIndex="1" onClick="checkNextInfo(this)">MobileMoney:  &nbsp &nbsp &nbsp &nbsp +250788685005 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nom de la receveur: <span style="font-weight: bold;">Jules Ngoga Mubiligi</span> </td></tr><br>
               <script>
-              function checkPaymentOption(ckType){
+             
+             function checkNextInfo(ckType){
                   var ckName = document.getElementsByName(ckType.name);
                   var checked = document.getElementById(ckType.id);
               
                   if (checked.checked) {
                     for(var i=0; i < ckName.length; i++){
               
-                        if(!ckName[i].checked){
-                            ckName[i].disabled = true;
-                        }else{
-                            ckName[i].disabled = false;
+                        if(ckName[i].checked && i==0){
+                            for(var j=1;j<ckName.length;j++){
+                              ckName[j].disabled = true;
+                            }
+                        }
+                        else if(ckName[i].checked && i==1){
+                          ckName[2].disabled = true;
+                          ckName[0].disabled = true;
+                          for (var k=3;k<ckName.length;k++){
+                              if(ckName[k].checked && k==3){
+                                ckName[4].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==4){
+                                ckName[3].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==5){
+                                ckName[4].disabled = true;
+                                ckName[3].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==6){
+                                ckName[4].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[3].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==7){
+                                ckName[4].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[3].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==8){
+                                ckName[4].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[3].disabled = true;
+                              }
+                          }
+                        }
+                        else if(ckName[i].checked && i==2){
+                          ckName[1].disabled = true;
+                          ckName[0].disabled = true;
+                          for (var k=3;k<ckName.length;k++){
+                              if(ckName[k].checked && k==3){
+                                ckName[4].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==4){
+                                ckName[3].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==5){
+                                ckName[4].disabled = true;
+                                ckName[3].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==6){
+                                ckName[4].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[3].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==7){
+                                ckName[4].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[3].disabled = true;
+                                ckName[8].disabled = true;
+                              }
+                              if(ckName[k].checked && k==8){
+                                ckName[4].disabled = true;
+                                ckName[5].disabled = true;
+                                ckName[6].disabled = true;
+                                ckName[7].disabled = true;
+                                ckName[3].disabled = true;
+                              }
+                          }
                         }
                     } 
                   }
                   else {
                     for(var i=0; i < ckName.length; i++){
-                      ckName[i].disabled = false;
+                        ckName[i].disabled = false;
                     } 
                   }    
               }
+
+              // function checkNextInfo(ckType){
+              //     var ckName = document.getElementsByName(ckType.name);
+              //     var checked = document.getElementById(ckType.id);
+              
+              //     if (checked.checked) {
+              //       for(var i=0; i < ckName.length; i++){
+              
+                        // if(!ckName[i].checked){
+                        //     ckName[i].disabled = true;
+                        // }else{
+                        //     ckName[i].disabled = false;
+                        // }
+              //       } 
+              //     }
+              //     else {
+              //       for(var i=0; i < ckName.length; i++){
+              //         ckName[i].disabled = false;
+              //       } 
+              //     }    
+              // }
+              
+              
               </script>
               <label for="" >Pour plus d'informations <a href="mailto:info@lions-d409.org ">info@lions-d409.org</a> </label>
               
