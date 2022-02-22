@@ -493,6 +493,7 @@ table {
 }
 .sub-title-devenir {
   font-size: 25px;
+  margin-left: 48px;
 }
 /* ==============Table information=========== */
 
@@ -615,6 +616,20 @@ table {
   font-size: 58px;
 }
 
+/* Scroll-down-margin-top */
+#link-mot-du-gouverneur {
+  scroll-margin-top: 7.5rem;
+}
+
+#zone {
+  scroll-margin-top: 5rem;
+}
+#nous-decouvrir {
+  scroll-margin-top: 5rem;
+}
+#contactez-nous {
+  scroll-margin-top: 7rem;
+}
 /* ==== Mobile Responsive ================= */
 @media (max-width: 574px) {
   .container-fluid a img {
@@ -672,7 +687,7 @@ table {
 
   /* card -responsive */
   #zone {
-    margin-top: 60px;
+    margin-top: -60px;
   }
   #zone .section-header {
     font-size: 24px;
@@ -850,6 +865,21 @@ table {
   }
   .container-table td {
     font-size: 30px;
+  }
+
+  /* Scroll-down-margin-top */
+  #link-mot-du-gouverneur {
+    scroll-margin-top: 10rem;
+  }
+
+  #zone {
+    scroll-margin-top: 7rem;
+  }
+  #nous-decouvrir {
+    scroll-margin-top: 8rem;
+  }
+  #contactez-nous {
+    scroll-margin-top: 10rem;
   }
 }
 
