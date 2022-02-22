@@ -561,14 +561,7 @@ header nav {
   border-radius: 10px;
   margin-left: -140px;
 }
-/* .lions-glid-images div {
-  width: 300px;
-} */
-/* .lions-glid-images .glid2 img {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-} */
+
 .glid2 {
   margin-left: 51px;
   width: 400px;
@@ -578,6 +571,21 @@ header nav {
   float: left;
   width: 190px;
 }
+
+.glid2 #image-1 {
+  height: 208px;
+  border-radius: 10px 0px 0px 0px;
+}
+.glid2 #image-2 {
+  height: 208px;
+  border-radius: 0px 10px 0px 0px;
+}
+.glid2 #image-3 {
+  height: 193px;
+  width: 380px;
+  border-radius: 0px 0px 10px 10px;
+}
+
 /* ----------Devenir membre Lions Ends here-------- */
 
 /* ----------Devenir membre Leo  -------- */
@@ -805,7 +813,6 @@ header nav {
     height: 55vh;
 
     margin-bottom: 45px;
-
   }
 }
 @media screen and (max-width: 570px) {
@@ -2209,11 +2216,8 @@ footer .footer-col {
     margin-bottom: 20px;
   }
   .lions-glid-images img {
-    width: 51vw;
-    height: 70vh;
-    margin-left: 30px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    margin-left: 0px;
+
   }
   .devenir-membre-lions-content {
     margin-left: 15px;
@@ -2398,6 +2402,7 @@ footer .footer-col {
 }
 
 @media screen and (max-width: 574px) {
+
   .leader-table-info {
     margin-left: 3px;
     margin-right: 0px;
@@ -2526,13 +2531,10 @@ footer .footer-col {
     margin-bottom: 20px;
   }
   .lions-glid-images img {
-    width: 82vw;
-    height: 50vh;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .lions-glid-images .glid-1 img {
-    width: 290px;
+    width: 335px;
     height: 359px;
     border-radius: 10px;
     margin-left: 6px;
@@ -2573,9 +2575,21 @@ footer .footer-col {
     padding: 15px;
   }
   .glid2 {
-    grid-template-columns: 1fr;
-    margin-left: 15px;
+    margin-left: 4px;
+    margin-bottom: 12vh;
   }
+
+  .glid2 #image-1 {
+    width: 160px;
+
+  }
+  .glid2 #image-2 {
+    width: 179px;
+  }
+  .glid2 #image-3 {
+    width: 339px;
+  }
+
   .devenir-membre-leo-content p {
     font-size: 14px;
   }
