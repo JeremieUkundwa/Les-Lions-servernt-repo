@@ -2395,6 +2395,16 @@ footer .footer-col {
 }
 
 @media screen and (max-width: 574px) {
+  .leader-table-info {
+    margin-left: 3px;
+    margin-right: 0px;
+    font-size: 13px;
+    overflow-x: auto;
+  }
+  .leader-table tr th,
+  .leader-table tr td {
+    padding: 5px 10px 5px 0px;
+  }
   .container-fluid a img {
     width: 13vw;
   }
