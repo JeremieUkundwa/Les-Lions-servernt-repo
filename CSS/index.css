@@ -491,7 +491,9 @@ table {
   margin-left: 45px;
   color: #000000;
 }
-
+.sub-title-devenir {
+  font-size: 25px;
+}
 /* ==============Table information=========== */
 
 .container-table .div-1 {
@@ -545,7 +547,7 @@ table {
   font-size: 40px;
   color: #ffcc00;
 }
-.container-table td .content{
+.container-table td .content {
   margin-top: 10px;
   font-size: 18px;
 }
@@ -632,7 +634,7 @@ table {
   /* mot-de-gouverner */
   .mot {
     width: 95vw;
-    height: 225vw;
+    height: 230vw;
     padding: 10px 30px 10px 0px;
     margin-left: 0px;
     margin-bottom: 100px;
@@ -643,6 +645,9 @@ table {
     line-height: 28px;
     margin-left: -2vw;
     margin-top: 47vw;
+  }
+  .mot h3 {
+    font-size: 24px;
   }
   .mot div blockquote {
     display: block;
@@ -669,12 +674,15 @@ table {
   #zone {
     margin-top: 60px;
   }
+  #zone .section-header {
+    font-size: 24px;
+  }
   .zone-info {
     margin-left: 33vw;
   }
   .zone-info .col .card h5 {
     margin-top: -20px;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 54px;
     top: -15%;
     margin-left: 0px;
@@ -729,20 +737,27 @@ table {
 
   .histoire .col h5 {
     text-align: center;
-    font-size: 33px;
+    font-size: 20px;
     line-height: 42px;
     padding-bottom: 10px;
     margin-left: 59px;
+  }
+
+  #nous-decouvrir h3 {
+    font-size: 24px;
+  }
+  .sub-title-devenir {
+    font-size: 18px;
   }
   .mondiales {
     margin-left: 45px;
   }
   .mondiales h5 {
     text-align: center;
-    font-size: 33px;
-    line-height: 42px;
+    font-size: 20px;
+    line-height: 24px;
     padding-bottom: 10px;
-    margin-left: 15px;
+    margin-left: 0px;
   }
   .cont p {
     font-size: 14px;
@@ -800,13 +815,18 @@ table {
   #contactez-nous h3 {
     margin-left: -3vw;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
   }
   .cont img {
     width: 266px;
-    height: 343px;
+    height: 260px;
     margin-left: 0vw;
     margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .table-format {
+    margin-left: 35px;
+    margin-right: 21px;
   }
   .cont form {
     margin-left: -8px;
@@ -818,7 +838,7 @@ table {
     width: 75vw;
   }
   .cont form button {
-    margin-left: 14vw;
+    margin-left: 12vw;
   }
   .container-table h2 {
     font-size: 28px;
@@ -908,7 +928,7 @@ footer .footer-col {
   padding: 0 15px;
 }
 .footer-col h4 {
-  font-size: 16px;
+  font-size: 14px;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
@@ -929,7 +949,7 @@ footer .footer-col {
   margin-bottom: 10px;
 }
 .footer-col ul li a {
-  font-size: 14px;
+  font-size: 12px;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
