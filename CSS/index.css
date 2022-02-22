@@ -360,7 +360,7 @@ table {
 #nous-decouvrir h3 {
   font-size: 32px;
 
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 /* .cont .par-edit{
   padding-right: 40px;
@@ -627,7 +627,7 @@ table {
   scroll-margin-top: 5rem;
 }
 #nous-decouvrir {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 6rem;
 }
 #contactez-nous {
   scroll-margin-top: 7rem;
