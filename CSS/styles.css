@@ -2577,17 +2577,18 @@ footer .footer-col {
   .glid2 {
     margin-left: 4px;
     margin-bottom: 12vh;
+    width: 300px;
   }
 
   .glid2 #image-1 {
-    width: 160px;
+    width: 150px;
 
   }
   .glid2 #image-2 {
-    width: 179px;
+    width: 150px;
   }
   .glid2 #image-3 {
-    width: 339px;
+    width: 300px;
   }
 
   .devenir-membre-leo-content p {
