@@ -187,24 +187,24 @@
             <br><br>
             <div class="form-info">
               <h2>FRAIS SUPPLEMENTAIRES : </h2>
-              <tr><td><input required type="checkbox" name="FRAIS SUPPLEMENTAIRES" id="progress5" value="50" tabIndex="1"onClick="checkData(this)">Diner compagnons Melvin Jones : 50$ par personne (boissons non comprises) Le 07\05</td></tr><br>
-              <tr><td><input required type="checkbox" name="FRAIS SUPPLEMENTAIRES" name="info2" id="progress6" value="30" tabIndex="1" onClick="checkData(this)">Visite guidée de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
-              <tr><td><input required type="checkbox" name="FRAIS SUPPLEMENTAIRES" name="info2" id="progress7" value="30" tabIndex="1" onClick="checkData(this)">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
-              <tr><td><input required type="checkbox" name="FRAIS SUPPLEMENTAIRES" id="progress8" value="0" tabIndex="1"  onClick="checkData(this)">Pas encore décidé</td></tr><br>
+              <tr><td><input required type="checkbox" name="FRAIS-SUPPLEMENTAIRES" id="progress5" value="50" tabIndex="1"onClick="checkData(this)">Diner compagnons Melvin Jones : 50$ par personne (boissons non comprises) Le 07\05</td></tr><br>
+              <tr><td><input required type="checkbox" name="FRAIS-SUPPLEMENTAIRES" name="info2" id="progress6" value="30" tabIndex="1" onClick="checkData(this)">Visite guidée de la ville de Kigali : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
+              <tr><td><input required type="checkbox" name="FRAIS-SUPPLEMENTAIRES" name="info2" id="progress7" value="30" tabIndex="1" onClick="checkData(this)">Tour en bateau du Lac Muhazi et Pic-Nic : 30$ par personne (Transport et Déjeuner et 1 boisson locale compris) Le 09/05</td></tr><br>
+              <tr><td><input required type="checkbox" name="FRAIS-SUPPLEMENTAIRES" id="progress8" value="0" tabIndex="1"  onClick="checkData(this)">Pas encore décidé</td></tr><br>
               <tr><td><label style ="color: #2250b2; margin-left: 40px;"for="" class="franc-label">Montan total</label> <input type="text" name="Montan total" id="franc"><label for="">$</label></td></tr>
               
               <script>
-                  document.getElementById('Montan total').addEventListener('keypress', (e) => {
+                  document.getElementById('franc').addEventListener('keypress', (e) => {
                   e.preventDefault();
                 });
-                document.getElementById("Montan total").value = 0;
+                document.getElementById("franc").value = 0;
               
               function checkData(checkInitial){
-                  var ckName = document.getElementsByName("FRAIS SUPPLEMENTAIRES");
+                  var ckName = document.getElementsByName("FRAIS-SUPPLEMENTAIRES");
                   var nextCheck = document.getElementsByName("info2");
                   var checked = document.getElementById(checkInitial.id);
                   var getValue1 = document.getElementById(checkInitial.id).value;
-                  var inital = document.getElementById("Montan total").value;
+                  var inital = document.getElementById("franc").value;
                   var amount =0;
                   var total=Number(getValue1) +150 +Number(inital);
                   var deduct = Number(inital);
@@ -213,16 +213,16 @@
                           amount = 200;
                           
                           if(ckName[i].checked && i==0){
-                            document.getElementById("Montan total").value = amount;
+                            document.getElementById("franc").value = amount;
                             for(var j=1;j < ckName.length; j++){ 
                               if(ckName[j].checked && j==1){
                                 amount = 230;
-                                document.getElementById("Montan total").value = amount;
+                                document.getElementById("franc").value = amount;
                                 ckName[j+1].disabled = true;
                               }
                               if(ckName[j].checked && j==2){
                               amount = 230;
-                              document.getElementById("Montan total").value = amount;
+                              document.getElementById("franc").value = amount;
                               ckName[j-1].disabled = true;
                               }
                               if(j==3){
@@ -244,7 +244,7 @@
                             for(var i=0;i < ckName.length-1; i++){
                               if(!ckName[i].checked){
                                 ckName[i].disabled = true;
-                                document.getElementById("Montan total").value = 150;
+                                document.getElementById("franc").value = 150;
                               }
                             }
                         }  
@@ -255,14 +255,14 @@
                           if(!ckName[i].checked && i==0){
                             for(var j=1; j < ckName.length; j++){
                               ckName[j].disabled = false;
-                              document.getElementById("Montan total").value = 0;
+                              document.getElementById("franc").value = 0;
                             }
                           } 
                           if(!ckName[i].checked && i==3){
                             for(var i=0;i < ckName.length-1; i++){
                               if(!ckName[i].checked){
                                 ckName[i].disabled = false;
-                                document.getElementById("Montan total").value = 0;
+                                document.getElementById("franc").value = 0;
                               }
                             }
                           }
@@ -426,6 +426,13 @@
       
         <div class="copyright"> <hr> &copy; Copyright 2022 Lions Club District 409</div>
       </footer>
+      <script>
+        window.onbeforeunload = () => {
+          for(const form of document.getElementsByTagName('form')) {
+            form.reset();
+          }
+        }
+      </script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>

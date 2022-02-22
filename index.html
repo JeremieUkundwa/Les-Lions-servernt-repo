@@ -642,6 +642,13 @@ J’invite tous les lions du District 409 à se joindre à moi au cours des douz
 
   <div class="copyright"> <hr> &copy; Copyright 2022 Lions Club District 409</div>
 </footer>
+    <script>
+      window.onbeforeunload = () => {
+        for(const form of document.getElementsByTagName('form')) {
+          form.reset();
+        }
+      }
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
