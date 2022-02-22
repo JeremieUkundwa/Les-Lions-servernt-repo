@@ -802,7 +802,7 @@ header nav {
   }
   .global-couses-content div {
     width: 85%;
-    height: 52vh;
+    height: 55vh;
   }
 }
 @media screen and (max-width: 570px) {
@@ -1611,7 +1611,7 @@ p {
 }
 
 .inscrire .checkboxes {
-  display: flex;
+  display: grid;
   flex-direction: row;
   justify-content: center;
   margin: 10px;
@@ -2682,7 +2682,7 @@ footer .footer-col {
   }
   .global-couses-content p {
     font-size: 13px;
-    height: 22vh;
+    height: 24vh;
   }
 
   /* next page============ */
@@ -2693,6 +2693,9 @@ footer .footer-col {
     padding-right: 5px;
     margin-top: 200px;
   }
+  /* .district-form{
+    
+  } */
   .inscrire input {
     width: 73vw;
     height: 40px;
