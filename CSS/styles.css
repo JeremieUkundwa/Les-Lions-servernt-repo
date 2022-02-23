@@ -1665,12 +1665,15 @@ p {
 }
 
 .inscrire p {
-  text-align: center;
-  color: #ffcf06;
-  font-size: 18px;
-  font-weight: 500;
-}
+  color: var(--bs-body-color);
 
+  margin-top: -38px;
+  padding-left: 26px;
+  margin-left: 13px;
+}
+.special-case-form {
+  display: none;
+}
 .inscrire #last-line {
   letter-spacing: 2px;
   padding-top: 10px;
@@ -2217,7 +2220,6 @@ footer .footer-col {
   }
   .lions-glid-images img {
     margin-left: 0px;
-
   }
   .devenir-membre-lions-content {
     margin-left: 15px;
@@ -2402,7 +2404,9 @@ footer .footer-col {
 }
 
 @media screen and (max-width: 574px) {
-
+  .special-case-form {
+    display: inherit;
+  }
   .leader-table-info {
     margin-left: 3px;
     margin-right: 0px;
@@ -2582,7 +2586,6 @@ footer .footer-col {
 
   .glid2 #image-1 {
     width: 150px;
-
   }
   .glid2 #image-2 {
     width: 150px;
@@ -2613,7 +2616,7 @@ footer .footer-col {
     color: #ffffff;
   }
   .leader-page h3 {
-    margin-top: 8vw;
+    margin-top: 12vw;
   }
   #les-derigeants {
     display: grid;
