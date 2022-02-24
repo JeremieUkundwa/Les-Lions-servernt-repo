@@ -1060,6 +1060,9 @@ footer .footer-col {
     display: block;
     transition: all 0.3s ease;
   }
+  #row-margin{
+    margin-left: -3px;
+  }
 }
 
 /* ==================Google Translation============ */
