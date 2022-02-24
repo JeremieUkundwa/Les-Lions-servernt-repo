@@ -634,18 +634,24 @@ table {
 }
 /* ==== Mobile Responsive ================= */
 @media (max-width: 574px) {
+  .carousel-control-next {
+    top: 180px;
+  }
+  .carousel-control-prev {
+    top: 180px;
+  }
   .container-fluid a img {
     width: 13vw;
   }
   .carousel .carousel-inner img {
-    height: 325px;
-    margin-top: 130px;
+    height: 225px;
+    margin-top: 200px;
   }
   .carousel .carousel-inner .carousel-caption h5 {
     margin-top: -30vw;
 
     font-size: 36px;
-    line-height: 37px;
+    line-height: 29px;
   }
 
   /* mot-de-gouverner */
@@ -1060,7 +1066,7 @@ footer .footer-col {
     display: block;
     transition: all 0.3s ease;
   }
-  #row-margin{
+  #row-margin {
     margin-left: -3px;
   }
 }
