@@ -2786,8 +2786,11 @@ footer .footer-col {
   .disaster-section p{
     height: 13vh;
   }
+  .global-couses-content div h3{
+    text-align: center;
+  }
   .global-couses-content div img{
-    margin-left: 30vw;
+    margin-left: 28vw;
   }
 }
 
