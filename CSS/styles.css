@@ -2766,13 +2766,22 @@ footer .footer-col {
     height: 6vh;
   }
   .Youth-section p{
-    height: 22vh;
+    height: 24vh;
   }
   .Vision-section p{
     height: 3vh;
   }
+  .global-couses-content .Humanitarian-section{
+    margin-top: 16px;
+  }
+  .global-couses-content  .Enviroment-section{
+    margin-top: -30px;
+  }
+  .global-couses-content  .Youth-section{
+    margin-top: -40px;
+  }
   .Humanitarian-section p{
-    height: 14vh;
+    height: 16vh;
   }
   .disaster-section p{
     height: 13vh;
