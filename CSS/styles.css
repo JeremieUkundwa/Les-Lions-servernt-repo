@@ -2050,6 +2050,9 @@ footer .footer-col {
   width: 50%;
   margin-left: 25vw;
 }
+#last-footer-logo{
+  margin-left: 50px;
+}
 .footer .copyright {
   color: white;
   padding-top: 40px;
@@ -2404,6 +2407,9 @@ footer .footer-col {
 }
 
 @media screen and (max-width: 574px) {
+  #last-footer-logo{
+    margin-left: 0px;
+  }
   .special-case-form {
     display: inherit;
   }

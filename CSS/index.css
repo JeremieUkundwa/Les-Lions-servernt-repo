@@ -632,8 +632,16 @@ table {
 #contactez-nous {
   scroll-margin-top: 7rem;
 }
+
+#last-footer-logo{
+  margin-left: 50px;
+}
+
 /* ==== Mobile Responsive ================= */
 @media (max-width: 574px) {
+  #last-footer-logo{
+    margin-left: 0px;
+  }
   .carousel-control-next {
     top: 180px;
   }
