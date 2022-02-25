@@ -2706,7 +2706,7 @@ footer .footer-col {
   }
   .global-couses-content div a {
     padding: 4px 20px;
-
+    margin-left: 22vw;
     line-height: 30px;
   }
   .global-couses-content p {
@@ -2771,14 +2771,23 @@ footer .footer-col {
   .Vision-section p{
     height: 3vh;
   }
+  .global-couses-content  .child-cancer-section{
+    margin-top: -30px;
+  }
+  .global-couses-content  .Vision-section{
+    margin-top: -60px;
+  }
+  .global-couses-content  .diabetes-section{
+    margin-top: -30px;
+  }
   .global-couses-content .Humanitarian-section{
     margin-top: 16px;
   }
   .global-couses-content  .Enviroment-section{
-    margin-top: -30px;
+    margin-top: -50px;
   }
   .global-couses-content  .Youth-section{
-    margin-top: -40px;
+    margin-top: -50px;
   }
   .Humanitarian-section p{
     height: 17vh;
