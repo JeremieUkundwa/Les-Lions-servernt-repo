@@ -2753,8 +2753,33 @@ footer .footer-col {
   .district-convention-submit button {
     margin-left: 21vw;
   }
- 
-
+  .diabetes-section p{
+    height: 10vh;
+  }
+  .hunger-section p{
+    height: 12vh;
+  }
+  .child-cancer-section p{
+    height: 6vh;
+  }
+  .Enviroment-section p{
+    height: 6vh;
+  }
+  .Youth-section p{
+    height: 18vh;
+  }
+  .Vision-section p{
+    height: 3vh;
+  }
+  .Humanitarian-section p{
+    height: 13vh;
+  }
+  .disaster-section p{
+    height: 10vh;
+  }
+  .global-couses-content div img{
+    margin-left: 30vw;
+  }
 }
 
 
