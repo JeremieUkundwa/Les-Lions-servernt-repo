@@ -147,6 +147,15 @@ main {
 body .sticky + .content {
   padding-top: 60px;
 }
+
+.sponsor-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  margin-top: 40px;
+}
+
 /* ===============Header====================== */
 .container-fluid {
   padding-top: 26px;
