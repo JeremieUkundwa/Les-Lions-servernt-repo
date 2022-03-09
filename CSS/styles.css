@@ -157,6 +157,18 @@ body .sticky + .content {
   margin-left: -12vw;
   margin-top: 42px;
 }
+/* ============Responsive for sponsors========= */
+@media (max-width: 574px) {
+  .sponsor-glid{
+    grid-template-columns: 1fr;
+    margin-left: 15vw;
+  
+  }
+  .sponsor-grid-2{
+    margin-left: 0vw;
+    margin-top: 42px;
+  }
+}
 .sponsor-logo{
   /* display: block; */
   /* margin-left: auto;
