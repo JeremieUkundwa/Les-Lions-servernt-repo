@@ -161,12 +161,16 @@ body .sticky + .content {
 @media (max-width: 574px) {
   .sponsor-glid{
     grid-template-columns: 1fr;
-    margin-left: 15vw;
+    margin-left: 10vw;
   
   }
   .sponsor-grid-2{
     margin-left: 0vw;
     margin-top: 42px;
+  }
+  .sponsor-logo{
+    width: 250px;
+    margin-top: 40px;
   }
 }
 .sponsor-logo{
