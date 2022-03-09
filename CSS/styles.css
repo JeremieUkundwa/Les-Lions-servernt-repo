@@ -147,11 +147,20 @@ main {
 body .sticky + .content {
   padding-top: 60px;
 }
+.sponsor-glid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 28vw;
 
+}
+.sponsor-grid-2{
+  margin-left: -12vw;
+  margin-top: 42px;
+}
 .sponsor-logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
   width: 300px;
   margin-top: 40px;
 }
